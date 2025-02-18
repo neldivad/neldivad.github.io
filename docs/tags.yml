@@ -1,0 +1,9 @@
+docusaurus:
+  label: 'Docusaurus'
+  permalink: '/docusaurus'
+  description: 'bruhs'
+
+releases:
+  label: 'Releases'
+  permalink: '/releases'
+  description: 'ah'
