@@ -6,12 +6,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const title = 'Nelstudio';
 const organizationName = 'neldivad';
-const projectName = 'nelstudio-docs';
+const projectName = 'neldivad.github.io';
 const deploymentBranch = 'gh-pages';
 
 const tagline = "Hi, I'm David Len. I'm a software developer, music producer, and I do stuff.";
 
-const gh_url = `https://github.com/${organizationName}/${projectName}`;
+const gh_url = `https://github.com/${organizationName}`;
 const yt_url = `https://www.youtube.com/@justneldivad/videos`;
 const xtwitter_url = `https://twitter.com/divadlenMusic`;
 
@@ -30,7 +30,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  projectName: projectName,
+  projectName: `${projectName}`, // project name is my repo dir, if I add, url will be : https://neldivad.github.io/nelstudio-docs/ 
   organizationName: organizationName, 
   deploymentBranch: deploymentBranch,
   trailingSlash: false,

@@ -26,7 +26,7 @@ function HomepageHeader() {
           <Link className="button button--primary button--lg m-2" to="/blog">
             Read my work
           </Link>
-          <Link className="button button--secondary button--lg m-2" to="https://twitter.com/divadlenMusic">
+          <Link className="button button--secondary button--lg m-2" to="https://gravatar.com/neldivad">
             Contact me
           </Link>
         </div>
