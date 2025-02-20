@@ -21,7 +21,3 @@ Welcome to the Synthesizer V section! This guide will help you understand and ma
 - **Basic Setup**: Choose a voice bank and set up your workspace for optimal workflow.
 
 ## What's Next?
-
-- Learn the [basics of using Synthesizer V](./basics).
-- Explore [advanced techniques](./advanced) to unlock the full potential of Synthesizer V.
-

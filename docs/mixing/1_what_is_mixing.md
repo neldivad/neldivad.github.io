@@ -19,6 +19,3 @@ This guide will walk you through the basics of mixing, advanced techniques, and 
 
 ## What's Next?
 
-- Learn the basics of mixing in the [next section](./basics).
-- Explore advanced mixing techniques [here](./advanced).
-- Dive into practical guides for [mixing with FL Studio stock plugins](./advanced/plugins).

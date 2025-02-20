@@ -60,6 +60,3 @@ Before diving into advanced techniques, it’s essential to grasp the fundamenta
 By mastering these basics, you'll have a solid foundation for creating balanced and professional-sounding mixes.
 
 ## What's Next?
-
-- Learn [advanced mixing techniques](./advanced).
-- Explore practical guides for [mixing with FL Studio stock plugins](./advanced/plugins).

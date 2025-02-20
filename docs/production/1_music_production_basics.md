@@ -19,18 +19,18 @@ Before diving into specific elements, make sure you have:
 ## Production Elements
 
 ### Drum Programming
-- **File**: [Drum Programming Basics](./drum/basic.md)
+- **File**: Drum Programming Basics
 - Learn the fundamentals of creating a solid drum foundation.
 
 ### Bass Design
-- **File**: [Bass Synthesis Basics](./bass/basic.md)
+- **File**: Bass Synthesis Basics
 - Discover how to craft a compelling bassline that complements your drum pattern.
 
 ### Instrumental Composition
-- **File**: [Instrumental Creation Basics](./instrumental/basic.md)
+- **File**: Instrumental Creation Basics
 - Explore the process of creating melodies and harmonies.
 
 ### Vocal Processing
-- **File**: [Vocal Recording & Processing Basics](./vocal/basic.md)
+- **File**: Vocal Recording & Processing Basics
 - Master the basics of recording and enhancing vocal tracks.
 

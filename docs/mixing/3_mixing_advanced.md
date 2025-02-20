@@ -62,5 +62,4 @@ By incorporating these advanced techniques, you’ll add depth, clarity, and pol
 
 ## What's Next?
 
-- Dive into practical guides for [mixing with FL Studio stock plugins](./plugins).
-- Learn how to use [Fruity Limiter](./plugins/fruity-limiter), [Fruity Parametric EQ 2](./plugins/fruity-parametric-eq-2), and [Fruity Compressor](./plugins/fruity-compressor).
+

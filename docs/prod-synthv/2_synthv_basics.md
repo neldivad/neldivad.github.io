@@ -41,5 +41,4 @@ By following these basic steps, you'll be able to create and export high-quality
 
 ## What's Next?
 
-- Dive into [advanced techniques](../advanced) for more sophisticated vocal creations.
-- Explore the full range of [voice banks](../voice-banks) available for Synthesizer V.
+
