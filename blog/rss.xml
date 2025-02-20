@@ -116,6 +116,129 @@
             <category>economics</category>
         </item>
         <item>
+            <title><![CDATA[The real function of taxes]]></title>
+            <link>https://neldivad.github.io/blog/real-function-of-taxes</link>
+            <guid>https://neldivad.github.io/blog/real-function-of-taxes</guid>
+            <pubDate>Mon, 10 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Taxes are dumb.]]></description>
+            <content:encoded><![CDATA[<p>Taxes are dumb.</p>
+<p>It's hard to be controversial to say so. Most people who worked and earned money for a living would be frustrated by the whole experience that is so embedded in modern society, to the point it becomes something we learned to be helpless about.</p>
+<p>This post won't try to change the way taxes work. I'm too small of a player for the legal system to give a damn about.</p>
+<p>That said, I can explain how taxes work in a way that the common person will learn, and people can decide if taxes are worth it.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="modern-monetary-theory">Modern monetary theory<a href="https://neldivad.github.io/blog/real-function-of-taxes#modern-monetary-theory" class="hash-link" aria-label="Direct link to Modern monetary theory" title="Direct link to Modern monetary theory">​</a></h2>
+<p>Modern money is all fiat, meaning it is not backed by anything. Not gold, not oil, just blind trust. Actually, it is backed by the power of military<sup><a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fn-1-b7afc1" id="user-content-fnref-1-b7afc1" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>, but we will leave the story to another day.</p>
+<p>If we are to accept that money is not backed by anything, a state theoretically doesn't need to collect taxes before they spend -- they can just spend on what they want and pay it back later by raising taxes, or to do nothing and devalue all cash and savings.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-bother-collecting-taxes">"Why bother collecting taxes?"<a href="https://neldivad.github.io/blog/real-function-of-taxes#why-bother-collecting-taxes" class="hash-link" aria-label="Direct link to &quot;Why bother collecting taxes?&quot;" title="Direct link to &quot;Why bother collecting taxes?&quot;">​</a></h3>
+<p>Great question. The amount of effort it takes to collect taxes is enormous.</p>
+<p>Using the US as an example (its the most available one to build my priors) <a href="https://taxfoundation.org/data/all/federal/irs-tax-compliance-costs/" target="_blank" rel="noopener noreferrer">the estimates of tax compliance cost of the $546 billion, or nearly 2 percent of GDP.</a></p>
+<p>Annually, the US government raises <a href="https://fred.stlouisfed.org/series/FYFRGDA188S" target="_blank" rel="noopener noreferrer">17% of GDP as taxes</a>.</p>
+<p>In effect, we are spending $25 for every $100 we harass a productive business to give the state.</p>
+<p>This number includes taxes paid through active means (IRS audits) and passive means (taxes on income, VAT). If we are to estimate the cost of active collection and the actual tax revenue active collectors raised, it may be less than the cost it takes to finance active collectors.</p>
+<p>It's like spending $100 on debt collectors (debt isn't even a right word as it implies we owe the state our production) to raise something less than $100.</p>
+<p>If the objective of taxes is really to raise capital to afford projects, active collection seems ineffective at what they do.</p>
+<p>Instead of answering why are we doing something inefficient, let's start with what happens if we just do nothing.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="case-1-really-doing-nothing">Case 1: Really doing nothing<a href="https://neldivad.github.io/blog/real-function-of-taxes#case-1-really-doing-nothing" class="hash-link" aria-label="Direct link to Case 1: Really doing nothing" title="Direct link to Case 1: Really doing nothing">​</a></h3>
+<p>No government spending, no taxes, constant supply of money. The state is literally sleeping at the wheel.</p>
+<p>Unrealistic scenario, but suppose this happens we should predict inflation to be 0%. This seems like a time when we have a perfect currency.</p>
+<p>The problem is that the economy becomes perfectly competitive, which means those that earn will hold more currency and control a bigger share of the network (mercantilism).</p>
+<p>The currency becomes less representative to those who are weaker or less competitive. With no state spending, there is no safety net except for private charities.</p>
+<p>If people expect spending will cause them to lose power to sellers, then transactions are seen as zero-sum and the economy gets more illiquid.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="case-2-doing-anything-the-state-wants">Case 2: Doing anything the state wants<a href="https://neldivad.github.io/blog/real-function-of-taxes#case-2-doing-anything-the-state-wants" class="hash-link" aria-label="Direct link to Case 2: Doing anything the state wants" title="Direct link to Case 2: Doing anything the state wants">​</a></h3>
+<p>State prints as much money as it wants, gives out as much to anyone who will vote for them. Never collects any of them back.</p>
+<p>Sounds too good to be true. Now people stop producing because there is no reason to. When there is no production, all the money can't buy anything -- you have a hyperinflation situation.</p>
+<p>There's more! When people expect the currency to get weaker, the network of producers becomes more reluctant to accept the currency -- people rather do a barter trade or keep good things for themselves than to take your currency.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="case-3-spend-now-collect-back-everything-later">Case 3: Spend now, collect back everything later<a href="https://neldivad.github.io/blog/real-function-of-taxes#case-3-spend-now-collect-back-everything-later" class="hash-link" aria-label="Direct link to Case 3: Spend now, collect back everything later" title="Direct link to Case 3: Spend now, collect back everything later">​</a></h3>
+<p>The "perfect" scenario. The state spends as much as it wants to get something done, then get back all the money it spent back from people through taxes.</p>
+<p>No net inflation, and stuff gets done! What's the problem?</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="there-is-always-a-better-deal">There is always a better deal<a href="https://neldivad.github.io/blog/real-function-of-taxes#there-is-always-a-better-deal" class="hash-link" aria-label="Direct link to There is always a better deal" title="Direct link to There is always a better deal">​</a></h4>
+<p>There is a more perfect scenario -- stuff gets done, and people keep all the newly minted currency. If something valuable was already done, why waste energy to give back the catalyst (ie: the currency)?</p>
+<p>The problem happens when the currency gets spent on more things than it was made to spend on (IE: buying labor for social services becomes salary to spend and compete on limited goods) -- Taxes ensures the velocity of created money is not infinite.</p>
+<p>In practice people can always argue why they don't need to return the currency, so its hard to take back as much money as we created.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="whose-stuff-gets-done">Whose stuff gets done?<a href="https://neldivad.github.io/blog/real-function-of-taxes#whose-stuff-gets-done" class="hash-link" aria-label="Direct link to Whose stuff gets done?" title="Direct link to Whose stuff gets done?">​</a></h4>
+<p>The state can create money to buy for things they want, but in practice you can bet the decisions aren't fair (IE: what the state wants to buy might not be what the people want to buy).</p>
+<p>In fact, the state can just set up a shell company with their entourage, print some money and pay his friends and declaring his friends are being "paid to do social work". -- This is wastage in a nutshell.</p>
+<p>In practice, things are not so blatant. Its more likely for state actors to set up lots of layers of agency that takes some cut of the budget, where the agency also happens to contain a share of the state's entourage -- also known as "deep state".</p>
+<p>So a scenario with perfect balance sheet is not perfect if the work paid to do / things bought isn't representative.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="crowding-out">Crowding out<a href="https://neldivad.github.io/blog/real-function-of-taxes#crowding-out" class="hash-link" aria-label="Direct link to Crowding out" title="Direct link to Crowding out">​</a></h4>
+<p>If the state prints money to hire workers, then it means someone else would lose the worker they wanted to hire to do their work.</p>
+<p>In a free market, the most important work gets done first and that is reflected by prices and bids.</p>
+<p>When the state spends money, it is unclear if the work that needs to be done are the most important ones.</p>
+<p>When suboptimal decisions are made and financed, in effect that is also a net loss to the people. It's like saying you win 10% doing something when you could have won 50% doing nothing -- a good outcome is not a valid defense for a good decision.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="its-all-decisions">It's all decisions<a href="https://neldivad.github.io/blog/real-function-of-taxes#its-all-decisions" class="hash-link" aria-label="Direct link to It's all decisions" title="Direct link to It's all decisions">​</a></h2>
+<p>Notice the theme here. The state can do anything it wants, but its decisions must be sound (IE: logical, benefits the people, within budget).</p>
+<p>A sound decision is one that is profitable. IE: You spend little to do a lot.</p>
+<p>When the state does something suboptimal, the net effect is the people's standard of living will devalue because they:</p>
+<ol>
+<li>need to ask more taxes from the people to pay back what they spent.</li>
+<li>print more money to pay back what they spent, creating inflation.</li>
+</ol>
+<p><strong>In modern finance, taxes are paid so inflation does not happen.</strong></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-not-just-let-inflation-happen">"Why not just let inflation happen?"<a href="https://neldivad.github.io/blog/real-function-of-taxes#why-not-just-let-inflation-happen" class="hash-link" aria-label="Direct link to &quot;Why not just let inflation happen?&quot;" title="Direct link to &quot;Why not just let inflation happen?&quot;">​</a></h2>
+<p>Great question. If the net effect of ineffective state spending is lower standards of living, and the way it is delivered can be either passive (through inflation) or active (through taxes), we could choose to do nothing.</p>
+<p>Why go through all the hassle and trouble to feel pain?</p>
+<p>I could write a whole post on how money works, how it flows. But the short answer I discovered after 20 years of studying money is: "it's all politics".</p>
+<blockquote>
+<p>You will never understand bureaucracies until you understand that for bureaucrats procedure is everything and outcomes are nothing. -- Thomas Sowell</p>
+</blockquote>
+<p>Actually... <sup><a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fn-2-b7afc1" id="user-content-fnref-2-b7afc1" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup> <sup><a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fn-3-b7afc1" id="user-content-fnref-3-b7afc1" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup></p>
+<hr>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://neldivad.github.io/blog/real-function-of-taxes#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
+<ol>
+<li id="user-content-fn-1-b7afc1">
+<p>Modern fiat currencies aren't entirely worthless. Typically currency is legitimized through public confidence. A currency that can be printed endlessly would mean more people opting out of the network. But confidence is fragile and fluctuates, so a mandate and force is more reliable. You will notice that reserve currencies tend to be controlled by contries with the strongest military. It is no coincidence. Having a gun means you accept whatever value there is on the paper. This is also a short story why I think cryptocurrencies are unviable. <a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fnref-1-b7afc1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2-b7afc1">
+<p>Unlike inflation that erodes power indiscrimately, taxes are are more targeted to specific people. <a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fnref-2-b7afc1" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3-b7afc1">
+<p>There is a perspective where taxes make sense, like a "subscription" to the government. Some people uses more public services, like roads, hospital. So higher taxes are like your "silver, gold, platinum" subscription tiers. <a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fnref-3-b7afc1" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>]]></content:encoded>
+            <category>economics</category>
+            <category>finance</category>
+        </item>
+        <item>
+            <title><![CDATA[We can't afford job security]]></title>
+            <link>https://neldivad.github.io/blog/we-cant-afford-job-security</link>
+            <guid>https://neldivad.github.io/blog/we-cant-afford-job-security</guid>
+            <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[If you understand government budgets, you will stop believing in job security.]]></description>
+            <content:encoded><![CDATA[<p>If you understand government budgets, you will stop believing in job security.</p>
+<p>There is no such thing as job security -- especially not in a role without craftsmanship -- without taking away freedom from future generations.</p>
+<p>Why? Because most people's idea of "job security" requires them to be a high paying white-collar bureaucrat in an office with a big corner desk.</p>
+<p>Who wants to have a secure job that needs you to deal with dirt, danger, difficulties? If you can handle those 3Ds I guarantee your career is secure 100%. Incidentally, those are the jobs people look forward the most to be replaced.</p>
+<p>Therefore, the reality is not that there is "no job security", rather it is "there is not enough non-3D secure jobs" in this world, because each one requires a government or bureaucracy to print or devalue existing currency to keep you and your desk.</p>
+<p>When everyone thinks they are entitled to that illusion, what do you think is going to happen to future generations?</p>
+<p>Some people worked hard to get a cushy, secure job as a C-level in some corporate, public office, conglomerate, consultancy, education institution.</p>
+<p>An average person will think the price is decades of hard work climbing the career ladder and dealing with occasional office politics -- it is not the only price paid.</p>
+<p>If the job is an administrative role where the "ascension" requires building a wall to keep off competitors (EG: adding regulations, raising licensing requirements to limit labor supply), paper pushing (office equivalent of digging a hole then filling a hole), it may be complicit in making some of the younger generations less free in doing productive work and less free with their social mobility.</p>
+<p>If you ever felt "credential inflation" and lower conversion rates in job application rates, this is what's happening and you have the market that existed before you to thank.</p>
+<p>If you are still young and starting out in your career, stop buying the idea or complaining about job security -- it was never there.</p>
+<p>If it was, then the (money printing and deficit spending) ship has sailed and you need to start making something for yourself.</p>
+<p>Look up your state's public spending, learn how to read financial statements of companies, and learn how money and value is created. You will quickly come to conclusion the only way wealth can be created is to do something that helps people and do it better (IE: getting better at your craft).</p>
+<p>Most office jobs today are "state manufactured elites". IE: the state lends money for someone to get into college, get in debt, then offers them to be a slave for the state.</p>
+<p>It is as ridiculous as minting your own crypto, selling "scholarships" to players by borrowing them your axoloties, and sending those axolotl to battle as a chore. <sup><a href="https://neldivad.github.io/blog/we-cant-afford-job-security#user-content-fn-1-6c131d" id="user-content-fnref-1-6c131d" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></p>
+<p>The difference is one does it with fictional currency. The other does it with printed or taxed money.</p>
+<p><a href="https://medium.datadriveninvestor.com/the-last-bullet-how-modern-finance-has-stole-enough-from-its-youth-2f2988b7b30a" target="_blank" rel="noopener noreferrer">If you think its unsustainable, we are very close to the end of line.</a></p>
+<p>If you want real job security, you must accept 3Ds, or be so good at your craft that no one beats you at your game.</p>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://neldivad.github.io/blog/we-cant-afford-job-security#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
+<ol>
+<li id="user-content-fn-1-6c131d">
+<p>If you are wondering, it's Axie Infinity. <a href="https://neldivad.github.io/blog/we-cant-afford-job-security#user-content-fnref-1-6c131d" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>]]></content:encoded>
+            <category>economics</category>
+            <category>finance</category>
+        </item>
+        <item>
             <title><![CDATA[How to test your recruiting strategy]]></title>
             <link>https://neldivad.github.io/blog/how-to-test-your-recruiting-strategy</link>
             <guid>https://neldivad.github.io/blog/how-to-test-your-recruiting-strategy</guid>
