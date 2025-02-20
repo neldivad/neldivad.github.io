@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknelverse=self.webpackChunknelverse||[]).push([[8121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"essays","permalink":"/blog/tags/essays","count":1},{"label":"bruh","permalink":"/blog/tags/bruh","count":2}]}')}}]);
