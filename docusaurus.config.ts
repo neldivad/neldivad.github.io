@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const title = 'Nelstudio';
 const organizationName = 'neldivad';
-const projectName = 'neldivad.github.io';
-const deploymentBranch = 'main';
+const projectName = 'nelstudio-docs';
+const deploymentBranch = 'gh-pages';
 
 const tagline = "Hi, I'm David Len. I'm a software developer, music producer, and I do stuff.";
 
@@ -55,7 +55,7 @@ const config: Config = {
           showLastUpdateTime: true,
           editCurrentVersion: true,
           editUrl: ({versionDocsDirPath, docPath}) =>
-            `https://github.com/${organizationName}/${projectName}/tree/main/docs/${versionDocsDirPath}/${docPath}`
+            `https://github.com/${organizationName}/${projectName}/tree/main/${versionDocsDirPath}/${docPath}`
         },
         
         // https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog
@@ -70,7 +70,7 @@ const config: Config = {
           },
           // Remove this to remove the "edit this page" links.
           editUrl:
-            `https://github.com/${organizationName}/${projectName}/tree/main/blog/`,
+            `https://github.com/${organizationName}/${projectName}/tree/main/`,
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
