@@ -4,14 +4,23 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const title = 'Nelstudio';
 const organizationName = 'neldivad';
 const projectName = 'neldivad.github.io';
 const deploymentBranch = 'main';
 
+const tagline = "Hi, I'm David Len. I'm a software developer, music producer, and I do stuff.";
+
+const gh_url = `https://github.com/${organizationName}/${projectName}`;
+const yt_url = `https://www.youtube.com/@justneldivad/videos`;
+const xtwitter_url = `https://twitter.com/divadlenMusic`;
+
+
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: title,
+  staticDirectories: ['public', 'static'],
+  tagline: tagline,
+  favicon: 'img/n-mark-color.png',
 
   // Set the production url of your site here
   url: `https://${organizationName}.github.io`,
@@ -23,6 +32,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   projectName: projectName,
   organizationName: organizationName, 
+  deploymentBranch: "main",
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,26 +51,32 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          breadcrumbs: true,
+          showLastUpdateTime: true,
+          editCurrentVersion: true,
+          editUrl: ({versionDocsDirPath, docPath}) =>
+            `https://github.com/${organizationName}/${projectName}/tree/main/docs/${versionDocsDirPath}/${docPath}`
         },
+        
+        // https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog
         blog: {
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+          showLastUpdateTime: true,
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            `https://github.com/${organizationName}/${projectName}/tree/main/blog/`,
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -70,25 +86,59 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/n-mark-color.png',
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: false,
+      },
+    },
+    blog: {
+      sidebar: {
+      },
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     navbar: {
-      title: 'My Site',
+      title: title,
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: `${title} Logo`,
+        src: 'img/n-mark-color.png',
       },
       items: [
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        
+        //
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          label: 'About',
           position: 'right',
+          items: [
+            {
+              label: 'Youtube',
+              href: yt_url,
+            },
+            {
+              label: 'GitHub',
+              href: gh_url,
+            },
+            {
+              label: 'Collab',
+              to: 'collab',
+            },
+            {
+              label: 'About Me',
+              to: 'about',
+            }
+          ],
         },
       ],
     },
@@ -96,28 +146,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Help',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Documentation',
               to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
             },
           ],
         },
@@ -128,20 +161,42 @@ const config: Config = {
               label: 'Blog',
               to: '/blog',
             },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Discord (coming soon)',
+              href: '/',
+            },
+            {
+              label: 'X',
+              href: xtwitter_url,
+            },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: gh_url,
+            },
+            {
+              label: 'Youtube',
+              href: yt_url,
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © 2024 - ${new Date().getFullYear()} ${title} Inc.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  // plugins 
+  plugins: [require.resolve('docusaurus-lunr-search')],
 };
+
+
 
 export default config;
