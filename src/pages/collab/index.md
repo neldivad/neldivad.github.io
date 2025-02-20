@@ -49,7 +49,7 @@ I don't optimize for earnings. It depends on the project. I've been sold to work
 
 That said, I've worked with enough people to know that life is too short to work with unserious people. **The best signal starts with a good offer**. 
 
-In my experience, those who offers the least are the same people who make me work the hardest. Not in terms of workload, labor hours, or complexity in responsibilities. Rather, its the poor decisions that eventually cascades to stress and burnout from me. 
+In my experience, those who offers the least are the same people who make me work the hardest. Not in terms of workload, labor hours, or complexity in responsibilities. Rather, [its the poor decisions that eventually cascades to stress and burnout from me.](/blog/ineffective-leaders) 
 
 My [blog](/blog) will occasionally have posts about my business experiences, of course with respects to privacy and NDA of my partners.
 

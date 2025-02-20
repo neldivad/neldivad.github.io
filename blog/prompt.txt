@@ -1,0 +1,3 @@
+I want you to return a polished version of my original markdown, not summarizing it. 
+
+If you have a place you wish to challenge or a place to include citations, add <!-- {context} --> after the paragraph.
