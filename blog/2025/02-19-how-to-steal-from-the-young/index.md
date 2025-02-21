@@ -102,7 +102,7 @@ The Fed Chair can make policies that influence credit markets such that it direc
 
 Many are “victimized” by policies done by CB. If you own cash, the real value of their money is eroded by inflation. 
 
-Yet, most can't reject this poison, especially if you are an office workers with state contracts (where do you think the state gets their money to pay your contract work?), are a homeowners whose asset values grow together with each successive rounds of money printing. 
+Yet, most can't reject this poison, especially if you are an office workers with state contracts (where do you think the state gets their money to pay your contract work?), is a homeowners whose asset values grow together with each successive rounds of money printing. 
 
 If you work in office, your employment is likely an illusion. They will still raise back enough taxes from you to make back the money they printed to pay you [^1]. If you have any more left to spend, they will devalue it by printing the next round of money.  
 
@@ -113,8 +113,18 @@ We become unwitting “Stockholmers” by growing psychologically dependent on a
 
 ### Human resources and recruiting industry  
 
+(*There is a whole rabbit hole known as "executive recruiting" that is not covered in this article. Right now I'll just focus on the normal recruiting industry we all know and love.*)
+
 #### Anticompetitive
-Have you met a department that is in charge of firing and hiring HR?  
+> Have you met a department that is in charge of firing and hiring HR?  
+
+A great recruiter should be paid by the quality of candidates they hire. In practice, recruiters get paid by the number of candidates they closed. 
+
+This means there is no pressure to properly vet for candidates for employers, or no pressure to help job seekers land jobs. You pay your LinkedIn Premium and they play you for a fool.
+
+In more competitive markets, there is a "money back guarantee" for people who are unsatisfied with the product.  A simple way to make HR competitive is to also have a "money back guarantee" system, where the recruiter forfeits their commission if the candidate is bad, or if the candidate couldn't find a job. 
+
+Why don't we do it?
 
 #### Undemocratic
 HR and recruitment comes up with lots of policies that have consequential effects to the market, yet they are not subjected to the agreement of their customers.  
@@ -125,7 +135,7 @@ In effect, HR legitimizes the value of expensive educational degrees simply by u
 
 To find out if degrees, licenses, or other credentials are actually a competency signal, a scientific method would be to look at the data by systematically measuring the quality of both recruits and rejects using an objective function.
 
-I have hardly met any HR that does this [^2].
+**I have hardly met any HR that does this** [^2].
 
 [^2]: I've spoke around recruiters during informal settings. In most of my conversations with recruiters, the best indicator of a good candidate is "what other recruiters" say about them. In logical settings, this is known as "circular reasoning". It's as unscientific as "just vibes". Yeah, you think people who make important decisions are more responsibile.
 
@@ -141,19 +151,21 @@ Yet, there is simply no market, competitive, moral pressure to do so.
 #### Victims with Stockholm
 Business owners, shareholders, and job seekers think we are better off with them. 
 
-What people don't ask is how many of the problems the HR / recruitment industry solves are problems created by a bureacracy (that recruiters could be part of). 
+What people don't ask is how many of the problems the HR / recruitment industry solves are problems created by a bureacracy (that recruiters themselves are part of). 
 
 Example: employment rights, unions, protection of workers supposedly protect workers from unfair labor practices (Stockholm warning). But this also make it much harder for business owners to hire and fire employees, thus justifying the need for HR / recruiters. 
 
 The 2nd order effect is that business are less willing to hire and invest in employees, given that underperforming employees are so hard to let go. 
 
-I can't make the call that we are better off without labor regulations. But its important to understand the more complex we make labor laws, the more power HR and recruiters get. At some point, job seekers lose and business owners lose.
+I can't make the call that we are better off without labor regulations. But its important to understand the more complex we make labor laws, the more power HR and recruiters get. 
+
+At some point, job seekers lose and business owners lose. 
 
 ---  
+## FAQ
+> "Is it a "middleman problem"? 
 
-## Is it a "middleman problem"? 
-
-I believe most of the bad things in life are not intentional. It's very rare to meet someone with a mission of causing as much damage as they can while getting away with it. 
+I believe most of the bad things in life are not intentional. It's very rare to meet someone with a mission to cause as much damage as they can while getting away with it. 
 
 This means its important to inspect for systems that are supposedly "good" but at some point stop serving the interest of the system consumer. 
 
@@ -161,7 +173,7 @@ What I notice is that problems that are so complicated to need a middleman tends
 
 [^3]: Career usually mean something better than job and supposedly requires more respect. But rent-seeking can also be a career. The question is should the public sponsor such careers? 
 
-### "But aren't the rich the real final boss?"
+> "But aren't the rich the real final boss?"
 
 It's too convenient, too big of the brush, and often results in bad policies. Instead, I think it's more helpful to expose people to the anatomy of how institutions can take advantage of the public. 
 

@@ -37,16 +37,16 @@ You will solve the tech job shortage + tech unemployment.
 
 ---
 
-"It's going to waste 20 minutes of my life and phone call!" 
+> "It's going to waste 20 minutes of my life and phone call!" 
 
-> You waste months of life on a wrong hire. If your CEO picks up the phone just say congrats you done your work. 
+You waste months of life on a wrong hire. If your CEO picks up the phone just say congrats you done your work. 
 
-"Creating and maintaining fictional profiles is so hard!" 
+> "Creating and maintaining fictional profiles is so hard!" 
 
-> Everyone is using AI to generate their profiles already. They are also including as many frameworks (they are not even good at) as they can in resumes to hack the ATS keyword search. 
+Everyone is using AI to generate their profiles already. They are also including as many frameworks (they are not even good at) as they can in resumes to hack the ATS keyword search. 
 
-> Instead of investing on data science to figure out a better recruiting AI, use cheap data science to test your recruitment hit rate. 
+Instead of investing on data science to figure out a better recruiting AI, use cheap data science to test your recruitment hit rate. 
 
-"It makes a lot of sense but we don't want to do it"
+> "It makes a lot of sense but we don't want to do it"
 
 [That's how we get tweets like this. ](https://x.com/upstatefederlst/status/1872125343508971847)

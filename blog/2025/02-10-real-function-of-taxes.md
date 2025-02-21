@@ -9,9 +9,11 @@ Taxes are dumb.
 
 It's hard to be controversial to say so. Most people who worked and earned money for a living would be frustrated by the whole experience that is so embedded in modern society, to the point it becomes something we learned to be helpless about. 
 
-<!-- truncate -->
+This post won't try to change the way taxes work. I'm too small of a player for the legal system to give a damn about. [^1]
 
-This post won't try to change the way taxes work. I'm too small of a player for the legal system to give a damn about. 
+[^1]: if you can't see what I did there, I'm disappointed. 
+
+<!-- truncate -->
 
 That said, I can explain how taxes work in a way that the common person will learn, and people can decide if taxes are worth it.
 
@@ -19,9 +21,9 @@ That said, I can explain how taxes work in a way that the common person will lea
 
 ## Modern monetary theory
 
-Modern money is all fiat, meaning it is not backed by anything. Not gold, not oil, just blind trust. Actually, it is backed by the power of military[^1], but we will leave the story to another day. 
+Modern money is all fiat, meaning it is not backed by anything. Not gold, not oil, just blind trust. Actually, it is backed by the power of military[^2], but we will leave the story to another day. 
 
-[^1]: Modern fiat currencies aren't entirely worthless. Typically currency is legitimized through public confidence. A currency that can be printed endlessly would mean more people opting out of the network. But confidence is fragile and fluctuates, so a mandate and force is more reliable. You will notice that reserve currencies tend to be controlled by contries with the strongest military. It is no coincidence. Having a gun means you accept whatever value there is on the paper. This is also a short story why I think cryptocurrencies are unviable. 
+[^2]: Modern fiat currencies aren't entirely worthless. Typically currency is legitimized through public confidence. A currency that can be printed endlessly would mean more people opting out of the network. But confidence is fragile and fluctuates, so a mandate and force is more reliable. You will notice that reserve currencies tend to be controlled by contries with the strongest military. It is no coincidence. Having a gun means you accept whatever value there is on the paper. This is also a short story why I think cryptocurrencies are unviable. 
 
 If we are to accept that money is not backed by anything, a state theoretically doesn't need to collect taxes before they spend -- they can just spend on what they want and pay it back later by raising taxes, or to do nothing and devalue all cash and savings. 
 
@@ -123,10 +125,10 @@ I could write a whole post on how money works, how it flows. But the short answe
 
 > You will never understand bureaucracies until you understand that for bureaucrats procedure is everything and outcomes are nothing. -- Thomas Sowell
 
-Actually... [^2] [^3]
+Actually... [^3] [^4]
 
-[^2]: Unlike inflation that erodes power indiscrimately, taxes are are more targeted to specific people. 
+[^3]: Unlike inflation that erodes power indiscrimately, taxes are are more targeted to specific people. 
 
-[^3]: There is a perspective where taxes make sense, like a "subscription" to the government. Some people uses more public services, like roads, hospital. So higher taxes are like your "silver, gold, platinum" subscription tiers.
+[^4]: There is a perspective where taxes make sense, like a "subscription" to the government. Some people uses more public services, like roads, hospital. So higher taxes are like your "silver, gold, platinum" subscription tiers.
 
 ---

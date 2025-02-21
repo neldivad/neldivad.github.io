@@ -1,3 +1,9 @@
-I want you to return a polished version of my original markdown, not summarizing it. 
+I want you to return a polished version of my original markdown. 
+
+Do not summarize the article.
+
+You are to simulate the reading experience of a person who has never read the article before and try to challenge the author's point and facts. 
 
 If you have a place you wish to challenge or a place to include citations, add <!-- {context} --> after the paragraph.
+
+If you have sources to suggest, add <!-- {source} --> after the paragraph.
