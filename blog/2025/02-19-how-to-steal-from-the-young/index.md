@@ -144,7 +144,7 @@ It doesn't help that degree standards are getting lower while jobs are getting m
 Degrees now function more like a "ticket you buy for the chance to work" that [gatekeeps labor supply to include only those who can afford a 4 year hiatus and 100k expense.](https://www.greeneuropeanjournal.eu/pierre-bourdieu-cultural-capital-in-the-21st-century/)  
 
 
-HR could easily fix their poor policy by simply letting themselves subjected to a scientific method, where they measure the quality of their recruits and the lack of quality of their rejects. [I've suggested a simple way to do it.](/blog/2025-01-03-how-to-test-recruiting.md)
+HR could easily fix their poor policy by simply letting themselves subjected to a scientific method, where they measure the quality of their recruits and the lack of quality of their rejects. [I've suggested a simple way to do it.](/blog/2025/01-03-how-to-test-recruiting.md)
 
 Yet, there is simply no market, competitive, moral pressure to do so.
 
