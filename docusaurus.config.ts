@@ -60,7 +60,8 @@ const config: Config = {
         
         // https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog
         blog: {
-          blogSidebarTitle: 'All posts',
+          postsPerPage: 5,
+          blogSidebarTitle: 'Recent posts',
           blogSidebarCount: 'ALL',
           showLastUpdateTime: true,
           showReadingTime: true,
@@ -109,7 +110,11 @@ const config: Config = {
         src: 'img/n-mark-color.png',
       },
       items: [
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/blog', 
+          label: 'Blog', 
+          position: 'left'
+        },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',

@@ -1,7 +1,6 @@
 ---
 slug: how-to-steal-from-the-public
 title: How to steal from the public without public attention
-subtitle: and possibly -- even look like a hero
 
 authors: [neldivad]
 tags: [essays, recruitment, hiring, economics]
@@ -70,7 +69,7 @@ Here goes.
 
 ---  
 
-## Heist Showdown  
+## Shortlisted bureaucracies  
 
 ### Central banks  
 
