@@ -42,22 +42,24 @@
 <p>In financial markets, there is a trend following strategy, or ARIMA models, where the prediction of prices is based on past few day's prices. It's more "braindead" relative to exhaustively analyzing earnings report, growth rates, transcripts to predict prices and to generate a new valuation every time data changes.</p>
 <p>Conformism brings order and stability, allowing societies to function smoothly. It facilitates the scaling of power and resources, which can enhance the collective evolutionary fitness of a group.</p>
 <p>"Trust the process" works well in the sense that the group can save on computing and decision cost. The catch is that the process must keep working.</p>
-<p>However, this stability comes at a cost. Conformism lacks flexibility, simply because its so hard to push back against mainstream narrative. This means mistakes and wrong social directions are hard to stop -- the Pied Piper of Hamlin will lead all rats to drown in the river.</p>
-<p>Conformism can also be exploited, leading to potential manipulation by individuals or entities that seek to control or harm the group.</p>
+<p>So a group of conformist who happened to be lucky enough to follow a right set of values will grow fast enough to destroy the population of a group of deviants who are either busy doing their own thing, or busy disagreeing among themselves.</p>
+<p>However, if the conformist values misalign, mistakes cascades and wrong social directions are hard to stop -- the Pied Piper of Hamlin will lead all rats to drown in the river.</p>
+<p>Conformism can also be exploited a subset of manipulative deviants, as values get hijacked to benefit a small cabal of deviants (cult leaders and equivalents).</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="evolutionary-disadvantage-of-deviants">Evolutionary disadvantage of deviants<a href="https://neldivad.github.io/blog/is-conformism-a-viable-strategy#evolutionary-disadvantage-of-deviants" class="hash-link" aria-label="Direct link to Evolutionary disadvantage of deviants" title="Direct link to Evolutionary disadvantage of deviants">​</a></h2>
-<p>Independent thinkers, while often celebrated, frequently face challenges that conformists do not.</p>
+<p>Independent thinkers, while often celebrated, <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles">frequently face challenges that conformists do not.</a></p>
 <p>While we see glorious success from a selected few independent thinkers and frequently talk about them, it is often the case we are only seeing the tip of the iceberg.</p>
 <p>Many artists, intellectuals, and other independent thinkers struggle financially and in terms of reproductive success. <sup><a href="https://neldivad.github.io/blog/is-conformism-a-viable-strategy#user-content-fn-1-a225e9" id="user-content-fnref-1-a225e9" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>. This raises questions about the evolutionary viability of independent thinking and deviance.</p>
-<p>In fact, we could use the market perspective to understand the quantitative tradeoffs between conformism and independent thinking.</p>
+<p>In fact, we could use the market perspective to understand the quantitative tradeoffs and ROI between conformism and independent thinking.</p>
 <p>In most advanced economies, the number of salaried workers (conformists) is much higher than the number of entrepreneurs (deviants).</p>
 <p>Interestingly, the average earnings of salaried workers is higher than the average earnings of entrepreneurs -- an evidence of the survival advantage of conformism. <sup><a href="https://neldivad.github.io/blog/is-conformism-a-viable-strategy#user-content-fn-2-a225e9" id="user-content-fnref-2-a225e9" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup></p>
+<p>In ancient China, independent barbarians get defeated or absorbed by the more conforming empire.</p>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="ai-simulations-on-conformism-and-defiance">AI simulations on conformism and defiance<a href="https://neldivad.github.io/blog/is-conformism-a-viable-strategy#ai-simulations-on-conformism-and-defiance" class="hash-link" aria-label="Direct link to AI simulations on conformism and defiance" title="Direct link to AI simulations on conformism and defiance">​</a></h2>
 <p>The market perspective used to understand the quantitative tradeoffs between conformism and independent thinking is one way to do it, but we could also use AI simulations to explore the interplay between environmental factors, incentive structures, and behavioral outcomes.</p>
 <p>By observing how AI agents respond to different reward functions, we can gain a better understanding of when and why humans might lean towards conformism or independent thinking.</p>
 <p>So far, the most interesting AI agents used to simulate human cooperation is the <a href="https://github.com/Axelrod-Python/Axelrod" target="_blank" rel="noopener noreferrer">Axelrod project</a>.</p>
 <p>The discovery is that the greatest survivors are agents who employ "Tit-for-tat" strategies in iterative Prisoner's Dilemma games.</p>
-<p>Perhaps, a similar agent simulation could be used to discover the natural bias of agents towards conformism or defiance.</p>
+<p>Perhaps, a similar agent simulation could be used to discover the natural bias of agents towards conformism or defiance when status conscious becomes a parameter.</p>
 <hr>
 <!-- -->
 <section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://neldivad.github.io/blog/is-conformism-a-viable-strategy#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
@@ -66,7 +68,7 @@
 <p>Sigh, I knew you would take it the wrong way. I don't mean these people get less sex. Reproduction success in this context is more like the ability to replicate more independent thinkers. So a conformist builds social momentum faster than a deviant. So conformism grows like locusts, while deviance grows like a sequoia. <a href="https://neldivad.github.io/blog/is-conformism-a-viable-strategy#user-content-fnref-1-a225e9" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
 </li>
 <li id="user-content-fn-2-a225e9">
-<p>That doesn't mean now is a good time to be a conformist. I've done a deep macro research explaining how job security is a <a href="https://neldivad.github.io/blog/we-cant-afford-job-security">debt-financed illusion</a>. <a href="https://neldivad.github.io/blog/is-conformism-a-viable-strategy#user-content-fnref-2-a225e9" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+<p>That doesn't mean you should be a salaried worker for life. I've done a deep macro research explaining how job security is a <a href="https://neldivad.github.io/blog/we-cant-afford-job-security">debt-financed illusion</a>. <a href="https://neldivad.github.io/blog/is-conformism-a-viable-strategy#user-content-fnref-2-a225e9" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
 </li>
 </ol>
 </section>]]></content:encoded>
@@ -111,7 +113,7 @@
 <p>I will do the honors and take the risk of exposing institutions with questionable motive and outcomes.</p>
 <p>Here goes.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="heist-showdown">Heist Showdown<a href="https://neldivad.github.io/blog/how-to-steal-from-the-public#heist-showdown" class="hash-link" aria-label="Direct link to Heist Showdown" title="Direct link to Heist Showdown">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="shortlisted-bureaucracies">Shortlisted bureaucracies<a href="https://neldivad.github.io/blog/how-to-steal-from-the-public#shortlisted-bureaucracies" class="hash-link" aria-label="Direct link to Shortlisted bureaucracies" title="Direct link to Shortlisted bureaucracies">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="central-banks">Central banks<a href="https://neldivad.github.io/blog/how-to-steal-from-the-public#central-banks" class="hash-link" aria-label="Direct link to Central banks" title="Direct link to Central banks">​</a></h3>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="uncompetitive">Uncompetitive<a href="https://neldivad.github.io/blog/how-to-steal-from-the-public#uncompetitive" class="hash-link" aria-label="Direct link to Uncompetitive" title="Direct link to Uncompetitive">​</a></h4>
 <p>Central banks serve as the lender of last resort -- a function that allows them to provide emergency liquidity to banks, thereby forestalling systemic collapse.</p>
@@ -299,7 +301,7 @@
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-conformist-cant-be-disagreed">A conformist can't be disagreed<a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#a-conformist-cant-be-disagreed" class="hash-link" aria-label="Direct link to A conformist can't be disagreed" title="Direct link to A conformist can't be disagreed">​</a></h2>
 <p>Simply because a conformist's reward function is to be agreed. If they ever get disagreed, they will just shift their ideas to what is conventionally accepted.</p>
-<p>By sampling bias, it means deviants will experience 90% of all disagreements.</p>
+<p>By sampling bias, it means deviants will experience 90% of all disagreements. <sup><a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fn-5-0f5506" id="user-content-fnref-5-0f5506" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="deviant-minds-are-easy-targets">Deviant minds are easy targets<a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#deviant-minds-are-easy-targets" class="hash-link" aria-label="Direct link to Deviant minds are easy targets" title="Direct link to Deviant minds are easy targets">​</a></h2>
 <p>A deviant often become easy targets for those seeking to enhance their social reputation.</p>
 <p>Opposing the establishment, especially in fields like politics is a braindead strategy to gain attention and support.</p>
@@ -315,17 +317,18 @@
 <p>In cases of a person being placed in "death grounds", the pushback is desperate, regardless of how right a deviant's ideas are.</p>
 <p>In most cases, the pushback is directed to the deviant itself, regardless of how much this antagonism is justified.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="it-is-inevitable-for-deviants-to-invite-trouble">It is inevitable for deviants to invite trouble<a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#it-is-inevitable-for-deviants-to-invite-trouble" class="hash-link" aria-label="Direct link to It is inevitable for deviants to invite trouble" title="Direct link to It is inevitable for deviants to invite trouble">​</a></h2>
-<p>So long as we have a social dynamic that rewards reputation and conformity, being a deviant inherently invites trouble.</p>
-<p>It is not typically a personal vendetta against deviants. Rather, it is a systemic response to the challenges they pose to the existing social order.</p>
+<p>So long as we have a social dynamic that rewards reputation and conformity, status consciousness becomes an investment with ROI. Then, being a deviant inherently invites trouble.</p>
+<p>It is not that any individual personal have an issue against deviants -- most individuals would prefer interacting with a deviant over conformists.</p>
+<p>However, the social system finds it easy to penalize deviants because status consciousness means some agent find their ranking and rewards threatened by uncommon behaviors. <sup><a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fn-4-0f5506" id="user-content-fnref-4-0f5506" data-footnote-ref="true" aria-describedby="footnote-label">4</a></sup></p>
 <p>The act of questioning norms or presenting alternative viewpoints disrupts the equilibrium and can threaten the reputation of those invested in maintaining the status quo.</p>
-<p>I'll argue that due to this dynamic, <strong>it is impossible for anyone to have true independent thinking unless they have complete detachment from social approvals.</strong> <sup><a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fn-3-0f5506" id="user-content-fnref-3-0f5506" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup></p>
+<p>I'll argue that due to this dynamic, <strong>it is impossible for anyone to have true independent thinking unless they have complete detachment from status consciousness.</strong> <sup><a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fn-3-0f5506" id="user-content-fnref-3-0f5506" data-footnote-ref="true" aria-describedby="footnote-label">5</a></sup> <sup><a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fn-6-0f5506" id="user-content-fnref-6-0f5506" data-footnote-ref="true" aria-describedby="footnote-label">6</a></sup> <sup><a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fn-7-0f5506" id="user-content-fnref-7-0f5506" data-footnote-ref="true" aria-describedby="footnote-label">7</a></sup></p>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="tldr">TLDR<a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#tldr" class="hash-link" aria-label="Direct link to TLDR" title="Direct link to TLDR">​</a></h2>
 <p>Deviants invite troubles because challenging the status quo disrupts social dynamics and threatens the reputation of those who benefit from the existing order.</p>
 <p>The obstacles faced by deviants are not always personal and its more likely rooted in human nature and the structures of society.</p>
 <p>While independence is crucial for innovation and progress, it comes at a cost that not everyone is willing or able to bear.</p>
-<p>To all deviants: Don't be a drama queen and think everyone is out there to get you. Everyone is "out there to get you" because that is what people do.</p>
-<p>Get over it.</p>
+<p>To all deviants: Don't be a drama queen and think everyone is out there to get you. Everyone is "out there to get you" because that is what people do. <sup><a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fn-5-0f5506" id="user-content-fnref-5-0f5506-2" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup></p>
+<p>Get over it and keep working.</p>
 <hr>
 <!-- -->
 <section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
@@ -334,10 +337,22 @@
 <p>if you can't see what I did there, I'm disappointed. <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fnref-1-0f5506" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
 </li>
 <li id="user-content-fn-2-0f5506">
-<p>There are cases of really autistic people who are independent, can do their own thing competently, and cannot perceive the negativity or oppositions conjured by others. While such obliviousness means they are not held back by public opinion, it is still more probable their work meets more resistance relative to support. <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fnref-2-0f5506" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+<p>There are cases of autistic people who can do own thing competently and oblivious to the negativity or oppositions of others. While such ignorance means they are not held back by public opinion, it is still more probable their avant-garde work meets more resistance relative to support. <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fnref-2-0f5506" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5-0f5506">
+<p>Inversely, it could mean any person who experienced a chronic disagreements are more likely to see themselves as a deviant -- this is fallacy thinking. Someone who is consistently disagreed may see themselves as a deviant, but that <strong>doesn't mean they are not a conformist.</strong> A conformist can keep saying the wrong thing, be disagreed by a diverse group of people, and they will wrongly imagine that they are a deviant and the rest are conformist. <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fnref-5-0f5506" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a> <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fnref-5-0f5506-2" data-footnote-backref="" aria-label="Back to reference 3-2" class="data-footnote-backref">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-4-0f5506">
+<p>In cases of a group of people who don't compare with one another, you notice that independent behaviors don't meet as much rejections as these groups have no status games to play with one another. Since neither cares much about their own reputation, another person's action doesn't bring them any threat and you observe less "witch-hunting" behavior. <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fnref-4-0f5506" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
 </li>
 <li id="user-content-fn-3-0f5506">
-<p>A simple observation is to observe artists and their behavior pre-fame and post-fame. An artist is an embodiment of independence. But anyone who observes an artist that rises to fame is that they become less controversial the more popular they are. If my theory is true, artists who gets less controversial become like that because they have an attachment to social approvals. <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fnref-3-0f5506" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+<p>A simple observation is to observe artists and their behavior pre-fame and post-fame. An artist is an embodiment of independence. But anyone who observes an artist that rises to fame is that they become less controversial the more popular they are. If my theory is true, artists who gets less controversial become like that because they have more interest in developing status consciousness. <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fnref-3-0f5506" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-6-0f5506">
+<p>I expect pushback for saying this, but I think this reason also explains why creative women are less common than creative men. Women are more status conscious, so there is a disadvantage in the capacity to hold independent thoughts. That is not to say women are less creative -- a woman who is detached from status conscious are just as capable of being creative. Inversely, a man that is burdened by status-conscious will have as much trouble being creative. <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fnref-6-0f5506" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-7-0f5506">
+<p>This theory also support the observation that many great art in ancient history was done by non-hetero people (Michelangelo, Nikola Tesla). But as LGBTQ and DEI gathers more social momentum and subsequently more conformist, you see a decline in the quality of art produced by non-hetero people if they happen to be absorbed by the conformist movement (Snow White and Concord are the latest disasters). <a href="https://neldivad.github.io/blog/why-independent-people-invite-troubles#user-content-fnref-7-0f5506" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
 </li>
 </ol>
 </section>]]></content:encoded>
