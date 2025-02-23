@@ -34,7 +34,7 @@ Using the US as an example (its the most available one to build my priors) [the 
 
 Annually, the US government raises [17% of GDP as taxes](https://fred.stlouisfed.org/series/FYFRGDA188S). 
 
-In effect, we are spending $25 for every $100 we harass a productive business to give the state. 
+In effect, we are spending $15 for every $100 we harass a productive business to give the state. 
 
 This number includes taxes paid through active means (IRS audits) and passive means (taxes on income, VAT). If we are to estimate the cost of active collection and the actual tax revenue active collectors raised, it may be less than the cost it takes to finance active collectors. 
 
@@ -57,6 +57,11 @@ The problem is that the economy becomes perfectly competitive, which means those
 The currency becomes less representative to those who are weaker or less competitive. With no state spending, there is no safety net except for private charities. 
 
 If people expect spending will cause them to lose power to sellers, then transactions are seen as zero-sum and the economy gets more illiquid. 
+
+Also, not having a state is really a bad idea, in the sense that markets become lawless. In practice what you'll end up getting is local mafias bullying businesses into giving them special privileges -- you don't pay taxes to the state, but you pay "taxes" to guys meaner than you. [^5]
+
+[^5]: The irony is that by electing a state to keep mafias away, a state can eventually grow big enough to be a "mafia" itself, in the sense they bully people into compliance through "legal" and "financial" means (by manipulating currencies). 
+
 
 ### Case 2: Doing anything the state wants
 
@@ -125,10 +130,33 @@ I could write a whole post on how money works, how it flows. But the short answe
 
 > You will never understand bureaucracies until you understand that for bureaucrats procedure is everything and outcomes are nothing. -- Thomas Sowell
 
-Actually... [^3] [^4]
+While the post is critical about taxes, there are some cases when it can make sense... [^3] [^4] 
+
+However, rather than trying so hard to raise taxes, there is a better way...
 
 [^3]: Unlike inflation that erodes power indiscrimately, taxes are are more targeted to specific people. 
 
 [^4]: There is a perspective where taxes make sense, like a "subscription" to the government. Some people uses more public services, like roads, hospital. So higher taxes are like your "silver, gold, platinum" subscription tiers.
+
+---
+
+## "Stop spending (other people's) money on stupid stuff"
+
+People think public spending is free money. I've already shown you that public spending takes back money through taxes or inflation -- it is just financial physics. 
+
+The reason why people think public spending is free money -- that voters consistently vote for money spending across any civilization -- I suspect has to do with "semantic deception". 
+
+If people really understood how public spending gets paid back, perhaps they wouldn't be so obsessed with the idea of "free money". The issue is that the sematics "public spending" gives people the idea that it is "money spent on the public", so we just ignored all the little things that happen behind the scenes. 
+
+The same "semantic deception" can happen in things like "trust and safety team" [^5] , "conservative and liberal" [^6].
+
+[^5]: Many times whatever they do has nothing to do with trust or safety. 
+
+[^6]: The word conservative artificially signals someone to be close-minded, liberal an open-minded. But you find that the signal isn't any reliable. People who get manipulated by semantic deception would prefer liberal to conservative.
+
+
+---
+
+
 
 ---
