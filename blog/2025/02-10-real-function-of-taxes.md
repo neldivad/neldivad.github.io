@@ -148,15 +148,11 @@ The reason why people think public spending is free money -- that voters consist
 
 If people really understood how public spending gets paid back, perhaps they wouldn't be so obsessed with the idea of "free money". The issue is that the sematics "public spending" gives people the idea that it is "money spent on the public", so we just ignored all the little things that happen behind the scenes. 
 
-The same "semantic deception" can happen in things like "trust and safety team" [^5] , "conservative and liberal" [^6].
+The same "semantic deception" can happen in things like "trust and safety team" [^6] , "conservative and liberal" [^7].
 
-[^5]: Many times whatever they do has nothing to do with trust or safety. 
+[^6]: Many times whatever they do has nothing to do with trust or safety. 
 
-[^6]: The word conservative artificially signals someone to be close-minded, liberal an open-minded. But you find that the signal isn't any reliable. People who get manipulated by semantic deception would prefer liberal to conservative.
-
-
----
-
+[^7]: The word conservative artificially signals someone to be close-minded, liberal an open-minded. But you find that the signal isn't any reliable. People who get manipulated by semantic deception would prefer liberal to conservative.
 
 
 ---
