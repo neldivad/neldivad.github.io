@@ -4,10 +4,146 @@
         <title>Nelstudio Blog</title>
         <link>https://neldivad.github.io/blog</link>
         <description>Nelstudio Blog</description>
-        <lastBuildDate>Fri, 21 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Natural language is software]]></title>
+            <link>https://neldivad.github.io/blog/natural-language-is-software</link>
+            <guid>https://neldivad.github.io/blog/natural-language-is-software</guid>
+            <pubDate>Sun, 23 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[When writing software, the longer we spend our lvies doing it, the more we often encounter tradeoffs in information, like abstraction and locality of behavior (LoB).]]></description>
+            <content:encoded><![CDATA[<p>When writing software, the longer we spend our lvies doing it, the more we often encounter tradeoffs in information, like abstraction and locality of behavior (LoB).</p>
+<p>The core principle of abstraction is "Do not repeat yourself (DRY)". Meaning, we should avoid duplicating code and import whenever you need to.</p>
+<p>The tradeoff is that behaviors get inherited too often, to the point where making any local changes become inflexible.</p>
+<p>The most common example will be Bootstrap CSS. It tries hard to not repeat itself, so you have class components all stuffed within a <code>style.css</code> file.</p>
+<p>The issue happens when you want to change the look of a component. You have to go through the entire file and find the class you want to change. Often you realize there is a lot of collisions of CSS between different class names, EG: <code>.table-striped</code>, <code>.table-striped-primary</code>, <code>table-dark-primary</code>, inheriting from <code>.table</code>.</p>
+<p>At some point you forget which one does what, which one inherits which CSS, and you end up with a mess.</p>
+<p>Tailwind CSS solves this by describing all the styles within the same file. EG: <code>class="bg-blue-500 text-white outline-none transtion-all duration-100 pd-1"</code>.</p>
+<p>The problem with Tailwind CSS is that it is repetivive, so your code is very unreadable. When you work on both Bootstrap and Tailwind, inevitably you find that both suck for different reasons -- there is an inherent tradeoff between abstraction and locality of behavior.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-this-relate-to-natural-language">How this relate to natural language?<a href="https://neldivad.github.io/blog/natural-language-is-software#how-this-relate-to-natural-language" class="hash-link" aria-label="Direct link to How this relate to natural language?" title="Direct link to How this relate to natural language?">​</a></h2>
+<p>If you really paid attention, you notice that a lot of natural language we use take for granted of these principles.</p>
+<p>You see "abstration", "LoB", and "collisions" happening all the time.</p>
+<p>I will share the 3 language I'm most familiar with, being English, Japanese, and Chinese and show how each natural language overcome its encoding challenges, and how many of their problems can predict the problems of software projects that do share common traits with those natural languages.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="from-functional-to-object-oriented">From functional to object-oriented<a href="https://neldivad.github.io/blog/natural-language-is-software#from-functional-to-object-oriented" class="hash-link" aria-label="Direct link to From functional to object-oriented" title="Direct link to From functional to object-oriented">​</a></h2>
+<p>In software development, the transition from functional programming (FP) to object-oriented programming (OOP) is an evolution to manage complexity.</p>
+<p>FP emphasizes pure functions, meaning functions do not modify variables but instead generate new ones as an output. Pure functions are "pure" because they always return the same output for the same argument values. In effect, it serves as a very simple motif for any program.</p>
+<p>OOP focuses on encapsulation, inheritance, and polymorphism, so state changes are supported and behavior can be extended.</p>
+<p>The natural language equivalent of FP is the use of alphabets (English), <a href="https://en.wikipedia.org/wiki/Chinese_character_strokes" target="_blank" rel="noopener noreferrer">character strokes</a> (Chinese), hiragana (Japanese) to convey meaning.</p>
+<p>However, users of the natural language will eventually realize that using only basic building blocks result in lots of redundancy. Also, if the sequence of characters repeats too often, it also gets confusing to interpret.</p>
+<p>A programmer that deals with a functional programming framework will also come to feel the same problem after working on the project long enough (redudancy, confusion during long sequences.)</p>
+<p>The natural language equivalent of OOP is the use of prefixes, suffixes, and roots to convey meaning.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="linear-extensions-in-object-en">Linear extensions in object (EN)<a href="https://neldivad.github.io/blog/natural-language-is-software#linear-extensions-in-object-en" class="hash-link" aria-label="Direct link to Linear extensions in object (EN)" title="Direct link to Linear extensions in object (EN)">​</a></h2>
+<p>In English, words are often built from smaller parts, almost like how LEGO pieces fit together to make something bigger. Take the word "carbon monoxide" as an example. Each part of the word means something specific:</p>
+<ul>
+<li>Carbon: a type of element</li>
+<li>Mono: meaning "one"</li>
+<li>Oxide: a type of compound derived from oxygen element</li>
+</ul>
+<p>When you put these pieces together, they form a new word that tells you it's a compound made of one carbon atom. Even if you're not a chemistry expert, the word gives you clues about what it means!</p>
+<p>This modular approach is cool because it lets us understand and create new words by combining familiar parts. It's like how you can mix different LEGO pieces to build something entirely new.</p>
+<p>However, the linearity and locality of English means you will often get very long words when trying to describe something specific or technical.</p>
+<p><code>Pneumonoultramicroscopicsilicovolcanoconiosis</code>, which has 45 letters, refers to a lung disease caused by inhaling silica dust.</p>
+<p>How it came to be this long is because you want to fit and extend multiple classes into an expression <code>pneumo</code>, <code>micro</code>, <code>silica</code>, <code>osis</code>, and you required the locality, IE: fixing all the motifs together so those classes don't get accidentally spilled to a different word.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="component-attachment-in-object-cn">Component attachment in object (CN)<a href="https://neldivad.github.io/blog/natural-language-is-software#component-attachment-in-object-cn" class="hash-link" aria-label="Direct link to Component attachment in object (CN)" title="Direct link to Component attachment in object (CN)">​</a></h2>
+<p>In Chinese, many characters are built from smaller parts called radicals or components, which give clues about their meaning. This is similar to object-oriented programming in software, where objects can include other objects or inherit their properties.</p>
+<p>Most of the oldest and common characters are pictographs (象形; xiàngxíng), representational pictures of physical objects.</p>
+<p>For example:</p>
+<ul>
+<li>日 (rì) means "sun"</li>
+<li>月 (yuè) means "moon"</li>
+<li>木 (mù) means "tree"</li>
+</ul>
+<p>Just like how you mix LEGO pieces, Chinese combines these common words to become themes of other words, known as 部首 (bùshǒu).</p>
+<ul>
+<li>明 (míng) is made by combining 日 (sun) and 月 (moon). Together, they mean something bright.</li>
+<li>晨 (chén) means "dawn" and uses 日 (sun) to show light.</li>
+<li>果 (guǒ) means "fruit" and uses 木 (tree), showing where fruit comes from.</li>
+</ul>
+<p>Unlike English where expression get extended by adding suffixes and elongating the word, Chinese extend expression by fitting multiple "components" (IE: the primary characters) into a box and identifying it as a unique character. You can treat each Chinese character as an individual script file.</p>
+<p>This compression means Chinese has a natural advantage to use very little words to convey lots of meaning.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-1">Example 1:<a href="https://neldivad.github.io/blog/natural-language-is-software#example-1" class="hash-link" aria-label="Direct link to Example 1:" title="Direct link to Example 1:">​</a></h4>
+<blockquote>
+<p>掌声的嗜好成了瘾症</p>
+</blockquote>
+<blockquote>
+<p>The preference for applause has become an addiction.</p>
+</blockquote>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="example-2">Example 2:<a href="https://neldivad.github.io/blog/natural-language-is-software#example-2" class="hash-link" aria-label="Direct link to Example 2:" title="Direct link to Example 2:">​</a></h4>
+<blockquote>
+<p>在深海漩涡里翻腾摧毁一切只剩下无可挽回的罪人</p>
+</blockquote>
+<blockquote>
+<p>The waves of the whirlpool in a deep sea are breaking everything, leaving behind only a guilty person with no redemption.</p>
+</blockquote>
+<p>In effect, Chinese has demonstrated the advantage of a more compressed abstraction, most obviously the number of phonemes required to finish a sentence.</p>
+<p>However, anyone who has done enough software will soon guess the next problem with Chinese component approach.</p>
+<p>Chinese has a lot of characters. In effect, each character is a class of its own, therefore your database of words requires a huge collection.</p>
+<p>Unlike English where you only need 26 characters (maybe more if you also want to include Greek symbols or accented symbols), Chinese has between <a href="https://www.hutong-school.com/how-many-chinese-characters-are-there" target="_blank" rel="noopener noreferrer">3000 to 100,000 characters</a> (depending on the level of complexity of the dictionary) you are using.</p>
+<p>Not only that Chinese has more characters to track because each expression "wants" a word to represent it, we either have to create a new word to represent the expression, or we have to borrow a reserved word to represent it (IE: similar but have different meanings). This is the software equivalent of "class collision".</p>
+<p>While one can always squash more components into the script, the obvious disadvantage is that the character becomes harder to write and unnecessarily niche. Check out the abomination of the few examples that still survived today:</p>
+<ul>
+<li>攀 (Pān) (Climbing)</li>
+<li>罐 (Guàn) (Can)</li>
+</ul>
+<p>One obvious solution is to use compounded words to represent the expression.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="塑料-sùliào-plastic">塑料 (sùliào) (plastic)<a href="https://neldivad.github.io/blog/natural-language-is-software#%E5%A1%91%E6%96%99-s%C3%B9li%C3%A0o-plastic" class="hash-link" aria-label="Direct link to 塑料 (sùliào) (plastic)" title="Direct link to 塑料 (sùliào) (plastic)">​</a></h4>
+<ul>
+<li>塑: shape</li>
+<li>料: material</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="细菌-xìjūn-bacteria">细菌 (xìjūn) (bacteria)<a href="https://neldivad.github.io/blog/natural-language-is-software#%E7%BB%86%E8%8F%8C-x%C3%ACj%C5%ABn-bacteria" class="hash-link" aria-label="Direct link to 细菌 (xìjūn) (bacteria)" title="Direct link to 细菌 (xìjūn) (bacteria)">​</a></h4>
+<ul>
+<li>细: fine</li>
+<li>菌: fungus</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="方言-fāngyán-dialect">方言 (fāngyán) (dialect)<a href="https://neldivad.github.io/blog/natural-language-is-software#%E6%96%B9%E8%A8%80-f%C4%81ngy%C3%A1n-dialect" class="hash-link" aria-label="Direct link to 方言 (fāngyán) (dialect)" title="Direct link to 方言 (fāngyán) (dialect)">​</a></h4>
+<ul>
+<li>方: square, direction</li>
+<li>言: speech</li>
+</ul>
+<p>You notice this compounding style is very similar to English method of linearly extending a word with suffix: EG: "hydrophobic" as "water-repelling".</p>
+<p>However, the problem with Chinese that the characters they can extend is restricted by all the options they can use from the 3000-word dictionary in the first place. 3000 characters isn't enough to cover every concept relative to English where you can use any word as  suffixes, prefixes, and roots.</p>
+<p>This abstraction makes Chinese very "opinionated" in terms of how concepts can be extended, much like our experience as developers with OOP languages.</p>
+<p>You can observe this disadvantage very obviously during EN and CN attempts to describe a technical or scientific concept (CN is much more ambiguous than EN).</p>
+<ul>
+<li>Penicillium chrysogenum</li>
+<li>产黄青霉菌</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="inventing-new-object-to-be-attached-to-old-object-jp">Inventing new object to be attached to old object (JP)<a href="https://neldivad.github.io/blog/natural-language-is-software#inventing-new-object-to-be-attached-to-old-object-jp" class="hash-link" aria-label="Direct link to Inventing new object to be attached to old object (JP)" title="Direct link to Inventing new object to be attached to old object (JP)">​</a></h2>
+<p>In Japanese, much of the ancient scripts are based on kanji characters, which uses the same writing system as Chinese but with different meaning.</p>
+<p>In the meantime around 8th century, the Japanese had the demand to represent the sounds of the spoken language more accurately. They invented a "manyogana" system, where Chinese characters were used to represent phonetic sounds rather than their original meanings. Its the equivalent of repurposing a class with different functions (bad, bad, bad idea in software).</p>
+<p>Eventually, sounds and phonemes became a mainstream way of encoding language. To avoid the confusion of shared class problem, the Japanese adopted 2 new writing systems: hiragana and katakana to represent sounds.</p>
+<p>Hiragana, a syllabary with a limited set of characters, serves a functional purpose by providing phonetic values. But independently it runs into the problem of FP -- expressing a complete sentence is lengthy, confusing, and hard to read.</p>
+<p>To make things more readable, the Japanese combined hiragana with kanji. The result is a writing system using 2 distinct character dictionaries.</p>
+<p>From a software developer's perspective, this is a maintenance nightmare. It's like adding a plugin (hiragana) to your monolith (kanji). Not only do the user needs to understand each character from kanji, now they also need to understand each character from hiragana.</p>
+<p>But this combination also solves some big problems, like "class collision" and limited ways to expand experienced by CN. It's like giving LEGO pieces different colors.</p>
+<p>For example, the kanji 生 (せい, しょう) can mean "life" or "raw," and when combined with different hiragana, it forms different words.</p>
+<ul>
+<li>生まれる(うまれる) (生-mameru): to be born</li>
+<li>生み出す(うみだす) (生-midasu) : to create, to invent</li>
+<li>生きる (いきる) (生-kiru) : to live</li>
+</ul>
+<p>This is just a tip of the iceberg for Japanese interaction between kanji component and hiragana component. More advanced use of langage include compounded kanji that result in different pronounciation.</p>
+<p>Example kanji 月 (つき / tsuki), which means "moon" independently. When combined compounded with different kanji results in different hiragana pronounces.</p>
+<ul>
+<li>月刊 (げっかん / gekkan): means "monthly," like a magazine you get every month.</li>
+<li>一月 (いちがつ / ichigatsu): means "January,"</li>
+<li>満月 (まんげつ / mangetsu): means "full moon"</li>
+</ul>
+<p>The base <code>tsuki</code> can have its state changed to <code>gek-</code>, <code>gatsu</code>, <code>getsu</code> depending on context.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-lot-of-software-is-history">A lot of software is history<a href="https://neldivad.github.io/blog/natural-language-is-software#a-lot-of-software-is-history" class="hash-link" aria-label="Direct link to A lot of software is history" title="Direct link to A lot of software is history">​</a></h2>
+<p>The evolution from functional to object-oriented structures in language is a challenge every developer have to go through as they raise in seniority.</p>
+<p>Writing code and maintaining software seriously will also expose developers to the tradeoffs of abstraction and locality of behavior.</p>
+<p>Software developers must manage libraries, frameworks, dependency hell, exponential explosion of required context (aka tech debt).</p>
+<p>Alternatively, you can pay attention to how natural language spent thousands of years evolving to solve the same problem. Often, natural language give us a clue on the architecture of software, as well as predicting in advance the problems those designs will eventually face.</p>]]></content:encoded>
+            <category>essays</category>
+            <category>software</category>
+        </item>
         <item>
             <title><![CDATA[Is conformism a viable survival strategy?]]></title>
             <link>https://neldivad.github.io/blog/is-conformism-a-viable-strategy</link>
@@ -271,7 +407,7 @@
 <p>People think public spending is free money. I've already shown you that public spending takes back money through taxes or inflation -- it is just financial physics.</p>
 <p>The reason why people think public spending is free money -- that voters consistently vote for money spending across any civilization -- I suspect has to do with "semantic deception".</p>
 <p>If people really understood how public spending gets paid back, perhaps they wouldn't be so obsessed with the idea of "free money". The issue is that the sematics "public spending" gives people the idea that it is "money spent on the public", so we just ignored all the little things that happen behind the scenes.</p>
-<p>The same "semantic deception" can happen in things like "trust and safety team" <sup><a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fn-6-4c6868" id="user-content-fnref-6-4c6868" data-footnote-ref="true" aria-describedby="footnote-label">6</a></sup> , "conservative and liberal" <sup><a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fn-7-4c6868" id="user-content-fnref-7-4c6868" data-footnote-ref="true" aria-describedby="footnote-label">7</a></sup>.</p>
+<p>The same "semantic deception" can happen in things like "trust and safety team" <sup><a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fn-6-4c6868" id="user-content-fnref-6-4c6868" data-footnote-ref="true" aria-describedby="footnote-label">6</a></sup> , "conservative and liberal" <sup><a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fn-7-4c6868" id="user-content-fnref-7-4c6868" data-footnote-ref="true" aria-describedby="footnote-label">7</a></sup>, "as a matter of fact" <sup><a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fn-8-4c6868" id="user-content-fnref-8-4c6868" data-footnote-ref="true" aria-describedby="footnote-label">8</a></sup>.</p>
 <hr>
 <!-- -->
 <section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://neldivad.github.io/blog/real-function-of-taxes#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
@@ -295,7 +431,10 @@
 <p>Many times whatever they do has nothing to do with trust or safety. <a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fnref-6-4c6868" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
 </li>
 <li id="user-content-fn-7-4c6868">
-<p>The word conservative artificially signals someone to be close-minded, liberal an open-minded. But you find that the signal isn't any reliable. People who get manipulated by semantic deception would prefer liberal to conservative. <a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fnref-7-4c6868" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+<p>The word <code>conservative</code> artificially signals someone to be close-minded, <code>liberal</code> an open-minded. But you find that the signal isn't any reliable. People who get manipulated by semantic deception would falsely believe a liberal to be more open-minded than a conservative. <a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fnref-7-4c6868" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-8-4c6868">
+<p>The word "fact" artificially signals the truth or veracity of the statement and is commonly used as a <a href="https://www.lesswrong.com/w/semantic-stopsign" target="_blank" rel="noopener noreferrer">semantic stopsign</a>. <a href="https://neldivad.github.io/blog/real-function-of-taxes#user-content-fnref-8-4c6868" data-footnote-backref="" aria-label="Back to reference 8" class="data-footnote-backref">↩</a></p>
 </li>
 </ol>
 </section>]]></content:encoded>
