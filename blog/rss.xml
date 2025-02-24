@@ -561,6 +561,7 @@
 <p>In software, we have things like unit test, integrated test, system test.</p>
 <p>As it complexity goes higher, we need live simulations, like hiring a game tester or setup Selenium to simulate a login process.</p>
 <p>With the same philosophy, a company could hypothetically perform "recruiting test" that is really easy to do.</p>
+<hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="recruiting-test-no-one-does">Recruiting test (no one does)<a href="https://neldivad.github.io/blog/how-to-test-your-recruiting-strategy#recruiting-test-no-one-does" class="hash-link" aria-label="Direct link to Recruiting test (no one does)" title="Direct link to Recruiting test (no one does)">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-create-a-fictional-profile">Step 1: Create a fictional profile<a href="https://neldivad.github.io/blog/how-to-test-your-recruiting-strategy#step-1-create-a-fictional-profile" class="hash-link" aria-label="Direct link to Step 1: Create a fictional profile" title="Direct link to Step 1: Create a fictional profile">​</a></h3>
 <p>with the ideal resume for the position you're trying to recruit.</p>
