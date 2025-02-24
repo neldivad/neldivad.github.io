@@ -19,6 +19,8 @@ As it complexity goes higher, we need live simulations, like hiring a game teste
 
 With the same philosophy, a company could hypothetically perform "recruiting test" that is really easy to do.
 
+---
+
 ## Recruiting test (no one does)
 
 ### Step 1: Create a fictional profile 
