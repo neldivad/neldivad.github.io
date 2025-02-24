@@ -1,0 +1,184 @@
+---
+title: Natural language is software
+authors: [neldivad]
+tags: [essays, software]
+slug: natural-language-is-software
+---
+
+When writing software, the longer we spend our lvies doing it, the more we often encounter tradeoffs in information, like abstraction and locality of behavior (LoB). 
+
+<!--truncate -->
+
+The core principle of abstraction is "Do not repeat yourself (DRY)". Meaning, we should avoid duplicating code and import whenever you need to. 
+
+The tradeoff is that behaviors get inherited too often, to the point where making any local changes become inflexible.
+
+The most common example will be Bootstrap CSS. It tries hard to not repeat itself, so you have class components all stuffed within a `style.css` file. 
+
+The issue happens when you want to change the look of a component. You have to go through the entire file and find the class you want to change. Often you realize there is a lot of collisions of CSS between different class names, EG: `.table-striped`, `.table-striped-primary`, `table-dark-primary`, inheriting from `.table`. 
+
+At some point you forget which one does what, which one inherits which CSS, and you end up with a mess. 
+
+Tailwind CSS solves this by describing all the styles within the same file. EG: `class="bg-blue-500 text-white outline-none transtion-all duration-100 pd-1"`.
+
+The problem with Tailwind CSS is that it is repetivive, so your code is very unreadable. When you work on both Bootstrap and Tailwind, inevitably you find that both suck for different reasons -- there is an inherent tradeoff between abstraction and locality of behavior.
+
+---
+## How this relate to natural language?
+
+If you really paid attention, you notice that a lot of natural language we use take for granted of these principles. 
+
+You see "abstration", "LoB", and "collisions" happening all the time.
+
+I will share the 3 language I'm most familiar with, being English, Japanese, and Chinese and show how each natural language overcome its encoding challenges, and how many of their problems can predict the problems of software projects that do share common traits with those natural languages.
+
+## From functional to object-oriented
+
+In software development, the transition from functional programming (FP) to object-oriented programming (OOP) is an evolution to manage complexity.  
+
+FP emphasizes pure functions, meaning functions do not modify variables but instead generate new ones as an output. Pure functions are "pure" because they always return the same output for the same argument values. In effect, it serves as a very simple motif for any program. 
+
+OOP focuses on encapsulation, inheritance, and polymorphism, so state changes are supported and behavior can be extended. 
+
+The natural language equivalent of FP is the use of alphabets (English), [character strokes](https://en.wikipedia.org/wiki/Chinese_character_strokes) (Chinese), hiragana (Japanese) to convey meaning.
+
+However, users of the natural language will eventually realize that using only basic building blocks result in lots of redundancy. Also, if the sequence of characters repeats too often, it also gets confusing to interpret. 
+
+A programmer that deals with a functional programming framework will also come to feel the same problem after working on the project long enough (redudancy, confusion during long sequences.)
+
+The natural language equivalent of OOP is the use of prefixes, suffixes, and roots to convey meaning.
+
+---
+
+## Linear extensions in object (EN)
+
+In English, words are often built from smaller parts, almost like how LEGO pieces fit together to make something bigger. Take the word "carbon monoxide" as an example. Each part of the word means something specific:
+
+- Carbon: a type of element
+- Mono: meaning "one"
+- Oxide: a type of compound derived from oxygen element
+
+When you put these pieces together, they form a new word that tells you it's a compound made of one carbon atom. Even if you're not a chemistry expert, the word gives you clues about what it means!
+
+This modular approach is cool because it lets us understand and create new words by combining familiar parts. It's like how you can mix different LEGO pieces to build something entirely new.
+
+However, the linearity and locality of English means you will often get very long words when trying to describe something specific or technical. 
+
+`Pneumonoultramicroscopicsilicovolcanoconiosis`, which has 45 letters, refers to a lung disease caused by inhaling silica dust. 
+
+How it came to be this long is because you want to fit and extend multiple classes into an expression `pneumo`, `micro`, `silica`, `osis`, and you required the locality, IE: fixing all the motifs together so those classes don't get accidentally spilled to a different word.
+
+
+## Component attachment in object (CN)
+
+In Chinese, many characters are built from smaller parts called radicals or components, which give clues about their meaning. This is similar to object-oriented programming in software, where objects can include other objects or inherit their properties.
+
+Most of the oldest and common characters are pictographs (象形; xiàngxíng), representational pictures of physical objects. 
+
+For example:
+- 日 (rì) means "sun"
+- 月 (yuè) means "moon"
+- 木 (mù) means "tree"
+
+Just like how you mix LEGO pieces, Chinese combines these common words to become themes of other words, known as 部首 (bùshǒu). 
+
+- 明 (míng) is made by combining 日 (sun) and 月 (moon). Together, they mean something bright.
+- 晨 (chén) means "dawn" and uses 日 (sun) to show light.
+- 果 (guǒ) means "fruit" and uses 木 (tree), showing where fruit comes from.
+
+Unlike English where expression get extended by adding suffixes and elongating the word, Chinese extend expression by fitting multiple "components" (IE: the primary characters) into a box and identifying it as a unique character. You can treat each Chinese character as an individual script file. 
+
+This compression means Chinese has a natural advantage to use very little words to convey lots of meaning. 
+
+#### Example 1:
+> 掌声的嗜好成了瘾症 
+
+> The preference for applause has become an addiction.
+
+#### Example 2:
+> 在深海漩涡里翻腾摧毁一切只剩下无可挽回的罪人
+
+> The waves of the whirlpool in a deep sea are breaking everything, leaving behind only a guilty person with no redemption.
+
+In effect, Chinese has demonstrated the advantage of a more compressed abstraction, most obviously the number of phonemes required to finish a sentence. 
+
+However, anyone who has done enough software will soon guess the next problem with Chinese component approach. 
+
+Chinese has a lot of characters. In effect, each character is a class of its own, therefore your database of words requires a huge collection. 
+
+Unlike English where you only need 26 characters (maybe more if you also want to include Greek symbols or accented symbols), Chinese has between [3000 to 100,000 characters](https://www.hutong-school.com/how-many-chinese-characters-are-there) (depending on the level of complexity of the dictionary) you are using.
+
+Not only that Chinese has more characters to track because each expression "wants" a word to represent it, we either have to create a new word to represent the expression, or we have to borrow a reserved word to represent it (IE: similar but have different meanings). This is the software equivalent of "class collision". 
+
+While one can always squash more components into the script, the obvious disadvantage is that the character becomes harder to write and unnecessarily niche. Check out the abomination of the few examples that still survived today: 
+- 攀 (Pān) (Climbing)
+- 罐 (Guàn) (Can)
+
+One obvious solution is to use compounded words to represent the expression. 
+#### 塑料 (sùliào) (plastic) 
+- 塑: shape
+- 料: material
+
+#### 细菌 (xìjūn) (bacteria) 
+- 细: fine
+- 菌: fungus
+
+#### 方言 (fāngyán) (dialect)
+- 方: square, direction
+- 言: speech
+
+You notice this compounding style is very similar to English method of linearly extending a word with suffix: EG: "hydrophobic" as "water-repelling". 
+
+However, the problem with Chinese that the characters they can extend is restricted by all the options they can use from the 3000-word dictionary in the first place. 3000 characters isn't enough to cover every concept relative to English where you can use any word as  suffixes, prefixes, and roots.
+
+This abstraction makes Chinese very "opinionated" in terms of how concepts can be extended, much like our experience as developers with OOP languages. 
+
+You can observe this disadvantage very obviously during EN and CN attempts to describe a technical or scientific concept (CN is much more ambiguous than EN). 
+
+- Penicillium chrysogenum
+- 产黄青霉菌
+
+
+## Inventing new object to be attached to old object (JP) 
+
+In Japanese, much of the ancient scripts are based on kanji characters, which uses the same writing system as Chinese but with different meaning. 
+
+In the meantime around 8th century, the Japanese had the demand to represent the sounds of the spoken language more accurately. They invented a "manyogana" system, where Chinese characters were used to represent phonetic sounds rather than their original meanings. Its the equivalent of repurposing a class with different functions (bad, bad, bad idea in software). 
+
+Eventually, sounds and phonemes became a mainstream way of encoding language. To avoid the confusion of shared class problem, the Japanese adopted 2 new writing systems: hiragana and katakana to represent sounds.
+
+Hiragana, a syllabary with a limited set of characters, serves a functional purpose by providing phonetic values. But independently it runs into the problem of FP -- expressing a complete sentence is lengthy, confusing, and hard to read. 
+
+To make things more readable, the Japanese combined hiragana with kanji. The result is a writing system using 2 distinct character dictionaries. 
+
+From a software developer's perspective, this is a maintenance nightmare. It's like adding a plugin (hiragana) to your monolith (kanji). Not only do the user needs to understand each character from kanji, now they also need to understand each character from hiragana.
+
+But this combination also solves some big problems, like "class collision" and limited ways to expand experienced by CN. It's like giving LEGO pieces different colors. 
+
+For example, the kanji 生 (せい, しょう) can mean "life" or "raw," and when combined with different hiragana, it forms different words. 
+
+- 生まれる(うまれる) (生-mameru): to be born
+- 生み出す(うみだす) (生-midasu) : to create, to invent
+- 生きる (いきる) (生-kiru) : to live
+
+This is just a tip of the iceberg for Japanese interaction between kanji component and hiragana component. More advanced use of langage include compounded kanji that result in different pronounciation. 
+
+Example kanji 月 (つき / tsuki), which means "moon" independently. When combined compounded with different kanji results in different hiragana pronounces. 
+
+- 月刊 (げっかん / gekkan): means "monthly," like a magazine you get every month.
+- 一月 (いちがつ / ichigatsu): means "January,"
+- 満月 (まんげつ / mangetsu): means "full moon"
+
+The base `tsuki` can have its state changed to `gek-`, `gatsu`, `getsu` depending on context. 
+
+--- 
+
+## A lot of software is history
+
+The evolution from functional to object-oriented structures in language is a challenge every developer have to go through as they raise in seniority. 
+
+Writing code and maintaining software seriously will also expose developers to the tradeoffs of abstraction and locality of behavior. 
+
+Software developers must manage libraries, frameworks, dependency hell, exponential explosion of required context (aka tech debt). 
+
+Alternatively, you can pay attention to how natural language spent thousands of years evolving to solve the same problem. Often, natural language give us a clue on the architecture of software, as well as predicting in advance the problems those designs will eventually face. 
