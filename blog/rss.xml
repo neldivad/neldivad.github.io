@@ -4,10 +4,170 @@
         <title>Nelstudio Blog</title>
         <link>https://neldivad.github.io/blog</link>
         <description>Nelstudio Blog</description>
-        <lastBuildDate>Tue, 04 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[We can't all get rich off compound interest]]></title>
+            <link>https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest</link>
+            <guid>https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest</guid>
+            <pubDate>Mon, 10 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is a story I rarely share with anyone. But a lot of my problems are shared by other people and I wish more could come to understand the problems we have today.]]></description>
+            <content:encoded><![CDATA[<p>This is a story I rarely share with anyone. But a lot of my problems are shared by other people and I wish more could come to understand the problems we have today.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="my-history">My history<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#my-history" class="hash-link" aria-label="Direct link to My history" title="Direct link to My history">​</a></h2>
+<p>Money has always been a problem for me since young. My parents are either dead or sick and I have to work a lot to support myself. It is also how I got the obsession in finance.</p>
+<p>I majored in econometrics, thinking it will land me a job in finance. It didn't happen <sup><a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fn-1-ac6b4a" id="user-content-fnref-1-ac6b4a" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>.</p>
+<p>I ended up working for <a href="https://www.youtube.com/@TickerSymbolYOU" target="_blank" rel="noopener noreferrer">a Youtuber</a>, built a quantitative trading research site that helped me understand markets and manage my own assets, built and sold multiple softwares for different companies.</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary>Preview of work I did in my quantitative research on micro</summary>
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/1-3d6530dd9c91bf86e9b43057244cef90.png" width="1450" height="752" class="img_ev3q">
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/2-f6ebbf943c8e18560616da3a0c4569a6.png" width="1843" height="847" class="img_ev3q"><p></p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary>Preview of work I did in my quantitative research on macro</summary>
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/3-cbba25dff532dbb6ccf1ec19c3d87289.jpg" width="994" height="684" class="img_ev3q">
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/4-fdc4aee9ca2aa50367940f6b69af2318.jpg" width="1520" height="1000" class="img_ev3q"><p></p></div></div></details>
+<p>Nothing is easy, but doing the hard things exposes me to understanding the world better.</p>
+<p>I want to do more, I respect others who can do more, and I want to help those who want to do. That said, it seems like things are getting more unfair for those who do <sup><a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fn-2-ac6b4a" id="user-content-fnref-2-ac6b4a" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup> and I need to start standing up for them.</p>
+<p>I've attempted to explain some of those problems like <a href="https://neldivad.github.io/blog/how-to-steal-from-the-public">bureacracy</a> and <a href="https://neldivad.github.io/blog/we-cant-afford-job-security">debt-financed opportunities</a> in some of my post. I think its unproductive to fight against other people and more productive to understand how the system we are working for sometimes fails to work for us.</p>
+<p>I hope with my history and things I've worked on, I can convince you that I understand enough about money and macroeconomics to tell you what works and what doesn't, not just on an individual level, but also on a social level.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-illusion-of-financial-freedom">The illusion of financial freedom<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#the-illusion-of-financial-freedom" class="hash-link" aria-label="Direct link to The illusion of financial freedom" title="Direct link to The illusion of financial freedom">​</a></h2>
+<p>For decades, financial independence has been touted as the golden ticket to a life free from the drudgery of soul-crushing jobs <sup><a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fn-3-ac6b4a" id="user-content-fnref-3-ac6b4a" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup>.</p>
+<p>Financial independence can only be realized by the mechanism "compound interest" -- a force that makes your money grow exponentially. On paper, it's simple: you save enough money, invest in assets that yield returns, and watch your wealth snowball until you can finally retire.</p>
+<p>It's as braindead as planting a seed that grows into a money tree, providing shade for you while you lounge all day.</p>
+<p>Compound interest works by reinvesting your earnings so that future growth is based on both your initial capital and the accumulated returns. Financial influencers often paint a picture of an exponential curve. Advisors often tell people to start early and young and you will be 10x riicher than those who started 10 years later.</p>
+<blockquote>
+<p>"Compound interest is the 8th wonder of the world. He who understands it, earns it. He who doesn't pays it." - (Presumably) Albert Einstein.</p>
+</blockquote>
+<p>There are many wrongs with this logic.</p>
+<ol>
+<li>This assumes that everyone can keep investing consistently for a lifetime.</li>
+<li>This assumes that everyone will never run into any emergency situation or unexpected event that will force them to stop investing.</li>
+<li>This assumes that your buying power in the future will be the same as your buying power in the past.</li>
+<li>I've written an article with 100k views <a href="https://medium.com/datadriveninvestor/facts-about-financial-independence-no-one-talks-about-3835291539f3" target="_blank" rel="noopener noreferrer">showing how it can't be done for everyone</a> (although now I explore more implication of the compound interest mechanism so its not a direct copy)</li>
+</ol>
+<p>Someone tried explaining the whole thing in 20 minutes that does fit a lot with what I know. The rest of the article will have similar takeaways of the video, more detailed explanation of the compound interest mechanism, as well as my anecdotal experiences with working class and investor class.</p>
+<div style="width:100%;height:360px"></div>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="compound-interest-they-dont-tell-you">Compound interest (they don't tell you)<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#compound-interest-they-dont-tell-you" class="hash-link" aria-label="Direct link to Compound interest (they don't tell you)" title="Direct link to Compound interest (they don't tell you)">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="lifecycle-conundrum">Lifecycle conundrum<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#lifecycle-conundrum" class="hash-link" aria-label="Direct link to Lifecycle conundrum" title="Direct link to Lifecycle conundrum">​</a></h3>
+<p>Most people have only a limited window during which they can work, save, and invest. Students spend years building skills while incurring expenses, and retirees often face high living costs without any income. This means that the full power of compounding is never truly realized on an individual level.</p>
+<p>For an average person <sup><a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fn-4-ac6b4a" id="user-content-fnref-4-ac6b4a" data-footnote-ref="true" aria-describedby="footnote-label">4</a></sup>, you start saving at 30, get compounding work for you from 30-60, and pray that your compounded value can support you post-60 plus your children's pre-30.</p>
+<p>For compound interest to really work like the guru's story, you have to born rich, be a trustfund baby, spend as little expense on assets <sup><a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fn-5-ac6b4a" id="user-content-fnref-5-ac6b4a" data-footnote-ref="true" aria-describedby="footnote-label">5</a></sup>. Then, you start compounding as soon as you get access to a bank account at 18 and compound all the way to retirement.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="how-does-compound-interest-even-get-paid">How does compound interest even get paid?<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#how-does-compound-interest-even-get-paid" class="hash-link" aria-label="Direct link to How does compound interest even get paid?" title="Direct link to How does compound interest even get paid?">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="active-compound-interest">Active compound interest<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#active-compound-interest" class="hash-link" aria-label="Direct link to Active compound interest" title="Direct link to Active compound interest">​</a></h4>
+<p>Compound interest is not a scam.</p>
+<p>In economics, maybe you start with an empty land.</p>
+<p>First, you dig trenches. The "compound interest" is that its easier for you to fill up water and build a farm later. With a farm, the "compound interest" is the increased population in your land. With more population, the "compound interest" is more work getting done.</p>
+<p>In a software example, you write a package. The "compound interest" is that package gets used in multiple microservices. With multiple microservices, the "compound interest" is apps with more functionalities. With more apps, the "compound interest" is more data was created. Data is the "compound interest" machine learning models. ML models is the "compound interest" of faster software development.</p>
+<p>These are "active compound interests" in the sense that it's "paid" to you by letting you working on the next thing the new door has opened.</p>
+<p>But what most of us are interested in is "passive compound interest".</p>
+<p>How are you going to pay for that?</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="passive-compound-interest">Passive compound interest<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#passive-compound-interest" class="hash-link" aria-label="Direct link to Passive compound interest" title="Direct link to Passive compound interest">​</a></h4>
+<p>The same way its going to be paid like an active compound interest. You invest in "shovels" that let people "pick gold". Then, people give back some gold to you so you can buy more shovels to rent to other people.</p>
+<p>There are a few problems:</p>
+<ol>
+<li>You will run out of people who want to pick gold.</li>
+<li>Not everyone can be the guy owning shovels!</li>
+</ol>
+<p>When you invest in a company, its profits (aka your returns) stem from the efforts of countless employees. If everyone were to retire early, who would do the work to keep the pie baking?</p>
+<p>This imbalance reveals a critical flaw: the dream of universal financial freedom and infinite compound interest is built on an unsustainable model.</p>
+<p>When asset returns depend on the continuous labor of a relatively smaller group, widespread early retirement becomes a pipe dream. The returns compound because someone is still working hard, not because the system is magically self-sustaining.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="when-passive-compound-interest-is-too-much">When passive compound interest is too much<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#when-passive-compound-interest-is-too-much" class="hash-link" aria-label="Direct link to When passive compound interest is too much" title="Direct link to When passive compound interest is too much">​</a></h2>
+<p>Hopefully you understood the difference between active compound interest and passive compound interest, and I've shown you that there is a limit to passive compound interest -- the exponential growth of compound interest either does not happen, or the workers using your asset must be exponentially productive.</p>
+<p>In both cases, this did not happen in real life.</p>
+<p>Real economy did not grow as fast as asset price -- IE: workers did not get productive faster than the returns of asset owners.</p>
+<p>What happens when the growth of shovel owners rents increases faster than the rate of gold picked?</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="passive-compound-interest-eventually-captures-ownership-from-the-worker">Passive compound interest eventually captures ownership from the worker<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#passive-compound-interest-eventually-captures-ownership-from-the-worker" class="hash-link" aria-label="Direct link to Passive compound interest eventually captures ownership from the worker" title="Direct link to Passive compound interest eventually captures ownership from the worker">​</a></h3>
+<p>Many people really got rich doing nothing but owning. It's not necessarily a bad thing as they do assume risks of owning <sup><a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fn-6-ac6b4a" id="user-content-fnref-6-ac6b4a" data-footnote-ref="true" aria-describedby="footnote-label">6</a></sup> (which we may argue if its actually active compounding and not passive compounding).</p>
+<p>However, the problem is now the ROI for asset owners outpaces the ROI of the worker (real GDP growth).</p>
+<p>This has at least 3 consequences:</p>
+<ol>
+<li>Workers have less purchasing power to be a consumer in alternative investments / economies.</li>
+<li>More workers quit picking gold and move on to owning shovels.</li>
+<li>Workers that can't own shovels will work harder to get ahead, essentially getting squeezed out of the market in the long term.</li>
+</ol>
+<p>From the video shared above, what the author realized is that his ventures that depended on the consumers buying power (restaurants) didn't turn out as well as simply owning assets like gold, stocks, or property.</p>
+<blockquote>
+<p>If you allow the rich to grow and grow, once you hit your natural limits, the rich will continue to grow by basically cannibalising the existing middle class.
+And that's not because they're evil. It's simply because their wealth is so large and grows so quickly and there are so few actual real investment opportunities that basically they have no other option.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="anecdotes">Anecdotes<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#anecdotes" class="hash-link" aria-label="Direct link to Anecdotes" title="Direct link to Anecdotes">​</a></h2>
+<p>In hindsight, many active choices had been worse than passive choices.</p>
+<p>Disclaimer: The past is not a prediction of the future. What worked before will not continue working in the future. Do not use these anecdotes to decide your future. It is here to show you problems of the economy for the last few decades that led to the profitability / unprofitability of some decisions.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dropshipping-and-adsense">Dropshipping and Adsense<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#dropshipping-and-adsense" class="hash-link" aria-label="Direct link to Dropshipping and Adsense" title="Direct link to Dropshipping and Adsense">​</a></h3>
+<p>In 2001-2010, I remembered the gold rush in the internet economy of dropshipping and creating and blog and financing it with Adsense.</p>
+<p>As a teen with money problems and desperation, these are the labor I subscribed heavily into. I spent money on courses, domains, built my own projects, tried selling, made a lot of mistakes.</p>
+<p>It's not unprofitable, so naturally it starts inviting a lot of competitors that dilutes the returns.</p>
+<p>With hindsight, engaging in the gold rush might not be the best move. I should have just bought the stocks of AMZN and GOOG and the risk-adjusted ROI is much higher than competing heavily in dropshipping and Adsense.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="games-and-coin-mining">Games and coin mining<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#games-and-coin-mining" class="hash-link" aria-label="Direct link to Games and coin mining" title="Direct link to Games and coin mining">​</a></h3>
+<p>Game development is challenging. Its more hardware demanding than other industries, so you have many developers trying to optimize code to fit in the hardware requirements.</p>
+<p>Bitcoin mining also had the same problem, and it turns out there exist a company that specialized in solving these niche computing requirements -- Nvidia.</p>
+<p>Again, in hindsight the average game developer and bitcoin miner should quit early and buy Nvidia stock.</p>
+<p>This is a guy who tried starting his own company that ended up failing and got into a situation where many would not expect someone of his position to be.</p>
+<div style="width:100%;height:360px"></div>
+<p>From Robert:</p>
+<blockquote>
+<p>It's easy to give advice about what to do if you could go back into the world of 10 years ago, but your life is not going to start 10 years in the past and the conditions of the world today are completely different. If I was able to rewind the clock and go back to working at Amazon or Nvidia directly after graduation I could have been a millionaire by now $20,000 worth of Nidia stock options from 2014 would be worth about $5 million today.</p>
+</blockquote>
+<blockquote>
+<p>But then again most of the money would have come from the appreciation of the company stock not from the salary of actually working there. So the best strategy would have been to just get a student loan and spend all of it on Nvidia stock and then go sit on the beach for the 5 years that I spent in school and the 10 years that I spent trying to start a business.</p>
+</blockquote>
+<p>Incidentally, I happen to know a speculative guy in college who did just that and is doing way better than every person I know from my cohort.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="college-and-work">College and work<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#college-and-work" class="hash-link" aria-label="Direct link to College and work" title="Direct link to College and work">​</a></h3>
+<p>Speaking of college, I find myself agreeing to Robert. In my experience, my time and money in university has not justified its ROI -- I would been 10x wealthier today had I just invested all of my tuition fees into SP500 and used those 4 years working for minimum wage.</p>
+<p>Likewise, trying hard to get my first job in my country also did not justify the ROI. The income I make (RM3000 as fresh graduate) <sup><a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fn-7-ac6b4a" id="user-content-fnref-7-ac6b4a" data-footnote-ref="true" aria-describedby="footnote-label">7</a></sup> barely covers the cost of living, travel, and food I need to work.</p>
+<p>Even my own experience shows that an average startup / business often yields lower returns than simply investing in the stocks of established companies like those of their vendors like Cloudflare, Adobe, Amazon, Avid.</p>
+<p>Again, past returns are not future expected returns. Do not use this information to make decisions for yourself.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-social-trade-off-of-financial-freedom">The social trade-off of financial freedom<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#the-social-trade-off-of-financial-freedom" class="hash-link" aria-label="Direct link to The social trade-off of financial freedom" title="Direct link to The social trade-off of financial freedom">​</a></h2>
+<p>At its core, the promise of compound interest -- and by extension, early retirement -- is a double-edged sword. The system only works if the working class continues to toil, fueling the growth and profits that asset owners enjoy.</p>
+<p>If everyone were to chase financial independence by retiring early, there is no labor to sustain the economic engine. If you want workers, but you also want compound interest, it means you have to squeeze the working class out of ownership and opportunity.</p>
+<p>When working class is squeezed, you will see consumption markets to underperform the general market -- restaurants, videogames, music, movies, content, etc. are unprofitable because no one has any money to spend -- it is going to come and bite back the owner's interest.</p>
+<p>Printing money and paying people money to work in a bureaucracy is also not sustainable <sup><a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fn-8-ac6b4a" id="user-content-fnref-8-ac6b4a" data-footnote-ref="true" aria-describedby="footnote-label">8</a></sup> -- all you're doing is increasing the cost of living, delaying the pain, while also decaying your population to do stupid stuff over more productive things (like starting families) during their most productive years until the become old, useless, and poor.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="real-compound-interest-is-active-compound-interest">Real compound interest is active compound interest<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#real-compound-interest-is-active-compound-interest" class="hash-link" aria-label="Direct link to Real compound interest is active compound interest" title="Direct link to Real compound interest is active compound interest">​</a></h2>
+<p>True financial independence isn't about chasing an ever-expanding line on a graph. It's about living within your means and acknowledging the limits of our economic system.</p>
+<p>While early retirement is possible for some, it often comes at the cost of increased social inequality. The pursuit of "passive income" is a seductive myth -- each "passive dollar" comes from someone else's hard work.</p>
+<p>The real compound interest is the doors you or other people's asset has opened to you.</p>
+<p>With AI, a working class get to make use of so many people's data, algorithms and create things millionaires from 10 years ago couldn't.</p>
+<p>That said, the owner class needs more critical examination. At some point, passive compound interest becomes unfair and social cohesion will decay. It is also in the owner's interest <sup><a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fn-9-ac6b4a" id="user-content-fnref-9-ac6b4a" data-footnote-ref="true" aria-describedby="footnote-label">9</a></sup> to ensure that the working class is not squeezed out of the economy so that they can continue to work and create value.</p>
+<p>If its really hard to agree on how much compound interest owners should get, maybe the simpler way to grow is to just get rid of bureaucrats. Seriously, why do you need people stopping other people from working?</p>
+<hr>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
+<ol>
+<li id="user-content-fn-1-ac6b4a">
+<p>COVID happened, suddenly there is a hiring freeze and I lost all contacts that could land me a role in banking. I had to rebuild my life from scratch and that got me to code and write music. <a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fnref-1-ac6b4a" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2-ac6b4a">
+<p>Nothing is fair and people often advised that I should be taking advantage of those signals instead of exposing them to really make change. I don't care about ROI. I just think its important for people who want to understand to hear what I have to share. <a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fnref-2-ac6b4a" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3-ac6b4a">
+<p>That I seriously don't believe it needs to be done. Many "soul-crushing" jobs have no reason to be there, other than it being a product of "debt-financed opportunities". Basically the CB prints money to employ people doing BS jobs, basically a form of "UBI" with extra steps. All the money you gain, you lose it to rising cost of living (because people who actually made products to lower CoL had been stolen to work for the bureacracy), to taxes, to inflation, to having less time to do other things. <a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fnref-3-ac6b4a" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4-ac6b4a">
+<p>It's not even average. That's also assuming you don't do stupid stuff like getting into drugs, credit card debts. Or suffer from shocks like layoffs, health emergency, family death, divorces, unlucky childbirth, etc. <a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fnref-4-ac6b4a" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5-ac6b4a">
+<p>Like living in your parent's house, borrowing someone's car, borrow everything you can from other people. There is no shame. You are just getting the most out of compound interest. <a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fnref-5-ac6b4a" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-6-ac6b4a">
+<p>Most homeowners make less than you think. They make money by renting more than their installment payments. But houses needs repairs and its not uncommon for a single repair to set back the owner by few years worth of rental income. This also discounts the risk of vacancy, unlawful tenant, fires, theft, vandalism. Sure, they build equity while doing so. If the cost of owning is less than what they would have spent on rent, or if it is less than the price appreciation, they are "winning" the market. What happens when house prices decreases (like most of non-owners wish to happen)? <a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fnref-6-ac6b4a" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-7-ac6b4a">
+<p>Malaysian wage offers are pathetic. After adjusting for tuition fees and national wages, Malaysia ends up as <a href="https://www.weforum.org/stories/2015/10/the-11-most-expensive-countries-for-a-university-degree/" target="_blank" rel="noopener noreferrer">top 5 most expensive country for university education</a>. So much talent (including me) refusing to work locally for this reason. I think the lowball offers are consequence of the bureaucracy and commercial culture -- hard to apply for a job, hard to hire someone with all the paperworks, hard to raise money because every investor just buys real estate (Malaysia tax and laws doesn't benefit equity as much as real estate). I don't want to deal with any of this and I just work with anyone who DMs me on Discord. <a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fnref-7-ac6b4a" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-8-ac6b4a">
+<p>I'll argue that the lack of sound money, a centralized currency that can be manipulated and artificially push people into pointless labor is the source of all problems. <a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fnref-8-ac6b4a" data-footnote-backref="" aria-label="Back to reference 8" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-9-ac6b4a">
+<p>Anyone who owns SP500, has retirement savings, has a house is an owner. It's not just the top 1% that is the owner. <a href="https://neldivad.github.io/blog/we-cant-all-get-rich-off-compound-interest#user-content-fnref-9-ac6b4a" data-footnote-backref="" aria-label="Back to reference 9" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>]]></content:encoded>
+            <category>essays</category>
+        </item>
         <item>
             <title><![CDATA[When not to negotiate]]></title>
             <link>https://neldivad.github.io/blog/2025/03/04/when-not-to-negotiate</link>
