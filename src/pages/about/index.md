@@ -62,7 +62,7 @@ I don't ask anyone to understand the world like I do and there is no profit moti
 ## What's your endgame? 
 > To get so rich I can finally retire and play gacha games all day!
 
-If you read enough of my blog, you will see that [I don't want to get rich in the ways most people understand.](../../../blog/2025/03-10-we-cant-get-rich-off-compound-interest/index.mdx) 
+If you read enough of my blog, you will see that [I don't want to get rich in the ways most people understand.](blog/we-cant-all-get-rich-off-compound-interest) 
 
 No, that's going to get old. 
 
