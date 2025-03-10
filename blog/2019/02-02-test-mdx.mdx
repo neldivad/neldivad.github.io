@@ -8,11 +8,23 @@ slug: /test-mdx
 import React from 'react';
 import ReactPlayer from 'react-player';
 
+
+
 // Render a YouTube video player
 <ReactPlayer
-  url='https://www.youtube.com/watch?v=0uziyvyXR4k&list=PL5E7ppDHF3h9oaRJigA1MicrWTll20Oj5'
+  url='https://www.youtube-nocookie.com/watch?v=0uziyvyXR4k'
+  config={{
+    youtube: {
+      playerVars: {
+        modestbranding: 1,
+        enablejsapi: 1,
+        origin: window.location.origin
+      }
+    }
+  }}
   controls
-  width='100%'
+  width="100%"
 />
+
 
 <!-- truncate -->
