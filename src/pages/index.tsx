@@ -41,7 +41,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={siteConfig.title}
-      description="Just Neldivad">
+      description="Documentation for music production, software, vocal synthesis">
       <HomepageHeader />
       <main>
       </main>
