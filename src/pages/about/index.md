@@ -51,6 +51,14 @@ IMO, AI is great at creating "commodity" information. If you see music or lyrics
 
 Besides, the act of discovering signals, expression through art is the fun part, so why am I giving all the fun away to AI? 
 
+### I see AI-art in your channel!
+Usually I'll stick to a meme prompt that no one else would have created using LoRA [^3]. If you want to help me afford/make one, I will appreciate your help. [^4] 
+
+[^3]: Its a sensitive topic, and as an artist myself I can feel the financial pressures trying to engage in this industry. I try to keep AI-art from competing with normal artist's business, so usually its reserved to memes, prototype, unmemorable graphic assets. Maybe it helps, maybe it doesn't. We will have disagreements depending on which side is inconvenienced. In practice, I pay as much as I can to others before I pay myself. I don't pirate plugins, software, and you will find me donating to all sorts of KoFi pages that helped me build my work. 
+
+[^4]: Or do you want to [collaborate](/collab/) with me? Usually I have a hard time getting the art I want because many artists reject offers if I don't bring them enough visibility. 
+
+
 ## Your blog is controversial
 
 Maybe? I'm not trying to go for traffic or virality with the blog. There are complicated problems and stories in the world that lyrics, music, software cannot capture. 
