@@ -22,7 +22,7 @@ Automation is another rabbit hole to get down to. But every composer at the very
 ## Minimal Example
 Go to [GoldenPond](https://gilbertlisterresearch.com/GoldenPond.html) and download the piano roll script file. 
 
-If you don't know how to use piano roll scripts, check out the [piano roll scripting guide](advanced/fl-pyscripts/fl-pyscripts.mdx). Alternatively, you can just look at the generated output and get an idea on what you need to have. 
+If you don't know how to use piano roll scripts, check out the [piano roll scripting guide](../2-advanced/fl-pyscripts/fl-pyscripts.mdx). Alternatively, you can just look at the generated output and get an idea on what you need to have. 
 
 From the script dialog, enter the following:
 `74,-94,73,9(5/2),72,-75,91, 91`
@@ -32,12 +32,12 @@ The minimal version is actually `4,4,3,5,2,5,1,1`, which corresponds to the foll
 
 <details>
 <summary>Show GoldenPond script dialog</summary>
-![](basic/prod-basic1.JPG)
+![](prod-basic1.JPG)
 </details>
 
 <details>
 <summary>Show generated output</summary>
-![](basic/prod-basic2.JPG)
+![](prod-basic2.JPG)
 </details>
 
 ### Interpreting the output
