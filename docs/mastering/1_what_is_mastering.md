@@ -17,9 +17,7 @@ Mastering uses EQ to enhance the overall tonal balance of your music, ensuring t
 Mastering compression evens out the dynamic range, controlling the loudest and quietest parts to maintain a consistent level. This helps in making your music sound good on low-fidelity systems like phones and car stereos.
 
 ### Stereo Imaging
-Mastering enhances the stereo image to make your mix sound immersive, ensuring that different elements like vocals, instruments, and effects are well-placed in the stereo field. This gives your music a professional and spacious feel. 
-
-Basically, it lets your sound be heard from different sides, front back. 
+Mastering stereo balance can subtly enhance the width, but it does not significantly change front-back depth like 3D spatial mixing techniques do. If you want to do spatial adjustments, the mix is the right place to do it. 
 
 ### Loudness and Limiting:
 Mastering maximizes the loudness of your music without causing distortion. Limiters are used to prevent peaks and ensure that your audio doesn't exceed 0 dB, which is essential for digital distribution.
@@ -42,7 +40,7 @@ Mastering allows you to maximize the loudness of your music, making it competiti
 
 While this is widely practiced by the industry and is still an obsession or zeitgeist going around in producer community, these days it is not that important. Streaming services now do loudness normalization, so you don't have to try making it sound louder than your competitors. 
 
-In fact, do not be obsessed over loudness because that is what plugin companies want you to think. 
+In fact, [do not be obsessed over loudness](https://www.reddit.com/r/mixingmastering/wiki/-14-lufs-is-quiet/) because that is what plugin companies want you to think. 
 
 
 ---
@@ -64,7 +62,9 @@ The reason why you don't let your mix get so loud (and hence skipping the master
 
 It is important to understand the primary objective of mastering is to make the track sound "more like other tracks" created by the industry, on a spectral context.
 
-Don't overthink it.
+With loudness normalization by streaming platforms, you don’t have to compete for volume. Mastering is now a competition with yourself to achieve better dynamics and spectral balance. 
+
+[Don't overthink it.](https://www.reddit.com/r/mixingmastering/wiki/-14-lufs-is-quiet/)
 
 [^1]: When producers say "leaving some headroom" this is what they meant. Anything above 0db means no more headroom. Anything below 0db means more headroom.
 
@@ -91,7 +91,7 @@ Yes, you can. In fact, there is an open-sourced tool known as [Matchering](https
 
 From the results, it seems that it is as good as a professional from the 80th percentile **under perfect conditions** [^2].
 
-[^2]: In practice, you will not get perfect conditions unless you blantantly ripoff every part of the reference track, like arrangement, composition, spectral balance (EG: your track has 8b verse, 2b break, 8b chorus, and reference track also followed the `[8,2,8]` arrangement). 
+[^2]: In practice, you will not get perfect conditions unless you blantantly ripoff every part of the reference track, like arrangement, composition, spectral balance (EG: your track has 8b verse, 2b break, 8b chorus, and reference track also followed the `[8,2,8]` arrangement). AI mastering tools like Matchering can produce decent results, but they lack the decision-making of an experienced engineer. Use it as a starting point, but learn enough to get out of it asap.
 
 That said, **I do not recommend using AI or Matchering for mastering** if you have no idea what you are doing. 
 
@@ -109,10 +109,12 @@ There is no "good master" except when it sounds good to your ears. But when you 
 One good way is to do it visually. 
 
 - Load the wave sample for the mix and the reference track into your DAW and check for obvious differences in spectral energy and peaks. 
-- If you master's wave ends up looking very close to the reference track, usually it is good enough. 
+- If you master's wave ends up looking very close to the reference track, usually it is good enough. [^3] 
 - There are cases when master wave and reference wave looks similar, but loudness is different. Usually this is a result of a "spectral masking" and "imbalanced EQ, or "upset tonal balance". You may not need to make a decision about it [^3].  
 
-[^3]: Spectral masking and lack of tonal balance are problems that stem **during mixing stage**, so if its really a problem you should fix them before mastering. They can also not be a problem, depending on how you choose to look at it (IE: if that is the sound you are going for).
+[^3]: A visual comparison can help, but **always trust your ears first**. If your master sounds balanced and competitive with a reference track, it's usually good enough.
+
+[^4]: Spectral masking and lack of tonal balance are problems that stem **during mixing stage**, so if its really a problem you should fix them before mastering. They can also not be a problem, depending on how you choose to look at it (IE: if that is the sound you are going for).
 
 
 
