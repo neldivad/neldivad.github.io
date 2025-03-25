@@ -1,0 +1,37 @@
+---
+title: Fruity Compressor
+tags: [fruity]
+---
+
+import React from 'react';
+import ReactPlayer from 'react-player';
+
+Best video I find on [Youtube](https://www.youtube.com/watch?v=7oOmX3JHwtE). 
+
+<ReactPlayer
+  url='https://www.youtube-nocookie.com/watch?v=7oOmX3JHwtE'
+  controls
+  width='100%'
+/>
+
+If you want my TLDR on how to use it, typically there is only 4 knobs that matters in THAT ORDER: 
+1. Threshold
+2. Ratio
+3. Gain
+4. Type 
+
+---
+
+## Usage:
+### Raising the volume of a signal 
+Just turn the `Gain` knob up down. 
+
+### Balancing the volume of a signal 
+Turn the `Threshold` knob down until everything is quiet. 
+
+Optional:
+1. Turn the `Ratio` knob up to after `Threshold` to increase the volume of the quiet parts. 
+2. Change the `Type` between `Soft`, `Medium`, `Hard`, to make the compression more gentle. A hard compression will kill off peaking signals very quickly, which may make transients (aka the "punch" of the drums") weaker (aka not as sharp to the ears). A soft compression will make transients keep their "punchiness" but may result in signals that exceed limit, which could distort analog devices. 
+3. `Attack` and `Release` are the time it takes for the compression to kick in and out of the signal. Usually you only touch this after the 4 knobs. 
+
+Finally, turn the `Gain` knob up until everything is as loud as before. This is how you raise quiet parts without also increasing the volume of loud parts.

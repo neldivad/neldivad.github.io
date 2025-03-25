@@ -29,7 +29,8 @@ This is a common way of producing tracks by EDM producers and you will be find d
 Advantages:
 - You can replace drum samples anytime you want. 
 - You can change the tempo and time signature of the drum track without affecting the rest of the song. [^2]
-- You can apply processing to each individual drum wave sample. 
+- You can apply processing to each individual drum wave sample.
+- PITCH CHANGES allows you to do very creative things. 
 
 [^2]: Wave samples can get stretched when tempo is changed, which may affect the sound quality of your drums. Not an issue with transient heavy percussion like kick and snares, but very noticeable with crashes. 
 
@@ -44,7 +45,7 @@ The most traditional way of recording drums is to record them live. This method 
 
 - Drumsets are expensive. 
 - Drums are loud and sound treating a room is expensive. 
-- You need to set up a lot of microphones. for each percussion. 
+- You need to set up a lot of microphones -- for each percussion. 
 - Changing samples means changing your drum physically. 
 - No quantized performance. If you make a mistake, you will have to redo the whole thing. (Some people would prefer the "humanized" sound of a slight mistake / offbeat recording). you can always fix this by slicing the wave later so not the biggest problem. 
 
@@ -58,6 +59,7 @@ Cheap, few mistakes. Problem is programming a good drum is also very challenging
 Disadvantages:
 - Percussion mapping is confusing and often different for different drum kits (Which sound does D4 hit?). This means that a direct export of MIDI may not reflect the same drum sounds. 
 - Often you still have to do drum processing for each button you hit. (Unlike loops and waves that may already been processed). 
+- NO PITCH CHANGES.
 
 ---
 

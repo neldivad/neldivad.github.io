@@ -46,11 +46,11 @@ If I'm not on a Discord VC, I may be able to respond.
 ## FAQ
 ### Are you expensive?
 
-I don't optimize for earnings. It depends on the project. I've worked on projects that are net negative to my cashflow because I liked the team, mission. I've rejected offers that promised me sky because I disliked the team, mission, restrictions. 
+I don't optimize for earnings. It depends on the project. I've worked on projects that are net negative to my cashflow because I liked the team, mission. I've rejected offers that promised me sky because I disliked the team, mission, restrictions (scams). 
 
 That said, I've worked with enough people to know that life is too short to work with unserious people. **The best signal starts with a good offer**. [^1] 
 
-[^1]: In my experience, those who offers the least are the same people who make me work the hardest. Not in terms of workload, labor hours, or complexity in responsibilities. Rather, [its the poor decisions that eventually cascades to stress and burnout from me.](/blog/ineffective-leaders). My [blog](/blog) will occasionally have posts about my business experiences, of course with respects to privacy and NDA of my partners.
+[^1]: In my experience, [those who offers the least are the same people who make me work the hardest](https://x.com/YassirUX/status/1901926052089287009). Not in terms of workload, labor hours, or complexity in responsibilities. Rather, [its the poor decisions that eventually cascades to stress and burnout from me.](/blog/ineffective-leaders). My [blog](/blog) will occasionally have posts about my business experiences, of course with respects to privacy and NDA of my partners.
 
 *If you are from MY/SG and worry that my rates don't match your currency, I do have the preference to help local. If I can see you in person, I'm happy to talk more.*
 
