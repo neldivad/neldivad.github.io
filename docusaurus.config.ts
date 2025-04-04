@@ -12,7 +12,7 @@ const deploymentBranch = 'gh-pages';
 const tagline = "Hi, I'm David Len. I'm a software developer, music producer, and I do stuff.";
 
 const gh_url = `https://github.com/${organizationName}`;
-const yt_url = `https://www.youtube.com/@justneldivad/videos`;
+const yt_url = `https://www.youtube.com/@justneldivad?sub_confirmation=1`;
 const xtwitter_url = `https://twitter.com/divadlenMusic`;
 
 
