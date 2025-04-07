@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknelverse=self.webpackChunknelverse||[]).push([[1403],{6999:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"partners"}')}}]);
