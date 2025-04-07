@@ -1,14 +1,15 @@
 neldivad:
   name: David Len
-  title: Software Developer
+  title: Producer, software developer
   url: https://github.com/neldivad
   image_url: https://github.com/neldivad.png
   page: true
   socials:
     x: divadlenMusic
     youtube: justneldivad
-    linkedin: divadlen
+    instagram: divadlen
     github: neldivad
+    spotify: https://open.spotify.com/artist/7LhsgxH9e9ZvF9yxyEz0wR
 
 # yangshun:
 #   name: Yangshun Tay
