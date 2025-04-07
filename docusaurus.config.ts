@@ -14,6 +14,7 @@ const tagline = "Hi, I'm David Len. I'm a software developer, music producer, an
 const gh_url = `https://github.com/${organizationName}`;
 const yt_url = `https://www.youtube.com/@justneldivad?sub_confirmation=1`;
 const xtwitter_url = `https://twitter.com/divadlenMusic`;
+const kofi_url = `https://ko-fi.com/justneldivad`;
 
 
 const config: Config = {
@@ -149,6 +150,10 @@ const config: Config = {
             {
               label: 'Collab',
               to: 'collab',
+            },
+            {
+              label: 'Shop',
+              href: kofi_url,
             },
             {
               label: 'About Me',
