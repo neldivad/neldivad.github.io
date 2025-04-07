@@ -47,9 +47,11 @@ const config: Config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'docs',
+          routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
           breadcrumbs: true,
           showLastUpdateTime: true,
@@ -120,6 +122,15 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Documentation',
+        },
+
+        // partners
+        {
+          type: 'doc',
+          docsPluginId: 'partners',
+          docId: 'overview',
+          position: 'left',
+          label: 'Partners',
         },
         
         //
@@ -199,7 +210,24 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 
   // plugins 
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [
+    // search bar
+    require.resolve('docusaurus-lunr-search'),
+
+    // partners docs plugin
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'partners',  // Unique identifier for this documentation section
+        path: 'partners',  // The path to the partners documentation directory
+        routeBasePath: 'partners',  // The URL base for the partners docs (e.g., /partners)
+        sidebarPath: require.resolve('./sidebars.js'),  // Path to the sidebar configuration for the partners docs
+      },
+    ],
+
+  ]
+
+    // partners docs
 };
 
 
