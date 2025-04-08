@@ -1,7 +1,7 @@
 ---
-id: overview
+id: intro
 sidebar_position: 1
-title: Partners Overview
+title: Partners Intro
 ---
 
 :::info Are we working together?

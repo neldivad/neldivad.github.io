@@ -129,7 +129,7 @@ const config: Config = {
         {
           type: 'doc',
           docsPluginId: 'partners',
-          docId: 'overview',
+          docId: 'intro',
           position: 'left',
           label: 'Partners',
         },
@@ -148,6 +148,10 @@ const config: Config = {
               href: gh_url,
             },
             {
+              label: 'About Me',
+              to: 'about',
+            },
+            {
               label: 'Collab',
               to: 'collab',
             },
@@ -155,10 +159,6 @@ const config: Config = {
               label: 'Shop',
               href: kofi_url,
             },
-            {
-              label: 'About Me',
-              to: 'about',
-            }
           ],
         },
       ],
