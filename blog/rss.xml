@@ -4,10 +4,27 @@
         <title>Nelstudio Blog</title>
         <link>https://neldivad.github.io/blog</link>
         <description>Nelstudio Blog</description>
-        <lastBuildDate>Mon, 17 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[I was wrong about OnlyFans]]></title>
+            <link>https://neldivad.github.io/blog/i-was-wrong-about-onlyfans</link>
+            <guid>https://neldivad.github.io/blog/i-was-wrong-about-onlyfans</guid>
+            <pubDate>Wed, 09 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[At the end of 2023, I was autistic enough to count the stats of a popular career choice of a demographic. It was just a fun hobby I did with my friends.]]></description>
+            <content:encoded><![CDATA[<p>At the end of 2023, I was autistic enough to count the stats of a popular career choice of a demographic. It was just a fun hobby I did with my friends.</p>
+<p><img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/of-stats-c4338c30305198ec4c652f4cb1da6e87.png" width="1390" height="658" class="img_ev3q"></p>
+<p><strong>TLDR</strong>: The estimation is 4%, and I hypothesize that with that number of competitors its not a viable or profitable career choice given my estimations of the market and more people should look to exit that market.</p>
+<p>Fast forward to 2025, someone did the actual math.</p>
+<p><a href="https://x.com/HarmlessYardDog/status/1909613773666549902" target="_blank" rel="noopener noreferrer">https://x.com/HarmlessYardDog/status/1909613773666549902</a></p>
+<p>The final number comes to 8% -- 2X my estimation. I don't know if I should be proud of how generous I am, or be ashamed of how wrong I am.</p>
+<p>Its not my place to tell anyone what is the right thing to do. I'm just impressed by the math and information.</p>
+<p>Have fun with it.</p>
+<hr>]]></content:encoded>
+            <category>research</category>
+        </item>
         <item>
             <title><![CDATA[AI prompt I use for trauma dump]]></title>
             <link>https://neldivad.github.io/blog/2025/03/17/prompt-i-use-for-trauma-dump</link>
