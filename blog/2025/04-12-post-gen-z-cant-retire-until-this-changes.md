@@ -22,7 +22,7 @@ And its not like we haven't tried it. [We did and it didn't work](https://fred.s
 
 [^2]: A government never collects more than 20% of its GDP, regardless of business conditions. Interestingly, a government didn't start collecting any taxes until 1914 -- the start of federal reserve. 
 
-[^3]: I suspect the taxation argument is because it is too easy as a concept to understand by laymen -- take those who have and give those who don't -- that also coincidentally seems to work out conveniently for bureaucrats to advance power and control. 
+[^3]: I suspect the taxation argument is so popular and widely discussed at every point of history is because it is too easy as a concept to understand by laymen -- take those who have and give those who don't -- that also coincidentally seems to work out conveniently for bureaucrats who wants more power and control. If we actually read history, wealth inequality is the start of most conflicts, but to the act of taking more from those who have rarely created good outcomes. 
 
 --- 
 
@@ -80,7 +80,30 @@ If you are in debt, make less than it takes for you to afford an asset, don't le
 
 You will submit to whatever BS request they tell you. [^4] 
 
-[^4]: Incidentally, this is a reason why the prediction of lower working hours is so wrong and didn't happen -- It is all wasted and spent on BS that lets someone feel more in control. 
+[^4]: Incidentally, this is a reason why the prediction of lower working hours by automation is so wrong and didn't happen -- It is all wasted and spent on BS for "rituals" so that a "priest" feel more in control. This is my poetic way of letting you decide what is the modern equivalent of "rituals" and "priests".
+
+### "The kids are fine" 
+Compared to previous generations, they have cheap technology, they don't have to worry about food, everything is so accessible. GDP is growing every year. Everyone works at a better job than before. They get to see more naked people than all of our ancestors combined. 
+
+But its all a sedation, as freedom and critical thought are gradually robbed to continue feeding this sedation. The price is not cheap -- most developed countries have maxed out their debts, stagnant growth, and crashing birth rates. 
+
+The argument that the younger generation has a lot of wealth relative to the past misses one important point -- that no wealth is getting destroyed. 
+
+But wealth does get destroyed. From people aging, from the transaction cost and destruction of value when bureaucracy, state, corporation try to abuse their power to control employees and bully entrepreneurs. 
+
+When you put someone into college for 4 years, make them learn about things that has no demand by the office, make them spend 6 months applying to hundreds of jobs, make them sit on a desk writing emails and PPTX, and have them quit in 1-2 years (that's the AVG turnover), that transaction cost somehow doesn't destroy any wealth?
+
+More examples of irrationality: 
+
+- Corporations rather pay 4x the budget of raising salaries of workers to recruitment, job ads, hiring, and onboarding. 
+- Corporations rather pay consultants 4x the price tag than to hire/promote someone to build in house. 
+- The average sugarbaby make 4x the median wage. I'll leave you the imagination of who pays for it. 
+- Why is it always 4x? [^5] 
+
+[^5]: IDK why the ratio is around 4x, but it seems like a common pattern when I try to find the shadow price through surveying, going through company financials and accounting.  
+
+I don't fear the problems the kids have now. I fear the problems the kids will have when they turn 60. These old and powerless people won't magically go away. 
+
 
 ---
 
@@ -89,9 +112,9 @@ Reject fake money, reject fake jobs, and reject fake education.
 
 Poverty is a mindset, until you're old -- then you're screwed. Wealth is how much things you can get done in a phone call. 
 
-By taking fake money [^5], you feel rich for awhile, as everything gets more expensive as fast as you can afford it. 
+By taking fake money [^6], you feel rich for awhile, as everything gets more expensive as fast as you can afford it. 
 
-[^5]: Many succumb to the temptation and premature celebration of making fake money. When you stocks grow 20%, when you home grows 10%. When your consulting job pays $100k. You don't ask how those growth and salary was paid for. You are just grateful that the ship choose to have you on board, until one day you don't belong to the ship. 
+[^6]: Many succumb to the temptation and premature celebration of making fake money. When you stocks grow 20%, when you home grows 10%. When your consulting job pays $100k. You don't ask how those growth and salary was paid for. You are just grateful that the ship choose to have you on board, until one day you don't belong to the ship. 
 
 By taking fake jobs, you feel like you'are making a difference, but you are not. Your body gets tired, your mind gets numb, and eventually you become useless and dependent on the state. 
 
@@ -100,15 +123,15 @@ By taking fake education, you feel like you know something, but you don't. You a
 ### What needs to change? 
 Money printing needs to go away. 
 
-Office jobs needs to go away. 
+Fake email jobs needs to go away. 
 
-Dual-income needs to go away. [^6]
+Dual-income needs to go away. [^7]
 
-[^6]: Dual income is a natural consequence to higher cost of living. Maybe it will naturally go away when entrepreneurship becomes more rewarding, and money stops being devalued all the time. 
+[^7]: Dual income is a natural consequence to higher cost of living. Maybe it will naturally go away when entrepreneurship becomes more rewarding, and money stops being devalued all the time. 
 
-The celebrity status and culture of elite education and elite jobs (in professional services) needs to go away. [^7]
+The celebrity status and culture of elite education, elite jobs (AKA professional services) needs to go away. [^8]
 
-[^7]: By taking away the social status from a parasiting way of life, we can encourage more productive way of living. Parasite is a strong word, but its functionally true -- the more people employed in professional service industry, the harder it is for anyone else to create wealth. 
+[^8]: By taking away the social status from a parasiting way of life, we can encourage more productive way of living. Parasite is a strong word, but its functionally true -- the more people employed in professional service industry, the harder it is for others to create wealth. 
 
 
 ### What can I change?
