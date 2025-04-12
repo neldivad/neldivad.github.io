@@ -1,19 +1,60 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
 docusaurus:
   label: Docusaurus
   permalink: /docusaurus
   description: Docusaurus tag description
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+essays:
+  label: Essays
+  permalink: /essays
+  description: Essays tag description 
+
+career:
+  label: Career
+  permalink: /career
+  description: Career tag description
+
+recruitment:
+  label: Recruitment
+  permalink: /recruitment
+  description: Recruitment tag description
+
+economics:
+  label: Economics
+  permalink: /economics
+  description: Economics tag description
+
+management:
+  label: Management
+  permalink: /management
+  description: Management tag description
+
+business:
+  label: Business
+  permalink: /business
+  description: Business tag description
+
+finance:
+  label: Finance
+  permalink: /finance
+  description: Finance tag description
+
+hiring:
+  label: Hiring
+  permalink: /hiring
+  description: Hiring tag description
+
+software:
+  label: Software
+  permalink: /software
+  description: Software tag description
+
+prompts:
+  label: Prompts
+  permalink: /prompts
+  description: Prompts tag description
+
+research:
+  label: Research
+  permalink: /research
+  description: Research tag description
+

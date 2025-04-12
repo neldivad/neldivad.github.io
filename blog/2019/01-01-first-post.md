@@ -2,7 +2,6 @@
 slug: first-blog-post
 title: First Blog Post
 authors: [neldivad]
-tags: [bruh]
 ---
 
 Lorem ipsum dolor sit amet...
