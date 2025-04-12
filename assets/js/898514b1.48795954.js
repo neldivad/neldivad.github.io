@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknelverse=self.webpackChunknelverse||[]).push([[9067],{9187:e=>{e.exports=JSON.parse('{"tags":[{"label":"Fruity","permalink":"/docs/tags/fruity","description":"fruity","count":4}]}')}}]);
