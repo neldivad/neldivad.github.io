@@ -7,3 +7,8 @@ releases:
   label: 'Releases'
   permalink: '/releases'
   description: 'ah'
+
+fruity:
+  label: 'Fruity'
+  permalink: '/fruity'
+  description: 'fruity'
