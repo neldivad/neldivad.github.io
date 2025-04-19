@@ -129,14 +129,64 @@
             <pubDate>Wed, 09 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[At the end of 2023, I was autistic enough to count the stats of a popular career choice of a demographic. It was just a fun hobby I did with my friends.]]></description>
             <content:encoded><![CDATA[<p>At the end of 2023, I was autistic enough to count the stats of a popular career choice of a demographic. It was just a fun hobby I did with my friends.</p>
-<p><img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/of-stats-c4338c30305198ec4c652f4cb1da6e87.png" width="1390" height="658" class="img_ev3q"></p>
-<p><strong>TLDR</strong>: The estimation is 4%, and I hypothesize that with that number of competitors its not a viable or profitable career choice given my estimations of the market and more people should look to exit that market.</p>
-<p>Fast forward to 2025, someone did the actual math.</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary>Screenshot</summary>
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/of-stats-c4338c30305198ec4c652f4cb1da6e87.png" width="1390" height="658" class="img_ev3q"><p></p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="math-time">Math time<a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#math-time" class="hash-link" aria-label="Direct link to Math time" title="Direct link to Math time">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="context">Context<a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#context" class="hash-link" aria-label="Direct link to Context" title="Direct link to Context">​</a></h3>
+<ul>
+<li>Estimate 4% US girls intend to have OF</li>
+<li>TAM for OF is 35% population</li>
+<li>Suppose OF sub cost $13, net profit $10, someone needs 150 subs to make minimum wage.</li>
+<li>For an OF model to be paid $1500, spending from consumers would be $1950.</li>
+</ul>
+<p><strong>Girl side:</strong></p>
+<ul>
+<li>4% of 165M, 6.6M OF accounts</li>
+</ul>
+<p><strong>Guy side</strong>:</p>
+<ul>
+<li>50% of 330M, 165M males (gender match)</li>
+<li>70% of 165M, 115.5M males (age-appropriate)</li>
+<li>50% of 115.5M, 57.75M males (unmarried)</li>
+</ul>
+<p><strong>Minimum spend per guy for all accounts to hit national minimum wage:</strong></p>
+<div class="language-math codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-math codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">(6600000 * $1950) / 57750000 = $222.86</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>If every sub is $13, and the mininum budget for each guy is $222.86, then they only have enough to let 17 accounts get paid minimum wage.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="non-equilibrium">Non-equilibrium<a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#non-equilibrium" class="hash-link" aria-label="Direct link to Non-equilibrium" title="Direct link to Non-equilibrium">​</a></h2>
+<ul>
+<li>If more accounts get created, the minimum sub from each guy must be 17+</li>
+<li>If men sub less, more accounts must exit.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="scenario-1-more-girls">Scenario 1 (More girls)<a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#scenario-1-more-girls" class="hash-link" aria-label="Direct link to Scenario 1 (More girls)" title="Direct link to Scenario 1 (More girls)">​</a></h3>
+<p>Suppose 8% of the population is going to have OF, from 4%. Minimum sub or spend must double -- 34 subs, or $450 spend per guy.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="scenario-2-realistic">Scenario 2 (Realistic)<a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#scenario-2-realistic" class="hash-link" aria-label="Direct link to Scenario 2 (Realistic)" title="Direct link to Scenario 2 (Realistic)">​</a></h3>
+<p>Sad truth. Not all guys pay. If only 20% of them pay, then the subfloor for payers by raise 5X, <code>17*5=80</code> subs.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion:<a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#conclusion" class="hash-link" aria-label="Direct link to Conclusion:" title="Direct link to Conclusion:">​</a></h2>
+<p>With 4% girls in OF, all of them can't make minimum wage. In fact, the median earnings is $180 <sup><a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#user-content-fn-1-600175" id="user-content-fnref-1-600175" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>.</p>
+<p>Using median earnings, and 20% paying users, subfloor goes from 80 to something more realistic to what I personally know <sup><a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#user-content-fn-2-600175" id="user-content-fnref-2-600175" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup> -- 12 subs.</p>
+<p>Given this depressing stats, my encouragement at 2023 for young women is to not start an OF account, as it pays less than minimum wage and you have pics inside creepy dude's computer for life.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fast-forward-to-2025">Fast forward to 2025<a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#fast-forward-to-2025" class="hash-link" aria-label="Direct link to Fast forward to 2025" title="Direct link to Fast forward to 2025">​</a></h3>
+<p>Someone did the actual math on OF accounts.</p>
 <p><a href="https://x.com/HarmlessYardDog/status/1909613773666549902" target="_blank" rel="noopener noreferrer">https://x.com/HarmlessYardDog/status/1909613773666549902</a></p>
 <p>The final number comes to 8% -- 2X my estimation. I don't know if I should be proud of how generous I am, or be ashamed of how wrong I am.</p>
-<p>Its not my place to tell anyone what is the right thing to do. I'm just impressed by the math and information.</p>
-<p>Have fun with it.</p>
-<hr>]]></content:encoded>
+<p>Either everyone is making less money than my predictions, or guys are spending more than I thought ($222 - $1110 per guy already looks a lot to me, and now we are to double that?).</p>
+<p>Have fun with the stats.</p>
+<p>Nerd out.</p>
+<hr>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
+<ol>
+<li id="user-content-fn-1-600175">
+<p>Insider numbers from 2022. <a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#user-content-fnref-1-600175" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2-600175">
+<p>I mean, who doesn't personally have a friend who pays for OF? Um... <a href="https://neldivad.github.io/blog/i-was-wrong-about-onlyfans#user-content-fnref-2-600175" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>]]></content:encoded>
             <category>Research</category>
         </item>
         <item>
