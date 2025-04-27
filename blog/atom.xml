@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neldivad.github.io/blog</id>
     <title>Nelstudio Blog</title>
-    <updated>2025-04-12T00:00:00.000Z</updated>
+    <updated>2025-04-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://neldivad.github.io/blog"/>
     <subtitle>Nelstudio Blog</subtitle>
     <icon>https://neldivad.github.io/img/n-mark-color.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Why is soft drink cheaper than water?]]></title>
+        <id>https://neldivad.github.io/blog/why-is-soft-drink-cheaper-than-water</id>
+        <link href="https://neldivad.github.io/blog/why-is-soft-drink-cheaper-than-water"/>
+        <updated>2025-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The popular theory is that soft drinks are cheaper than water simply due to "marketing" that lets them sell worthless water. Indeed, a company can charge whatever they want and you just have to pay for it.]]></summary>
+        <content type="html"><![CDATA[<p>The popular theory is that soft drinks are cheaper than water simply due to "marketing" that lets them sell worthless water. Indeed, a company can charge whatever they want and you just have to pay for it.</p>
+<p>Why must it that water, of everything, has to worth more than soft drinks? It seems irrational that adding an extra feature (that is sugar and carbon) to a commodity (water) devalues it.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-if-were-missing-something">What if we're missing something?<a href="https://neldivad.github.io/blog/why-is-soft-drink-cheaper-than-water#what-if-were-missing-something" class="hash-link" aria-label="Direct link to What if we're missing something?" title="Direct link to What if we're missing something?">​</a></h2>
+<p>It's easy to just accept the "marketing" theory and complain capitalism lets people charge things that are supposedly free for more. Then, people can use this example to point out a market irrationality and extortion that a resource of necessity costs more than a recreational commodity.</p>
+<p>I have a different theory that may not be revolutionary, and I suspect most beverage companies and wholesalers already know.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hypothesis-soft-drinks-are-cheaper-because-its-easier-to-distribute">Hypothesis: Soft drinks are cheaper because its easier to distribute.<a href="https://neldivad.github.io/blog/why-is-soft-drink-cheaper-than-water#hypothesis-soft-drinks-are-cheaper-because-its-easier-to-distribute" class="hash-link" aria-label="Direct link to Hypothesis: Soft drinks are cheaper because its easier to distribute." title="Direct link to Hypothesis: Soft drinks are cheaper because its easier to distribute.">​</a></h2>
+<p>Carbonated water isn't just coincidentally popular because it taste good. It's also an engineering marvel.</p>
+<p>When water is carbonated, its container gets pressurized. This means you can store a lot of them as a bigger cluster and its huge mass will not compress and ruin other carbonated products. It also means the containers can use less material.</p>
+<p>In contrast to bottled water, they are not pressurized, so bottles can be compressed more easily. This is also why you never see canned pure water -- the lack of internal pressure means canned water can easily dent during transportation.</p>
+<p>The efficiency of distribution that result from carbonation is why those cost savings get passed on to consumers, and hence why soft drinks are cheaper than bottled water.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-about-beer">What about beer?<a href="https://neldivad.github.io/blog/why-is-soft-drink-cheaper-than-water#what-about-beer" class="hash-link" aria-label="Direct link to What about beer?" title="Direct link to What about beer?">​</a></h2>
+<p>In certain places, beer is also cheaper than water. Perhaps you can also use the marketing or cost distribution hypothesis, but it's not so obvious.</p>
+<p>Perhaps, beer lasts longer while water may not stay fresh for long, and beverage companies priced the spoilage into the cost of the product.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-i-could-be-wrong">How I could be wrong<a href="https://neldivad.github.io/blog/why-is-soft-drink-cheaper-than-water#how-i-could-be-wrong" class="hash-link" aria-label="Direct link to How I could be wrong" title="Direct link to How I could be wrong">​</a></h2>
+<p>While its an interesting coincidence, the distribution cost hypothesis is more plausible if bottled water and soft drinks / beer are sold at very thin margins.</p>
+<p>If both products have almost equal high margins, then its more plausible the price is a result of marketing hypothesis.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-do-you-even-care">"Why do you even care?"<a href="https://neldivad.github.io/blog/why-is-soft-drink-cheaper-than-water#why-do-you-even-care" class="hash-link" aria-label="Direct link to &quot;Why do you even care?&quot;" title="Direct link to &quot;Why do you even care?&quot;">​</a></h2>
+<p>I just think certain facts we take for granted may not be true. Its a very common question and "irrationality" we experience that we internalize that "it just happens".</p>
+<p>Maybe it's not so much about marketing, hocus pocus, and psyops, but rather a physical reality and efficiency that comes from certain design choices.</p>
+<p>If the cost distribution hypothesis is true, then it also makes me optimistic that there is a clever way to deliver value to consumers -- that at the same time also solves your own problems -- you don't have to trade for your own inconvenience / time / resources, or to exploit other people for profit.</p>
+<hr>]]></content>
+        <author>
+            <name>David Len</name>
+            <uri>https://github.com/neldivad</uri>
+        </author>
+        <category label="Research" term="Research"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Post Gen Z can't retire until this changes]]></title>
         <id>https://neldivad.github.io/blog/post-gen-z-cant-retire-until-this-changes</id>
