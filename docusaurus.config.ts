@@ -11,9 +11,9 @@ const deploymentBranch = 'gh-pages';
 
 const tagline = "Hi, I'm David Len. I'm a software developer, music producer, and I do stuff.";
 
-const spotify_url = `https://open.spotify.com/artist/7LhsgxH9e9ZvF9yxyEz0wR`;
+const spotify_url = `https://open.spotify.com/artist/0IemFhBfgnPjX9lSfaI8GN`;
 const gh_url = `https://github.com/${organizationName}`;
-const yt_url = `https://www.youtube.com/@justneldivad?sub_confirmation=1`;
+const yt_url = `https://www.youtube.com/@nelvOfficial?sub_confirmation=1`;
 const xtwitter_url = `https://twitter.com/divadlenMusic`;
 const kofi_url = `https://ko-fi.com/justneldivad`;
 
