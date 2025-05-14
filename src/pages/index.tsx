@@ -69,7 +69,7 @@ export default function Home(): ReactNode {
             Try <span style={{ color: "#6366f1" }}>Tsukene</span>
           </h2>
           <p style={{ fontSize: "1.1rem", maxWidth: "600px", margin: "0 auto 2rem" }}>
-            Make it fun to support your favorite creator. Join live rooms. Bid. Cheer. Own your moment. Be the winner of all fans.
+            Generosity wants to stay anonymous. Live bidding site with privacy.
           </p>
           <Link
             className="button button--primary button--lg"
