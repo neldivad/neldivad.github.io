@@ -4,10 +4,35 @@
         <title>Nelstudio Blog</title>
         <link>https://neldivad.github.io/blog</link>
         <description>Nelstudio Blog</description>
-        <lastBuildDate>Sun, 15 Jun 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[My back hurts]]></title>
+            <link>https://neldivad.github.io/blog/my-back-hurts</link>
+            <guid>https://neldivad.github.io/blog/my-back-hurts</guid>
+            <pubDate>Thu, 19 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This one is on me.]]></description>
+            <content:encoded><![CDATA[<p>This one is on me.</p>
+<p>Seems like bad things happen in succession. I don't want to demoralize anyone reading this, so I'll just keep it short and as an update.</p>
+<p>My back hurts because I'm sitting too much.</p>
+<p>This sucks because it means that I won't be able to work as much as I've did in the past, and likely never will be able to.</p>
+<p>It also doesn't look like the work I do is getting any traction, so hard work is decreasingly an option for me -- I need ideas that scale.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-it-means-for-you">What it means for you<a href="https://neldivad.github.io/blog/my-back-hurts#what-it-means-for-you" class="hash-link" aria-label="Direct link to What it means for you" title="Direct link to What it means for you">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="partners">Partners<a href="https://neldivad.github.io/blog/my-back-hurts#partners" class="hash-link" aria-label="Direct link to Partners" title="Direct link to Partners">​</a></h3>
+<p>If you're one of my partners, the plans don't change -- I'll get better over a few days.</p>
+<p>The volume of things I will agree to do in the future will decrease though.</p>
+<p>Labor intensive tasks like studio recording work will also be less of a solo work. I may need to afford a helper for some of those task in the future.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="just-visiting">Just visiting<a href="https://neldivad.github.io/blog/my-back-hurts#just-visiting" class="hash-link" aria-label="Direct link to Just visiting" title="Direct link to Just visiting">​</a></h3>
+<p>Don't feel bad. Things just happen and health is one of them. If I'm lucky, a few gym sessions will bring back my physical health.</p>
+<p>If this is a more long-term thing, it means I've exhausted the competitive advantage of hard-work and grinding for this lifetime -- I need to find a more scalable way to get things done profitably.</p>
+<p>Worst case, it's only going to take off 20% of my screen time, so I don't grieve over this loss.</p>
+<hr>
+<p>Take care of yourself out there.</p>]]></content:encoded>
+            <category>rant</category>
+        </item>
         <item>
             <title><![CDATA[They scammed my mom]]></title>
             <link>https://neldivad.github.io/blog/they-scammed-my-mom</link>
@@ -1443,15 +1468,6 @@ And that's not because they're evil. It's simply because their wealth is so larg
             <description><![CDATA[// Render a YouTube video player]]></description>
             <content:encoded><![CDATA[<p>// Render a YouTube video player</p>
 <div style="width:100%;height:360px"></div>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://neldivad.github.io/blog/first-blog-post</link>
-            <guid>https://neldivad.github.io/blog/first-blog-post</guid>
-            <pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet...]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
         </item>
     </channel>
 </rss>

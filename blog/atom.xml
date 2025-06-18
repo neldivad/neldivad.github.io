@@ -2,11 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neldivad.github.io/blog</id>
     <title>Nelstudio Blog</title>
-    <updated>2025-06-15T00:00:00.000Z</updated>
+    <updated>2025-06-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://neldivad.github.io/blog"/>
     <subtitle>Nelstudio Blog</subtitle>
     <icon>https://neldivad.github.io/img/n-mark-color.png</icon>
+    <entry>
+        <title type="html"><![CDATA[My back hurts]]></title>
+        <id>https://neldivad.github.io/blog/my-back-hurts</id>
+        <link href="https://neldivad.github.io/blog/my-back-hurts"/>
+        <updated>2025-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This one is on me.]]></summary>
+        <content type="html"><![CDATA[<p>This one is on me.</p>
+<p>Seems like bad things happen in succession. I don't want to demoralize anyone reading this, so I'll just keep it short and as an update.</p>
+<p>My back hurts because I'm sitting too much.</p>
+<p>This sucks because it means that I won't be able to work as much as I've did in the past, and likely never will be able to.</p>
+<p>It also doesn't look like the work I do is getting any traction, so hard work is decreasingly an option for me -- I need ideas that scale.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-it-means-for-you">What it means for you<a href="https://neldivad.github.io/blog/my-back-hurts#what-it-means-for-you" class="hash-link" aria-label="Direct link to What it means for you" title="Direct link to What it means for you">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="partners">Partners<a href="https://neldivad.github.io/blog/my-back-hurts#partners" class="hash-link" aria-label="Direct link to Partners" title="Direct link to Partners">​</a></h3>
+<p>If you're one of my partners, the plans don't change -- I'll get better over a few days.</p>
+<p>The volume of things I will agree to do in the future will decrease though.</p>
+<p>Labor intensive tasks like studio recording work will also be less of a solo work. I may need to afford a helper for some of those task in the future.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="just-visiting">Just visiting<a href="https://neldivad.github.io/blog/my-back-hurts#just-visiting" class="hash-link" aria-label="Direct link to Just visiting" title="Direct link to Just visiting">​</a></h3>
+<p>Don't feel bad. Things just happen and health is one of them. If I'm lucky, a few gym sessions will bring back my physical health.</p>
+<p>If this is a more long-term thing, it means I've exhausted the competitive advantage of hard-work and grinding for this lifetime -- I need to find a more scalable way to get things done profitably.</p>
+<p>Worst case, it's only going to take off 20% of my screen time, so I don't grieve over this loss.</p>
+<hr>
+<p>Take care of yourself out there.</p>]]></content>
+        <category label="rant" term="rant"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[They scammed my mom]]></title>
         <id>https://neldivad.github.io/blog/they-scammed-my-mom</id>
@@ -1510,19 +1535,6 @@ And that's not because they're evil. It's simply because their wealth is so larg
         <summary type="html"><![CDATA[// Render a YouTube video player]]></summary>
         <content type="html"><![CDATA[<p>// Render a YouTube video player</p>
 <div style="width:100%;height:360px"></div>]]></content>
-        <author>
-            <name>David Len</name>
-            <uri>https://github.com/neldivad</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://neldivad.github.io/blog/first-blog-post</id>
-        <link href="https://neldivad.github.io/blog/first-blog-post"/>
-        <updated>2019-01-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
         <author>
             <name>David Len</name>
             <uri>https://github.com/neldivad</uri>
