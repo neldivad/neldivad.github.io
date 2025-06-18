@@ -10,6 +10,15 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
+        <img
+          src="/img/Nel2_neutralspeak.ico"
+          alt="Logo"
+          style={{
+            width: '96px',
+            height: '96px',
+            marginBottom: '1rem',
+          }}
+        />
         <div
           style={{
             display: `flex`,

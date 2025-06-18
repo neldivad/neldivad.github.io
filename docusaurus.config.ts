@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
-const title = 'Nelstudio';
+const title = 'Nelverse';
 const organizationName = 'neldivad';
 const projectName = 'neldivad.github.io';
 const deploymentBranch = 'gh-pages';
@@ -22,7 +22,7 @@ const config: Config = {
   title: title,
   staticDirectories: ['public', 'static'],
   tagline: tagline,
-  favicon: 'img/n-mark-color.png',
+  favicon: 'img/Nel2_neutralspeak.ico',
 
   // Set the production url of your site here
   url: `https://${organizationName}.github.io`,
@@ -91,7 +91,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/n-mark-color.png',
+    image: 'img/Nel2_neutralspeak.ico',
     docs: {
       sidebar: {
         hideable: true,
@@ -111,7 +111,7 @@ const config: Config = {
       title: title,
       logo: {
         alt: `${title} Logo`,
-        src: 'img/n-mark-color.png',
+        src: 'img/Nel2_neutralspeak.ico',
       },
       items: [
         {
