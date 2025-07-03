@@ -16,6 +16,7 @@ const gh_url = `https://github.com/${organizationName}`;
 const yt_url = `https://www.youtube.com/@nelvOfficial?sub_confirmation=1`;
 const xtwitter_url = `https://twitter.com/divadlenMusic`;
 const kofi_url = `https://ko-fi.com/justneldivad`;
+const main_url = `https://www.nelworks.com`;
 
 
 const config: Config = {
@@ -161,8 +162,8 @@ const config: Config = {
               to: 'collab',
             },
             {
-              label: 'Shop',
-              href: kofi_url,
+              label: 'Buy/Commission',
+              href: main_url,
             },
           ],
         },
@@ -207,6 +208,10 @@ const config: Config = {
             {
               label: 'Youtube',
               href: yt_url,
+            },
+            {
+              label: 'Buy/Commission',
+              href: main_url,
             },
           ],
         },
