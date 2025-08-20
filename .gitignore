@@ -4,6 +4,7 @@
 # Production
 /build
 /drafts/prompts
+/drafts/shitposts
 
 # Generated files
 .docusaurus
