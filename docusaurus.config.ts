@@ -14,7 +14,7 @@ const tagline = "Hi, I'm David Len. I'm a software developer, music producer, an
 const spotify_url = `https://open.spotify.com/artist/0IemFhBfgnPjX9lSfaI8GN`;
 const gh_url = `https://github.com/${organizationName}`;
 const yt_url = `https://www.youtube.com/@nelvOfficial?sub_confirmation=1`;
-const xtwitter_url = `https://twitter.com/divadlenMusic`;
+const xtwitter_url = `https://twitter.com/nelvOfficial`;
 const kofi_url = `https://ko-fi.com/justneldivad`;
 const main_url = `https://www.nelworks.com`;
 
