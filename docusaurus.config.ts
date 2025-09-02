@@ -40,7 +40,7 @@ const nav_items = [
     to: 'collab',
   },
   {
-    label: 'Buy/Commission',
+    label: 'Work/Business',
     href: main_url,
   },
 ] 
