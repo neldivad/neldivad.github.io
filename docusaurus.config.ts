@@ -18,6 +18,33 @@ const xtwitter_url = `https://twitter.com/divadlenMusic`;
 const kofi_url = `https://ko-fi.com/justneldivad`;
 const main_url = `https://www.nelworks.com`;
 
+const nav_items = [
+  {
+    label: 'Spotify',
+    href: spotify_url,
+  },
+  {
+    label: 'Youtube',
+    href: yt_url,
+  },
+  {
+    label: 'GitHub',
+    href: gh_url,
+  },
+  {
+    label: 'About Me',
+    to: 'about',
+  },
+  {
+    label: 'Collab',
+    to: 'collab',
+  },
+  {
+    label: 'Buy/Commission',
+    href: main_url,
+  },
+] 
+
 
 const config: Config = {
   title: title,
@@ -140,32 +167,7 @@ const config: Config = {
         {
           label: 'About',
           position: 'right',
-          items: [
-            {
-              label: 'Spotify',
-              href: spotify_url,
-            },
-            {
-              label: 'Youtube',
-              href: yt_url,
-            },
-            {
-              label: 'GitHub',
-              href: gh_url,
-            },
-            {
-              label: 'About Me',
-              to: 'about',
-            },
-            {
-              label: 'Collab',
-              to: 'collab',
-            },
-            {
-              label: 'Buy/Commission',
-              href: main_url,
-            },
-          ],
+          items: nav_items,
         },
       ],
     },
@@ -192,28 +194,7 @@ const config: Config = {
         },
         {
           title: 'Community',
-          items: [
-            {
-              label: 'Discord (coming soon)',
-              href: '/',
-            },
-            {
-              label: 'X',
-              href: xtwitter_url,
-            },
-            {
-              label: 'GitHub',
-              href: gh_url,
-            },
-            {
-              label: 'Youtube',
-              href: yt_url,
-            },
-            {
-              label: 'Buy/Commission',
-              href: main_url,
-            },
-          ],
+          items: nav_items
         },
       ],
       copyright: `Copyright © 2024 - ${new Date().getFullYear()} ${title} Inc.`,
