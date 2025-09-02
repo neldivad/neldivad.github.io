@@ -8,6 +8,11 @@ essays:
   permalink: /essays
   description: Essays tag description 
 
+rant:
+  label: Rant
+  permalink: /rant
+  description: Rant tag description
+
 career:
   label: Career
   permalink: /career
@@ -57,4 +62,9 @@ research:
   label: Research
   permalink: /research
   description: Research tag description
+
+I dont think you understand:
+  label: I dont think you understand
+  permalink: /i-dont-think-you-understand
+  description: I dont think you understand tag description
 
