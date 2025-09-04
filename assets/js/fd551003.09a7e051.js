@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknelverse=self.webpackChunknelverse||[]).push([[4019],{66824:e=>{e.exports=JSON.parse('{"blogBasePath":"/IDTYU","blogTitle":"Blog","authorsListPath":"/IDTYU/authors"}')}}]);
