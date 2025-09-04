@@ -148,6 +148,11 @@ const config: Config = {
           position: 'left'
         },
         {
+          to: '/IDTYU', 
+          label: 'IDTYU', 
+          position: 'left',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
@@ -158,7 +163,7 @@ const config: Config = {
         {
           type: 'doc',
           docsPluginId: 'partners',
-          docId: 'intro',
+          docId: 'partners-intro',
           position: 'left',
           label: 'Partners',
         },
@@ -210,6 +215,31 @@ const config: Config = {
     // search bar
     require.resolve('docusaurus-lunr-search'),
 
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'IDTYU', // Unique ID for the second blog
+        routeBasePath: 'IDTYU', // The route path for the second blog
+        path: 'IDTYU', // Path to the content directory for the second blog
+        postsPerPage: 5,
+        blogSidebarTitle: 'Recent posts',
+        blogSidebarCount: 'ALL',
+        showLastUpdateTime: true,
+        showReadingTime: true,
+        feedOptions: {
+          type: ['rss', 'atom'],
+          xslt: true,
+        },
+        // Remove this to remove the "edit this page" links.
+        editUrl:
+          `https://github.com/${organizationName}/${projectName}/tree/main/`,
+        // Useful options to enforce blogging best practices
+        onInlineTags: 'warn',
+        onInlineAuthors: 'warn',
+        onUntruncatedBlogPosts: 'warn',
+      },
+    ],
+
     // partners docs plugin
     [
       '@docusaurus/plugin-content-docs',
@@ -217,7 +247,8 @@ const config: Config = {
         id: 'partners',  // Unique identifier for this documentation section
         path: 'partners',  // The path to the partners documentation directory
         routeBasePath: 'partners',  // The URL base for the partners docs (e.g., /partners)
-        sidebarPath: require.resolve('./sidebars.js'),  // Path to the sidebar configuration for the partners docs
+        sidebarPath: './sidebars.ts',  // Path to the sidebar configuration for the partners docs
+        sidebarCollapsible: true,
       },
     ],
 

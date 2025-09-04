@@ -1,8 +1,3 @@
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
-
 essays:
   label: Essays
   permalink: /essays
@@ -66,5 +61,9 @@ research:
 I dont think you understand:
   label: I dont think you understand
   permalink: /i-dont-think-you-understand
-  description: Because the accumulation of money and power is absurd. For the humorless, posts under this tag are exaggerated versions of real events people do to maximize shareholder value. 
-
+  description: |
+    Because the accumulation of money and power is absurd. 
+    
+    For the humorless, posts under this tag are exaggerated versions of real events people do to maximize shareholder value. 
+    
+    Reading the footnotes is like having the joke explained to you. Don't do it if you want to keep laughing and enjoy the moment of getting token hacked.
