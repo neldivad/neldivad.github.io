@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknelverse=self.webpackChunknelverse||[]).push([[1251],{18770:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/IDTYU/page/4","page":4,"postsPerPage":5,"totalPages":11,"totalCount":53,"previousPage":"/IDTYU/page/3","nextPage":"/IDTYU/page/5","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
