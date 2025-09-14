@@ -2,11 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://neldivad.github.io/blog</id>
     <title>Nelverse Blog</title>
-    <updated>2025-09-14T00:00:00.000Z</updated>
+    <updated>2025-09-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://neldivad.github.io/blog"/>
     <subtitle>Nelverse Blog</subtitle>
     <icon>https://neldivad.github.io/img/Nel2_neutralspeak.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[rituals-seems-unavoidable]]></title>
+        <id>https://neldivad.github.io/blog/2025/09/15/rituals-seems-unavoidable</id>
+        <link href="https://neldivad.github.io/blog/2025/09/15/rituals-seems-unavoidable"/>
+        <updated>2025-09-15T00:00:00.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[No one cares about you (nor should you care about them)]]></title>
         <id>https://neldivad.github.io/blog/no-one-cares</id>
@@ -23,25 +29,25 @@
 <p>It is not 20% of creators getting 80% of the views. I estimate the number to be 0.01% creators getting 99.9% of the views.</p>
 <p>The power law is even worse than what you intuitively can guess. This is because the Pareto law is stacked multiple times.</p>
 <p>Suppose 20% of the posts get 80% of the views. I bet 80% of those successful posts are done by the same group of creators. The 20% "successful" posts you see are not randomly distributed -- they are concentrated in yet another Pareto distribution of creators. <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-1-929551" id="user-content-fnref-1-929551" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></p>
-<p>Then, there is also an asymmetry that "creating one viral content gives you more information" about how to create the next viral relative to "creating 1000 normal content".</p>
-<p>This means in practice, after stacking multiple Pareto distributions on top of each other, it is not surprising that only 0.01% of creators "consistently" creates content that goes "viral" and captures 99.9% of all engagement from users. <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-2-929551" id="user-content-fnref-2-929551" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup></p>
-<p>Attention is zero sum. For every person that chooses to watch a cat video, that person will not be seeing anything else. Certainly not your company's advertisement you think is interesting. <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-3-929551" id="user-content-fnref-3-929551" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup></p>
-<p>What this means is that being ignored is the rule. Being ignored for a long time despite making great efforts and having great achievements is unfortunately, still a rule.</p>
+<p>Then, "creating one viral content" teaches you more than "creating 1000 normal content" when it comes to creating your "next viral content".</p>
+<p>This means in practice, content winners keep winning, if not from distribution, then from content production quality.</p>
+<p>After stacking multiple Pareto distributions on top of each other, it is not surprising that only 0.01% of creators "consistently" creates content that goes "viral" and captures 99.9% of all engagement from users. <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-2-929551" id="user-content-fnref-2-929551" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup></p>
+<p>Another thing to understand is <strong>attention is zero sum</strong>. For every person that chooses to watch a cat video, that person will not be seeing anything else. Certainly not your company's advertisement you think is interesting. <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-3-929551" id="user-content-fnref-3-929551" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup></p>
+<p>What this means is that <strong>being ignored is the rule</strong>. Being ignored for a long time despite making great efforts and having great achievements is unfortunately, still a rule.</p>
 <p>Does that mean statistically, you are doomed to be ignored forever, that your work will never be worthy for the attention it "deserves"?</p>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="you-shouldnt-care-about-the-lack-of-attention">You shouldn't care about the lack of attention<a href="https://neldivad.github.io/blog/no-one-cares#you-shouldnt-care-about-the-lack-of-attention" class="hash-link" aria-label="Direct link to You shouldn't care about the lack of attention" title="Direct link to You shouldn't care about the lack of attention">​</a></h2>
 <p>Many people think if only they had more attention, whatever they are doing would be more successful.</p>
 <p>They are not wrong, otherwise "distribution and reach" would not be considered a competitive advantage. Many products that are objectively worse are still worth more because they had the "distribution moat".</p>
 <p>That said, most people overvalued the ROI of attention and undervalued the cost of getting attention.</p>
-<p>What happens is in practice, most people end up chasing for attention as a distraction or procrastination. They will interrupt their work to check Twitter notifications, emails, phones, for the chances that they get any engagement that seems meaningful to them.</p>
-<p>The ironic thing is by doing this, their distraction and procrastination guarantees they will never build something good enough to be worthy of the attention they want to be getting.</p>
+<p>What happens is in practice, most people end up <strong>chasing for attention as a distraction or procrastination</strong>. They will interrupt their work to check Twitter notifications, emails, phones, for the chances that they get any engagement that seems meaningful to them.</p>
+<p>The ironic thing is by doing this, their <strong>distraction and procrastination guarantees they will never build something good enough</strong> to be worthy of the attention they want to be getting in the first place.</p>
 <p>Let's look at the ROI of the "viral" moment I got. In terms of market valuation to the engagement, the CPM for LinkedIn works out to be $5 per 1000 views (low side).</p>
 <p>With 10M views, my viral post works out to $50,000 of ad spending.</p>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary>Conversion</summary>
 <img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/1-e2c4c69dd7f6a8f52a5fae36bd35e2e9.jpg" width="499" height="503" class="img_ev3q"><p></p></div></div></details>
 <p>The conversion is horrendous. Sure, I got like 10K followers and 2K connections (I rejected 70% of them though) from that single post. But it wasn't monetizable, nor was the returns attractive enough to adjust for the risk. <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-4-929551" id="user-content-fnref-4-929551" data-footnote-ref="true" aria-describedby="footnote-label">4</a></sup></p>
-<hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="you-can-unlock-follower-value-in-the-future">"You can unlock follower value in the future!"<a href="https://neldivad.github.io/blog/no-one-cares#you-can-unlock-follower-value-in-the-future" class="hash-link" aria-label="Direct link to &quot;You can unlock follower value in the future!&quot;" title="Direct link to &quot;You can unlock follower value in the future!&quot;">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="you-can-unlock-follower-value-in-the-future">"You can unlock follower value in the future!"<a href="https://neldivad.github.io/blog/no-one-cares#you-can-unlock-follower-value-in-the-future" class="hash-link" aria-label="Direct link to &quot;You can unlock follower value in the future!&quot;" title="Direct link to &quot;You can unlock follower value in the future!&quot;">​</a></h3>
 <p>This perspective treats followers and attention as a source of "potential energy" that can be used to build future value. Not a wrong idea.</p>
 <p>That said, this is more true in the past and less true in the present. This is because people discount the "decay factor" of attention and followers.</p>
 <p>A 1-week old follower is not worth the same as a 1-year old follower. In most platforms, your follower stays with you permanently to make you feel vain and happy. But the recommendation probability of your content to your follower does not stay constant.</p>
@@ -73,6 +79,17 @@
 <p>This shows that great things don't require great audiences before they can be made. They just show up when they want to.</p>
 <p>This also means that trying to chase audience is a waste of time, and more often than not guarantees great things to not get built as you get cut by a thousand times from all the distractions, noise, and pivots you make while trying to "earn" attention.</p>
 <p>Aura-farming is therefore a "noobtrap" in the business meta.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="no-one-reads-your-blog">"No one reads your blog"<a href="https://neldivad.github.io/blog/no-one-cares#no-one-reads-your-blog" class="hash-link" aria-label="Direct link to &quot;No one reads your blog&quot;" title="Direct link to &quot;No one reads your blog&quot;">​</a></h3>
+<p>No one remembers your tweets.</p>
+<p>It may take years to get 100 views on a blog, while your tweets get 100 in minutes. The problem with tweets or social media posts is that their half life is short. Within minutes, hours, days, they get forgotten.</p>
+<p>Suppose you invest 24 hours into producing a content, if your half life is not more than 24 hours, theoretically you should be quiting CC.</p>
+<p>In blog, you have no half life. Your traffic matches how often your audience bookmarks your site and comes back to your posts.</p>
+<p>Here's a dirty secret.</p>
+<p>You can always clip or screenshot your blog post and share it on social media as a timeless reminder or advertisement that you've done something bigger. You don't have to keep chasing trends on whats the next viral thing to make.</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary>Do it like this</summary>
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/3-a1efc2d875856e46df6cf497d432009f.JPG" width="585" height="587" class="img_ev3q"><p></p></div></div></details>
+<p>In the age of stocastic compressors, playing the content velocity and volume game has horrible ROI.</p>
+<p>Make timeless and cutting edge content that people will remember and share.</p>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="i-insist-on-getting-attention">"I insist on getting attention"<a href="https://neldivad.github.io/blog/no-one-cares#i-insist-on-getting-attention" class="hash-link" aria-label="Direct link to &quot;I insist on getting attention&quot;" title="Direct link to &quot;I insist on getting attention&quot;">​</a></h2>
 <p>Not a bad objective. In that case, you must approach this problem differently.</p>
@@ -89,7 +106,8 @@
 <p>Attention, virality, stories, content are all just means and tools you use to get there.</p>
 <p>You don't need people to care about "you". You need people to care about what "value you can bring to their problem".</p>
 <p>In practice, you earn attention by doing impressive things, THEN you DM someone directly and ask for permission to talk to them.</p>
-<p>Base from my own stats I've shared, I wasn't overwhelmed by the public <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-6-929551" id="user-content-fnref-6-929551" data-footnote-ref="true" aria-describedby="footnote-label">6</a></sup> and I replied to every legit accounts I respected. I presume everyone else will have about the same capacity or bandwidth as I do, and the response rate depends on their respect to you or their sense of urgency. <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-7-929551" id="user-content-fnref-7-929551" data-footnote-ref="true" aria-describedby="footnote-label">7</a></sup></p>
+<p>Base from my own stats I've shared, I wasn't overwhelmed by the public <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-6-929551" id="user-content-fnref-6-929551" data-footnote-ref="true" aria-describedby="footnote-label">6</a></sup> and I replied to every legit accounts I respected.</p>
+<p>I presume everyone else will have about the same capacity or bandwidth as I do, and the response rate depends on their respect to you or their sense of urgency. <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-7-929551" id="user-content-fnref-7-929551" data-footnote-ref="true" aria-describedby="footnote-label">7</a></sup></p>
 <p>I hope this bring enough clarity to stop you from getting distracted by engaging in "noobtraps".</p>
 <p>I will stop DDoSing you with more words. Go get things done. Bye.</p>
 <hr>
@@ -109,13 +127,13 @@
 <p>In fact, I get a lot of reports and impersonations that somewhat contributed to my <a href="https://neldivad.github.io/blog/my-linkedin-got-suspended">permaban</a>. <a href="https://neldivad.github.io/blog/no-one-cares#user-content-fnref-4-929551" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
 </li>
 <li id="user-content-fn-5-929551">
-<p>The "cumulative following capital" is the sum of all net worth of your followers. Most celebrities or politicians have millions of followers, but 80% of them are bots and 20% of them are poor, uncompetitive, or inconvertible consumers or "digital tourists" that may in some cases devalue the account by starting unnecessary drama or fandom controversies. Publicity is NOT always good publicity. <a href="https://neldivad.github.io/blog/no-one-cares#user-content-fnref-5-929551" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+<p>The "cumulative following capital" is the sum of all net worth of your followers. Most celebrities or politicians have millions of followers, but 80% of them are bots and 20% of them are poor, uncompetitive, are inconvertible consumers or "digital tourists" that may in some cases devalue the account by starting unnecessary drama or fandom controversies. Publicity is NOT always good publicity. <a href="https://neldivad.github.io/blog/no-one-cares#user-content-fnref-5-929551" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
 </li>
 <li id="user-content-fn-6-929551">
 <p>One viral post adds about 20% chat liquidity to my account for the next month. It doesn't make me any much busy than how often I'm already engaging with audiences or friends I trusted. <a href="https://neldivad.github.io/blog/no-one-cares#user-content-fnref-6-929551" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
 </li>
 <li id="user-content-fn-7-929551">
-<p>This theme is mentioned multiple times in the blog. The busiest people I know reply much MUCH <strong>M U C H</strong> faster than the least busy people. I literally DMed millionaires, CEO, accounts with millions of followers and I get back replies in minutes or within the same day. Meanwhile, accounts under 1K reply in days or completely ghosts me. <a href="https://neldivad.github.io/blog/no-one-cares#user-content-fnref-7-929551" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+<p>This theme is mentioned multiple times in the blog. The busiest people I know reply much MUCH <strong>MUCH</strong> faster than the least busy people. I literally DMed millionaires, CEO, accounts with millions of followers and I get back replies in minutes or within the same day. Meanwhile, accounts under 1K reply in days or completely ghosts me. <a href="https://neldivad.github.io/blog/no-one-cares#user-content-fnref-7-929551" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
 </li>
 </ol>
 </section>]]></content>
@@ -1726,48 +1744,6 @@ And that's not because they're evil. It's simply because their wealth is so larg
 <p>Somehow, it is unacceptable for any employee to not have a backlog full of events. It is shameful to be seen by your friends that you don't have a full schedule one month ahead of you. You look like a loser if you don't have anything going on during your weekends or holidays.</p>
 <p>Ask any artist, software developer, writer that is competent, and they always seem to arrive to the same answer-- effective emptiness, blanks, and space is required in a finished good product.</p>
 <p>I think management and hustlers have a lot to learn from these people.</p>]]></content>
-        <author>
-            <name>David Len</name>
-            <uri>https://github.com/neldivad</uri>
-        </author>
-        <category label="Management" term="Management"/>
-        <category label="Business" term="Business"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anatomy of Ineffective leaders]]></title>
-        <id>https://neldivad.github.io/blog/ineffective-leaders</id>
-        <link href="https://neldivad.github.io/blog/ineffective-leaders"/>
-        <updated>2024-10-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Over 10 years of being someone's worker, leaders that own those characters demonstrate worse track records in company performance than leaders that don't have those characteristics.]]></summary>
-        <content type="html"><![CDATA[<p>Over 10 years of being someone's worker, leaders that own those characters demonstrate worse track records in company performance than leaders that don't have those characteristics.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="speculating-on-stocks-or-futures">Speculating on stocks or futures<a href="https://neldivad.github.io/blog/ineffective-leaders#speculating-on-stocks-or-futures" class="hash-link" aria-label="Direct link to Speculating on stocks or futures" title="Direct link to Speculating on stocks or futures">​</a></h2>
-<p>A leader should spend all their time creating and engineering a better future. Speculating on markets outside their expertise should be a waste of time if they really know what they are doing.</p>
-<p>Even lower confidence if I peeked at their portfolio and notice them losing trades on speculative assets. Is that the reason why my boss urgently needs money and productivity?</p>
-<p>There are some exceptions, where a great investor is also doing the hands-on work of running a company. <sup><a href="https://neldivad.github.io/blog/ineffective-leaders#user-content-fn-1-747160" id="user-content-fnref-1-747160" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="threatens-misbehaving-employees-with-pay-cut-and-termination">Threatens misbehaving employees with pay cut and termination<a href="https://neldivad.github.io/blog/ineffective-leaders#threatens-misbehaving-employees-with-pay-cut-and-termination" class="hash-link" aria-label="Direct link to Threatens misbehaving employees with pay cut and termination" title="Direct link to Threatens misbehaving employees with pay cut and termination">​</a></h2>
-<p>If an employee is a problem and you can do without them, terminate. Don't need to threaten.</p>
-<p>If you must threaten, intimidation is a poor strategy to motivate someone who is underperforming or misbehaving -- a leader that makes a poor strategy is a poor leader.</p>
-<p>What happens when you threaten is resentment and people preparing to jump ship as soon as they find the opportunity. Bad retention strategy.</p>
-<p>Roll for persuasion, not intimidation.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="not-respectful-of-other-peoples-time">Not respectful of other people's time<a href="https://neldivad.github.io/blog/ineffective-leaders#not-respectful-of-other-peoples-time" class="hash-link" aria-label="Direct link to Not respectful of other people's time" title="Direct link to Not respectful of other people's time">​</a></h2>
-<p>By showing up late, or keeping people overtime on projects or meetings.</p>
-<p>Usually, this behavior is confounded with regular poor business judgment.</p>
-<p>They tend to have budget issues and lack of manpower issues, but I hypothesize the true cause is that they cannot properly allocate priorities.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="underpays-or-too-much-cost-cutting">Underpays or too much cost-cutting<a href="https://neldivad.github.io/blog/ineffective-leaders#underpays-or-too-much-cost-cutting" class="hash-link" aria-label="Direct link to Underpays or too much cost-cutting" title="Direct link to Underpays or too much cost-cutting">​</a></h2>
-<p>You don't build a sports team that wins by buying players at wholesale prices. Lots of people do it, but I haven't seen one that works.</p>
-<p>If someone really had a good solution to your problem, you pay as much as you can to get it.</p>
-<p>Underpaying and cost-cutting is also a behavior that's confounded with priority issues similar to (3).</p>
-<p>Underpaying, while it works against workers who are desperate enough to put up with those conditions, also has the effect of hiding the real costs of the problem.</p>
-<p>Leaders will take for granted that this is all the investment that needs to get things done (at unsustainable prices) and think they have margins to pursue even worse market ideas.</p>
-<p>You don't win from someone's losses by lowballing. You also lose out on real information that would have stopped you from pursuing bad ideas.</p>
-<!-- -->
-<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://neldivad.github.io/blog/ineffective-leaders#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
-<ol>
-<li id="user-content-fn-1-747160">
-<p>In rare cases, I met leaders who are great investors and they are great people to work with as they understand macro, accounting, and good business models. I hold suspicion to leaders who are responsible for a large part of the company and its workers future, but somehow find time for short-term derivatives and engage with trading systems they cannot explain. <a href="https://neldivad.github.io/blog/ineffective-leaders#user-content-fnref-1-747160" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
-</li>
-</ol>
-</section>]]></content>
         <author>
             <name>David Len</name>
             <uri>https://github.com/neldivad</uri>
