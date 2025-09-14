@@ -8,13 +8,13 @@ tags: [essays]
 
 I wasn't considered an "interesting" person by many internet standards for a long time, including now. 
 
-After I went viral on the internet, the most occuring question I get from strangers since then is "How do I go viral", and "How important publicity, engagement, and attention is to growth?"
+After I went viral on the internet, the most occuring question I get from strangers since then is "How do I go viral", and "How do I get more attention (for sales, marketing, growth)"
 
 <!--truncate-->
 
 I have long held the belief that virality isn't required, good, or even useful to be a successful creator, but it is not an opinion I had rights to share because people would just take it as a "sour grape fallacy". 
 
-With my achievements and exposure to this experience, I can finally share what most other people who had already gotten to this place what they have always been saying. 
+With my achievements and exposure to this experience, I can finally share what most other people who had already gotten to this place about what they have always been saying. 
 
 ---
 ## No one cares
@@ -124,6 +124,8 @@ Aura-farming is therefore a "noobtrap" in the business meta.
 
 Not a bad objective. In that case, you must approach this problem differently. 
 
+### Getting virality
+
 People I observe who consistently go viral don't chase audiences. They chase "showmanship". Virality comes as a consequences. 
 
 Perhaps they themselves might not understand what they are doing is a form of "showmanship", but studying memetics and trying to adjust your performance according to an optimal format is really a subset of "showmanship". 
@@ -131,5 +133,31 @@ Perhaps they themselves might not understand what they are doing is a form of "s
 As for how does one obtain or practice showmanship will be a long post of its own, and I doubt I'm even qualified to answer it. 
 
 I just hope that by reducing the problem to a single semantic, you get more imaginations and clarity on how to correct approach this problem, rather than throwing anything and hoping it sticks, or imitating something that conflicts with your own choice of expression. 
+
+### Sales and marketing
+
+This one is different from viral as the objective function is not impression, but conversion. In that case, it is almost certain that S&M is not an attention problem.
+
+Most people will think S&M is an attention problem. I don't think they understand. 
+
+S&M is a building problem. 
+
+In S&M, instead of building products, you are building trust and relationship. 
+
+Attention, virality, stories, content are all just means and tools you use to get there. 
+
+You don't need people to care about "you". You need people to care about what "value you can bring to their problem". 
+
+In practice, you earn attention by doing impressive things, THEN you DM someone directly and ask for permission to talk to them. 
+
+Base from my own stats I've shared, I wasn't overwhelmed by the public [^6] and I replied to every legit accounts I respected. I presume everyone else will have about the same capacity or bandwidth as I do, and the response rate depends on their respect to you or their sense of urgency. [^7]
+
+[^6]: One viral post adds about 20% chat liquidity to my account for the next month. It doesn't make me any much busy than how often I'm already engaging with audiences or friends I trusted. 
+
+[^7]: This theme is mentioned multiple times in the blog. The busiest people I know reply much MUCH **M U C H** faster than the least busy people. I literally DMed millionaires, CEO, accounts with millions of followers and I get back replies in minutes or within days. Meanwhile, accounts under 1K reply in days or completely ghosts me. 
+
+I hope this bring enough clarity to stop you from getting distracted by engaging in "noobtraps". 
+
+I will stop DDoSing you with more words. Go get things done. Bye. 
 
 ---
