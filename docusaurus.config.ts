@@ -152,21 +152,21 @@ const config: Config = {
           label: 'IDTYU', 
           position: 'left',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Documentation',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'Documentation',
+        // },
 
-        // partners
-        {
-          type: 'doc',
-          docsPluginId: 'partners',
-          docId: 'partners-intro',
-          position: 'left',
-          label: 'Partners',
-        },
+        // // partners
+        // {
+        //   type: 'doc',
+        //   docsPluginId: 'partners',
+        //   docId: 'partners-intro',
+        //   position: 'left',
+        //   label: 'Partners',
+        // },
         
         //
         {
