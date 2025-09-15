@@ -10,16 +10,19 @@ import KellyHeatmap from './_components/KellyHeatmap';
 This page demonstrates the Kelly Criterion interactively. Use the slider to scale the optimal fraction.
 
 ## Return vs. Volatility & Monte Carlo
+
 :::info
-### Parameters
+
+**Parameters**
 - Odds: Winnings multiplier (1.0 = even odds, 2.0 = double your money)
 - Edge: Probability of winning
 - Sims: Simulated trials for return/volatility analysis
 - Paths: Number of independent simulation runs (10-50 range)
 :::
 
+
 <details>
-  ### Charts
+
   **Top Chart (Return vs. Volatility):**
   - X: Kelly multiplier
   - Y1: Expected log growth rate (blue curve)
@@ -54,15 +57,26 @@ That is another way of saying Kelly sometimes gets too overconfident in certain 
 
 <BrowserOnly>{() => <KellyReturnVolatility odds={2.0} edge={0.55} simulations={1000} paths={40}/>}</BrowserOnly>
 
+You notice at K=0.7, you would already outperformed a K=1 strategy 50% from the probability density chart at 100 games. 
+
+However, if you simply observe the average results from a Monte Carlo simulations, you would have think that K=1 is the best strategy. 
+
+This is the kind of information what most people ends up missing. What works in theory is not always the most practical strategy in real life. 
+
+---
+
 ## Heatmap
+
+
 :::info
-### Parameters
+
+**Parameters**
 - Max odds: Maximum winnings multiplier to display (e.g., 2.0 = double your money)
 - P steps: Number of probability intervals (more = smoother heatmap)
 - Odds steps: Number of multiplier intervals (more = smootherheatmap)
 - K: Kelly multiplier
 
-### Axis
+**Axis**
 - X: Assumed probability of winnings
 - Y: Assumed profit from winnings
 - Z: Kelly optimal bet size

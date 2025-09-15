@@ -128,10 +128,10 @@ export default function KellyReturnVolatility({odds = 2.0, edge = 0.55, simulati
   // Monte Carlo data for 4 Kelly multiplier lines
   const monteCarloData = useMemo(() => {
     const kellyF = kellyFraction(edgeState, bState);
-    const kellyMultipliers = [0.25, 0.5, 1.0, 1.5];
+    const kellyMultipliers = [0.4, 0.7, 1.0, 1.5];
     
     // Use 10% of sims for trials, limit paths to 10-50
-    const effectiveTrials = 50;
+    const effectiveTrials = 100;
     const effectivePaths = Math.min(Math.max(pathsState, 10), 50);
     
     const x = Array.from({length: effectiveTrials + 1}, (_, i) => i);
@@ -191,7 +191,7 @@ export default function KellyReturnVolatility({odds = 2.0, edge = 0.55, simulati
   // Histogram data for ending portfolio values
   const histogramData = useMemo(() => {
     const kellyF = kellyFraction(edgeState, bState);
-    const kellyMultipliers = [0.25, 0.5, 1.0, 1.5];
+    const kellyMultipliers = [0.4, 0.7, 1.0, 1.5];
     
     // Use same parameters as Monte Carlo
     const effectiveTrials = 100;
@@ -353,7 +353,7 @@ export default function KellyReturnVolatility({odds = 2.0, edge = 0.55, simulati
       </div>
       
       <div style={{fontSize: '0.9em', color: '#666', marginBottom: 16}}>
-        Monte Carlo uses 50 trials and {Math.min(Math.max(pathsState, 10), 50)} paths
+        Monte Carlo uses 100 trials and {Math.min(Math.max(pathsState, 10), 50)} paths
       </div>
       
       <div style={{marginBottom: 32}}>
