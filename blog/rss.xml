@@ -9,10 +9,163 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[rituals-seems-unavoidable]]></title>
-            <link>https://neldivad.github.io/blog/2025/09/15/rituals-seems-unavoidable</link>
-            <guid>https://neldivad.github.io/blog/2025/09/15/rituals-seems-unavoidable</guid>
+            <title><![CDATA[Rituals seems unavoidable]]></title>
+            <link>https://neldivad.github.io/blog/rituals-seems-unavoidable</link>
+            <guid>https://neldivad.github.io/blog/rituals-seems-unavoidable</guid>
             <pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Rituals, often perceived as irrational or wasteful, consume a significant portion (30-40%) of our resources, from personal finances to corporate budgets and national GDP.]]></description>
+            <content:encoded><![CDATA[<p>Rituals, often perceived as irrational or wasteful, consume a significant portion (30-40%) of our resources, from personal finances to corporate budgets and national GDP.</p>
+<p>Here, I try to explain why rituals seem inescapable, arguing that they function as a "belief tax," fostering trust, facilitating leveraged action, and acting as a costly signal to ensure loyalty and eliminate uncompetitive ideas.</p>
+<p>It's the equivalent of setting a Typescript schema or interface that intentionally slows down your development, but guards against production bugs and sets the standard for the evolution of the future codebase.</p>
+<p>The long way is the shortcut. The shortcut is the long way.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="understanding-rituals">Understanding rituals<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#understanding-rituals" class="hash-link" aria-label="Direct link to Understanding rituals" title="Direct link to Understanding rituals">​</a></h2>
+<p>Think about it: a hefty chunk of every paycheck, every company budget, and even national GDP is dedicated to things that, on the surface, seem…well, a bit pointless.</p>
+<p>We're not talking about essential expenses like food or shelter, but rather the unspoken rules, the routines we follow without question.</p>
+<p>A ritual is not just religious practices or spooky voodoo. It is any set of actions performed without question.</p>
+<p>It's the morning coffee ritual, the elaborate handshake among friends, the annual company retreat. It's about the behaviors, not necessarily overt spiritual beliefs.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="business">Business<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#business" class="hash-link" aria-label="Direct link to Business" title="Direct link to Business">​</a></h3>
+<p>Business in particular is a great place to observe modern rituals. The pursuit of efficiency and profit makes irrational practices stick out, making the "belief tax" especially obvious.</p>
+<p>According to SHRM, companies spend, on average, $4,129 USD to hire a new employee, and the process taking about 44 days. This works out to be 15-30% of national minimum wage.</p>
+<p>In practice and in my experience, hiring and admin process to get someone through the door works out to be about 30-40% of payroll budget. As an employer, you also have to count the payroll taxes and social security contributions. It is not uncommon the real cost of labor is 40-50% more than what your employees cumulatively get paid.</p>
+<p>Agile, Six Sigma Kaizen methodologies <sup><a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fn-1-12a8e7" id="user-content-fnref-1-12a8e7" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>, which dominate software development are rife with rituals. Sprint planning, daily standups, sprint reviews, and retrospectives are all designed to align the team around a common goal and promote CI/CD.</p>
+<p>Most engineers would describe these ceremonies as rigid, time-consuming, potentially hindering productivity if not managed effectively. A 15-minute standup that stretches to an hour, filled with bike-shed discussions and unnecessary updates, is a classic example.</p>
+<p>The worse part is the PM and consultant who came up with these rituals get paid as much if not more than those who are doing the work and are exposed to the risks of practicing the ritual. It's not wrong for the engineer to feel like he's the one getting sacrificed for the ritual.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="religion">Religion<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#religion" class="hash-link" aria-label="Direct link to Religion" title="Direct link to Religion">​</a></h3>
+<p>Religions often demand a significant time commitment from their followers. Attending services, participating in community events, engaging in personal prayer or meditation, and studying religious texts can take up a considerable portion of one's week.</p>
+<p>In many faiths, adhering to specific dietary restrictions or observing religious holidays further adds to the time investment. Cumulatively, this works out to be about 3 out of 7 days of our time per week spend on religious rituals.</p>
+<p>Money-wise, followers are often asked for donations, tithes, upkeep of religious buildings, support for religious organizations.</p>
+<p>After accounting for time, financial donations, labor, mental real estate, the number works out to be about 30-40% of our lives.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="political--economic-systems">Political &amp; economic systems<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#political--economic-systems" class="hash-link" aria-label="Direct link to Political &amp; economic systems" title="Direct link to Political &amp; economic systems">​</a></h3>
+<p>Imagine, we could have got back 40% of our money, time, energy, and mental bandwidth for not being religious. Many people would have been happy to do so.</p>
+<p>Indeed, many people would have been happy to do so. But they would replace them with new ideologies.</p>
+<p>If its democracy, we would need to raise money for elections that happen once every 4 years. It would be paid for using follower donations, public lendings, or the classic money printing trick that hides the costs of election within inflation.</p>
+<p>If it's capitalism, then they would spend 40% of their economic output on taxes, legal fees, other bureaucracy that defends the capitalist system they live with.</p>
+<p>Suppose they are unemployed. They will still use money. Money itself is a belief system that demands rituals to be legitimized. One of the rituals required to defend the belief system of money is that the issuing country of the reserve currency must have the most powerful military. That works out to be 2%-10% GDP, that can go up to 20% GDP during war time.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="personal-relationships">Personal relationships<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#personal-relationships" class="hash-link" aria-label="Direct link to Personal relationships" title="Direct link to Personal relationships">​</a></h3>
+<p>Elaborate wedding ceremonies, anniversaries, Valentine's Day, birthday celebrations -- these are all rituals reinforcing the commitment and shared belief in the relationship.</p>
+<p>The expense and effort involved in planning a wedding signal a serious commitment. It is not uncommon for a wedding to cost up to 3 to 10 years of a middle-class man's retained earnings.</p>
+<p>Meanwhile, anniversaries and other milestones provide opportunities to reaffirm that commitment.</p>
+<p>For the casuals, we still pay to play the dating "Game". The rituals of courtship, signaling interest and commitment, are deeply ingrained in our social fabric. From buying flowers to planning elaborate dates, working out and making up to maintain appearances.</p>
+<p>An average man would be shocked to learn how much time and money a woman budgets for just keeping up appearances.</p>
+<p>Discounting diet and nutrition, my estimation works out to be about 40% of a woman's earnings/allowances is spent on make up, cosmetics, clothing, hair, body.</p>
+<p>Time-wise, 40% of a woman's "non-working" time spent on engaging those activities. <sup><a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fn-2-12a8e7" id="user-content-fnref-2-12a8e7" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup></p>
+<p>These are stuff people do before we even get to the real purpose of all of these commitments, that is---</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sex-and-reproduction">Sex and reproduction<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#sex-and-reproduction" class="hash-link" aria-label="Direct link to Sex and reproduction" title="Direct link to Sex and reproduction">​</a></h3>
+<p>We want to fuck.</p>
+<p>Sex are also rituals organism engages in with its end objective to distribute or replicate genes.</p>
+<p>Biology could have turned all of us asexual, but it didn't. Most complex organism gradually evolves to only get reproduced sexually.</p>
+<p>The result is many complex organisms like animals and humans evolved many counterproductive, physical handicaps, or social handicaps, that lets us engage in rituals that wins them the fight or right to reproduce.</p>
+<p>Antlers on deer, peacock feathers, and other extravagant displays may seem counterproductive from a survival standpoint, as they can hinder movement and make the animal more vulnerable to predators.</p>
+<p>However, they serve as signals of genetic fitness to potential mates. The larger and more elaborate the display, the more attractive the animal is likely to be.</p>
+<p>Elaborate mating dances, territorial displays, physical aggression are common rituals in the animal kingdom. These behaviors can be risky and time-consuming, but they are essential for attracting mates and establishing dominance.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-belief-tax">The "Belief Tax"<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#the-belief-tax" class="hash-link" aria-label="Direct link to The &quot;Belief Tax&quot;" title="Direct link to The &quot;Belief Tax&quot;">​</a></h2>
+<p>It seems like everywhere we go, we keep noticing "deadweight" spending on rituals for belief systems that may or may not be rational.</p>
+<p>Why do we put up with all this apparent waste? Why do we dedicate such a significant portion of our resources -- that 30-40% we talked about -- to rituals that seem, on the surface, inefficient or even pointless?</p>
+<p>The answer, fundamentally, is that it's an investment in something much more valuable: trust.</p>
+<p>Trust is the social lubricant that allows complex systems to make transactions and cooperate with each other, and rituals are the price we pay to generate and maintain that trust.</p>
+<p>In chemistry terms, rituals is like the "catalyst" used to speed up a reaction.</p>
+<p>In crypto terms, rituals is the "proof-of-work" we do to allow the transaction to be added to the blockchain ledger.</p>
+<p>This "Belief Tax," as we're calling it, is not just about avoiding direct harm, but also about maximizing potential upside through leveraged action and shared understanding.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="paying-the-belief-tax-is-cheaper-than-the-cost-of-doubt">Paying the "belief tax" is cheaper than the cost of doubt<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#paying-the-belief-tax-is-cheaper-than-the-cost-of-doubt" class="hash-link" aria-label="Direct link to Paying the &quot;belief tax&quot; is cheaper than the cost of doubt" title="Direct link to Paying the &quot;belief tax&quot; is cheaper than the cost of doubt">​</a></h3>
+<p>When people dont trust the process, they come up with a lot of new analysis that are more expensive cumulatively than investing in a ritual over the long run.</p>
+<p>Think of a manager who delays a crucial decision for weeks, gathering more and more data, until the opportunity has passed.</p>
+<p>Or a software development team that endlessly debates the merits of different technologies, never actually building anything.</p>
+<p>The time, energy, and resources spent on this excessive analysis could have been used more productively on actually just <em>doing</em> the work.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="you-pay-the-tax-with-suboptimal-kelly">You pay the tax with suboptimal Kelly<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#you-pay-the-tax-with-suboptimal-kelly" class="hash-link" aria-label="Direct link to You pay the tax with suboptimal Kelly" title="Direct link to You pay the tax with suboptimal Kelly">​</a></h3>
+<p>People who doubt the process are also less leveraged in their actions. When individuals or organizations lack trust in a process or a system, they tend to hedge their bets, to take smaller, more conservative risks. This leads to slower growth and missed opportunities.</p>
+<p>If you are into gambling, trading, or investing, perhaps you might have came across a mathematical concept known as <strong>Kelly criterion</strong>.</p>
+<p>The Kelly Criterion, a mathematical formula for determining the optimal size of a bet, illustrates this point perfectly. It states that the optimal fraction of capital to bet is the edge (the expected return on investment) divided by the odds. People size their bets based on win probability and expected return on investment.</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary>Kelly Bet size</summary>
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/kelly-betsize-2da4d01135a9dda411857304d8d957e3.png" width="1344" height="960" class="img_ev3q">
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/kelly-table-53ef78ea681c22a508bdb64712d8cbe4.jpg" width="1024" height="334" class="img_ev3q"><p></p></div></div></details>
+<p>Basically, the Kelly table or heatmap shows how much percent of your holdings you should bet on a bet with a certain probability of winning.</p>
+<div class="theme-admonition theme-admonition-success admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Example</div><div class="admonitionContent_BuS1"><p>For example, if you have 60% win rate and you win $1 dollar for every $1 dollar you bet, then your kelly optimal bet size (abbreviated as K) is 20% of total portfolio.</p><p>At 80% win rate and 1.7 ROI, you bet 68% of your portfolio.</p></div></div>
+<p>However, the thing most people don't understand is "Kelly Optimal" is only optimal in long-term capital generation, but not in volatility.</p>
+<p>From chart below, volatility grows exponentially with kelly bet sizing.</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary>Volatility</summary>
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/kelly-sharpe-1f63db96d2f861861133bc62786584dc.jpg" width="757" height="562" class="img_ev3q">
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/kelly-simulation-88aaf8dd63d3272143468bdaa61d3056.jpg" width="1007" height="563" class="img_ev3q"><p></p></div></div></details>
+<p>This means in practice, Kelly optimal bet <strong>is actually a bad bet</strong> and seldom done in real life <sup><a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fn-3-12a8e7" id="user-content-fnref-3-12a8e7" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup> because of how often it leads to bankruptcy, financial ruin, or irrecoverable drawdowns.</p>
+<p>After controlling for volatility, the risk-adjusted kelly optimal is around 0.5K. The growth rate of capital is cut to half, at the benefit of reducing volatility by over 80%.</p>
+<p>Quantitatively, this is what I meant by doubting the process.</p>
+<p>Because one doubts processes, they will implement rational devices, guards, systems to avoid overbetting, leading to unlevered capital growth.</p>
+<p>When one "trusts the process", they will go full Kelly in every thing they do. This often works out well in the short term, and if the decision or judgment happens to be right.</p>
+<p>The "cost of doubt" that was paid may not necessarily be limited to computation cost, but also includes "uncaptured opportunities".</p>
+<p>A belief system that trusts the process grows faster than a belief system that is more rational and rightfully conservative during boom times.</p>
+<p>Of course, the risk of being levered on the wrong decision is high, even catastrophic.</p>
+<p>Betting the farm on a flawed idea, blindly following a charismatic leader, or investing heavily in a failing venture can lead to ruin.</p>
+<p>We see dogmatic religions or belief systems that demand absolute obedience in the process to fall apart or get wiped out in history very often.</p>
+<p>This is why a healthy dose of skepticism and critical thinking is always essential. The key, however, is to find the right balance between trust and doubt. <sup><a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fn-4-12a8e7" id="user-content-fnref-4-12a8e7" data-footnote-ref="true" aria-describedby="footnote-label">4</a></sup> <sup><a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fn-5-12a8e7" id="user-content-fnref-5-12a8e7" data-footnote-ref="true" aria-describedby="footnote-label">5</a></sup></p>
+<p>In other words, the trust multiplier in most cases is too good to not pay with rituals.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rituals-as-a-cost-of-entry">Rituals as a "cost of entry"<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#rituals-as-a-cost-of-entry" class="hash-link" aria-label="Direct link to Rituals as a &quot;cost of entry&quot;" title="Direct link to Rituals as a &quot;cost of entry&quot;">​</a></h2>
+<p>Previously, we discussed rituals as a redundant system we set up to enable leveraged bets later for stronger economic growth. This is only one perspective.</p>
+<p>It is also possible its an economically destrictive practice that was still done regardless. The alternative explanation is they act as a "cost of admission" to a particular belief system, ensuring that only those truly committed are willing to participate.</p>
+<p>The expense of rituals acts as a powerful commitment device. By investing significant time, money, effort -- sunk costs are intentionally driven within individuals and demands increased dedication and stakes in its success.</p>
+<p>Think about joining a gym and paying for a year-long membership. The upfront cost makes you more likely to actually go to the gym, justifying the initial investment and reinforcing your commitment to fitness.</p>
+<p>Similarly, the investment in a wedding ceremony, a down payment on a house, or years of dedicated study for a profession all serve as commitment devices, solidifying one's investment in the associated belief systems (marriage, property ownership, career).</p>
+<p>The sunk costs create a powerful disincentive to abandon the existing commitment. It's like being locked into a long-term contract -- even if a better offer comes along, the penalty for breaking the contract might be too high.</p>
+<p>In religion, this can manifest as the fear of divine retribution or social ostracism. In business, it could be the loss of equity, the tarnishing of one's reputation, or the forfeiture of a hard-earned promotion.</p>
+<p>In this perspective, this practice is irrational for everyone but for a ruler. As a ruler, rituals is what you need to legitimize your rule.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="rituals-as-filtering-mechanism">Rituals as filtering mechanism<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#rituals-as-filtering-mechanism" class="hash-link" aria-label="Direct link to Rituals as filtering mechanism" title="Direct link to Rituals as filtering mechanism">​</a></h2>
+<p>Rituals can be seen as a powerful filtering mechanism in the spread of memes (ideas).</p>
+<p>A meme is a unit of cultural information transmitted from one individual to another. Rituals can act as gatekeepers, allowing only "fit" memes to propagate. Those memes that can withstand the "cost of entry", IE: the requirements of participation in the ritual -- are more likely to survive and spread.</p>
+<p>For instance, a scientific theory that requires years of study and rigorous experimentation to understand is less likely to gain widespread acceptance than a simple, easily digestible conspiracy theory. However, the scientific theory, because of its high cost of entry, is likely to be more robust and reliable. <sup><a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fn-6-12a8e7" id="user-content-fnref-6-12a8e7" data-footnote-ref="true" aria-describedby="footnote-label">6</a></sup></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="filtering-in-software">Filtering in software<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#filtering-in-software" class="hash-link" aria-label="Direct link to Filtering in software" title="Direct link to Filtering in software">​</a></h3>
+<p>In software development, the adoption of TypeScript illustrates this filtering mechanism.</p>
+<p>TypeScript introduces a layer of complexity -- the need to define types and interfaces -- that can be annoying during development.</p>
+<p>Many beginner developers or vibe coders like resisting this complexity, preferring the more "free-wheeling" nature of JavaScript.</p>
+<p>However, TypeScript's stricter type system guards against production bugs, improves code maintainability, and sets a higher standard for the evolution of the codebase.</p>
+<p>The "cost of entry" -- the extra effort required to learn and use TypeScript -- filters out developers and projects that are unwilling to invest in long-term quality and stability. Only those committed to producing robust and maintainable code are likely to embrace TypeScript.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="filtering-in-group-identity">Filtering in group identity<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#filtering-in-group-identity" class="hash-link" aria-label="Direct link to Filtering in group identity" title="Direct link to Filtering in group identity">​</a></h3>
+<p>The higher the "cost of entry", the greater the guarantee of loyalty to a belief system and foster a strong sense of group identity.</p>
+<p>Sharing common rituals creates a sense of belonging, strengthens social bonds, and distinguishes the group from outsiders. From wearing specific clothing to participating in shared ceremonies, rituals reinforce the boundaries of the group and promote cohesion.</p>
+<p>In practical cases with a cynical perspective, we have a 4-year college indoctrination as a proof of loyalty you belong to a caste of elites. We have LinkedIn profiles and cringe posts as daily rituals we do to stay relevant in the employment industry.</p>
+<p>In more extreme cases, we have high barriers to entry to dangerous organizations like Yakuza or Mafia, which traditionally requires a member to form a "blood pact" <sup><a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fn-7-12a8e7" id="user-content-fnref-7-12a8e7" data-footnote-ref="true" aria-describedby="footnote-label">7</a></sup> with the godfather before they can be accepted.</p>
+<p>I speculate the Epstein Island and the "indulgence of minors" are modern blood oaths taken by today's wealthy and powerful to get into the secret cabal for whatever reason. <sup><a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fn-8-12a8e7" id="user-content-fnref-8-12a8e7" data-footnote-ref="true" aria-describedby="footnote-label">8</a></sup></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="be-conscious-of-rituals">Be conscious of rituals<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#be-conscious-of-rituals" class="hash-link" aria-label="Direct link to Be conscious of rituals" title="Direct link to Be conscious of rituals">​</a></h2>
+<p>While rituals can be beneficial, we also see examples when they can be excessive, counterproductive, and even dangerous.</p>
+<p>Rituals can easily devolve into bureaucracy, dogma, and blind obedience.</p>
+<p>When rituals become ends in themselves, rather than means to an end, they can stifle creativity, discourage critical thinking, create unnecessary barriers to progress, and leading to intolerance and persecution.</p>
+<p>Think of a company where meetings are held solely for the sake of holding meetings, with no clear purpose or outcome. Or a religious institution that prioritizes adherence to outdated traditions over compassion and social justice.</p>
+<p>History is filled with examples of the dangers of dogmatic belief systems that demand absolute obedience.</p>
+<p>From the Spanish Inquisition to the Cultural Revolution in China, the unquestioning acceptance of authority and the suppression of dissenting voices have led to horrific consequences.</p>
+<p>Innovation often requires challenging existing rituals and breaking free from established patterns of thought. Progress is driven by those who dare to question the status quo, to experiment with new approaches, and to challenge conventional wisdom.</p>
+<p>Designing a good ritual is an act of innovation. Why stop there, when we can go one meta above to the "maintenance" of rituals?</p>
+<hr>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
+<ol>
+<li id="user-content-fn-1-12a8e7">
+<p>I've memed this methodology too much that it looks unserious to anyone who had followed me long enough. I assure you this really exists in corporates. <a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fnref-1-12a8e7" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2-12a8e7">
+<p>One may argue that it is in the woman's interest to be doing those activities. For them, keeping appearances is a "fun" ritual. In that case, it won't be surprising to see the commitment to consume 60-80% of their excess finance or time budget. The 40% estimation is based on the assumption that the activities are simply just done regardless of it being voluntary or not. <a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fnref-2-12a8e7" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3-12a8e7">
+<p>Sorry poker players. You think you are smart when you learned Kelly optimal. It's actually a bad play that cause you to go bankrupt quite often. <a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fnref-3-12a8e7" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4-12a8e7">
+<p>You would expect in the long run, only the risk-adjusted return belief system would survive. However, one must understand the sheer amount of different belief system that can exist simultaneously in the same time. <a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fnref-4-12a8e7" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5-12a8e7">
+<p>An "irrational" belief system that encourages obedience and rituals can be leveraged on the lucky, right thing to work on -- that it grow so much to take over other belief systems. Therefore, my position is that at any given point of time, the most dominant belief system must necessarily not be risk-adjusted kelly optimal. Which is another way of saying it will involve in wasteful investments in rituals that encourage obedience. <a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fnref-5-12a8e7" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-6-12a8e7">
+<p>This is a heuristic that easily falls to appeal to authority fallacy. <a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fnref-6-12a8e7" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-7-12a8e7">
+<p>Which is another way of saying they must kill and get away with murder. <a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fnref-7-12a8e7" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-8-12a8e7">
+<p>Otherwise its hard to explain why is it that the Epstein list never gets revealed to the public, and every politician from either side of the spectrum are fighting so hard to keep it secret. The whole behavior smells like a political cartel against the common people. <a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fnref-8-12a8e7" data-footnote-backref="" aria-label="Back to reference 8" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>]]></content:encoded>
+            <category>Essays</category>
         </item>
         <item>
             <title><![CDATA[No one cares about you (nor should you care about them)]]></title>
@@ -52,7 +205,7 @@
 <p>This perspective treats followers and attention as a source of "potential energy" that can be used to build future value. Not a wrong idea.</p>
 <p>That said, this is more true in the past and less true in the present. This is because people discount the "decay factor" of attention and followers.</p>
 <p>A 1-week old follower is not worth the same as a 1-year old follower. In most platforms, your follower stays with you permanently to make you feel vain and happy. But the recommendation probability of your content to your follower does not stay constant.</p>
-<p>With recent adjustments to recommendation algorithms that optimizes for time-spent, followers are getting less correlated to engagement and virality proobability.</p>
+<p>With recent adjustments to recommendation algorithms that optimizes for time-spent, followers are getting less correlated to engagement and virality probability.</p>
 <p>It is very common for Twitter accounts with 10M followers to get only fractions of views per post. EG: <a href="https://x.com/tim_cook" target="_blank" rel="noopener noreferrer">Tim Cook</a>.</p>
 <p>Rather than valuing followers and views, its more valuable to value "account momentum", conversion rates, and "cumulative following capital". <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-5-929551" id="user-content-fnref-5-929551" data-footnote-ref="true" aria-describedby="footnote-label">5</a></sup></p>
 <p>What this means is the meta of "aura-farming", then doing something substantially worthwhile with your new fame is probably over, or may never even started.</p>
@@ -75,16 +228,20 @@
 <li>FB will be offered $1B by Yahoo in 6 months later</li>
 <li>Zuck will be worth $1B in 12 months later</li>
 </ul>
-<p>We depended on Zuck's invention to be viral. Zuck was the opposite of viral.</p>
+<p>We depended on Zuck's invention to be viral -- Zuck was the opposite of viral.</p>
 <p>In fact, his audience looked like a bunch of disinterested strangers like most of our audience.</p>
-<p>This shows that great things don't require great audiences before they can be made. They just show up when they want to.</p>
-<p>This also means that trying to chase audience is a waste of time, and more often than not guarantees great things to not get built as you get cut by a thousand times from all the distractions, noise, and pivots you make while trying to "earn" attention.</p>
+<p>This shows that great things don't require great audiences before they can be made. Audiences just show up when they want to.</p>
+<p>This also means that trying to chase audience is a waste of time, and more often than not, guarantees great things to not get built as you get cut by a thousand times from all the distractions, noise, and pivots you make while trying to "earn" attention.</p>
 <p>Aura-farming is therefore a "noobtrap" in the business meta.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="no-one-reads-your-blog">"No one reads your blog"<a href="https://neldivad.github.io/blog/no-one-cares#no-one-reads-your-blog" class="hash-link" aria-label="Direct link to &quot;No one reads your blog&quot;" title="Direct link to &quot;No one reads your blog&quot;">​</a></h3>
 <p>No one remembers your tweets.</p>
 <p>It may take years to get 100 views on a blog, while your tweets get 100 in minutes. The problem with tweets or social media posts is that their half life is short. Within minutes, hours, days, they get forgotten.</p>
-<p>Suppose you invest 24 hours into producing a content, if your half life is not more than 24 hours, theoretically you should be quiting CC.</p>
+<p>Suppose you invest 24 hours into producing a content, if your cumulative read time is not more than 24 hours, theoretically you should be quiting CC.</p>
 <p>In blog, you have no half life. Your traffic matches how often your audience bookmarks your site and comes back to your posts.</p>
+<p>If no one ever discovers your blog posts, your cumulative read time might not worth the investment it takes to produce them.</p>
+<p>Wrong. Robots and crawlers do, and you would be surprised by how much impact your blog posts has on the weights of future LLMs, search engines, all that would be influencing future generations to come.</p>
+<p>Social media posts and viral short-form content on the other hand don't get trained. They are discarded after a few attention cycles -- like a single use plastic.</p>
+<p>You are also competing with a sea of other viral content that unless your quality and budget is at top 0.1%, your content won't make cut its way to being immortalized by human minds, memory, or LLM weights.</p>
 <p>Here's a dirty secret.</p>
 <p>You can always clip or screenshot your blog post and share it on social media as a timeless reminder or advertisement that you've done something bigger. You don't have to keep chasing trends on whats the next viral thing to make.</p>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary>Do it like this</summary>
@@ -96,9 +253,9 @@
 <p>Not a bad objective. In that case, you must approach this problem differently.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="getting-virality">Getting virality<a href="https://neldivad.github.io/blog/no-one-cares#getting-virality" class="hash-link" aria-label="Direct link to Getting virality" title="Direct link to Getting virality">​</a></h3>
 <p>People I observe who consistently go viral don't chase audiences. They chase "showmanship". Virality comes as a consequences.</p>
-<p>Perhaps they themselves might not understand what they are doing is a form of "showmanship", but studying memetics and trying to adjust your performance according to an optimal format is really a subset of "showmanship".</p>
+<p>Perhaps they themselves might not understand what they are doing is a form of "showmanship", but studying memetics and trying to adjust your performance according to an optimal format that appeals to the public is really a subset of "showmanship".</p>
 <p>As for how does one obtain or practice showmanship will be a long post of its own, and I doubt I'm even qualified to answer it.</p>
-<p>I just hope that by reducing the problem to a single semantic, you get more imaginations and clarity on how to correct approach this problem, rather than throwing anything and hoping it sticks, or imitating something that conflicts with your own choice of expression.</p>
+<p>I just hope that by reducing the problem to a single semantic, you get more imaginations and clarity on how to correctly approach this problem, rather than throwing any slop on other people's timelines and hoping it sticks, or imitating something that conflicts with your own choice of expression.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="sales-and-marketing">Sales and marketing<a href="https://neldivad.github.io/blog/no-one-cares#sales-and-marketing" class="hash-link" aria-label="Direct link to Sales and marketing" title="Direct link to Sales and marketing">​</a></h3>
 <p>This one is different from viral as the objective function is not impression, but conversion. In that case, it is almost certain that S&amp;M is not an attention problem.</p>
 <p>Most people will think S&amp;M is an attention problem. I don't think they understand.</p>
@@ -109,6 +266,7 @@
 <p>In practice, you earn attention by doing impressive things, THEN you DM someone directly and ask for permission to talk to them.</p>
 <p>Base from my own stats I've shared, I wasn't overwhelmed by the public <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-6-929551" id="user-content-fnref-6-929551" data-footnote-ref="true" aria-describedby="footnote-label">6</a></sup> and I replied to every legit accounts I respected.</p>
 <p>I presume everyone else will have about the same capacity or bandwidth as I do, and the response rate depends on their respect to you or their sense of urgency. <sup><a href="https://neldivad.github.io/blog/no-one-cares#user-content-fn-7-929551" id="user-content-fnref-7-929551" data-footnote-ref="true" aria-describedby="footnote-label">7</a></sup></p>
+<p>DMing people absolutely works.</p>
 <p>I hope this bring enough clarity to stop you from getting distracted by engaging in "noobtraps".</p>
 <p>I will stop DDoSing you with more words. Go get things done. Bye.</p>
 <hr>
