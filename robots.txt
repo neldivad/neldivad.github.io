@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Point Google and other bots to your sitemap
+Sitemap: https://neldivad.github.io/sitemap.xml
+
+
