@@ -229,8 +229,8 @@ export default function KellyReturnVolatility({odds = 2.0, edge = 0.55, simulati
       if (!chartRef.current) return;
       const Plotly = (await import('plotly.js-dist-min')).default as any;
       const data = [
-        { x: curves.kellyMultipliers, y: curves.growthRates, name: 'Average Growth Rate', mode: 'lines', line: {color: 'steelblue'}, yaxis: 'y1' },
-        { x: curves.kellyMultipliers, y: curves.volatilities, name: 'Average Volatility', mode: 'lines', line: {color: 'crimson'}, yaxis: 'y2' },
+        { x: curves.kellyMultipliers, y: curves.growthRates, name: 'AVG Growth Rate', mode: 'lines', line: {color: 'steelblue'}, yaxis: 'y1' },
+        { x: curves.kellyMultipliers, y: curves.volatilities, name: 'AVG Volatility', mode: 'lines', line: {color: 'crimson'}, yaxis: 'y2' },
         { x: curves.kellyMultipliers, y: curves.riskAdjusted, name: 'Return/Volatility', mode: 'lines', line: {color: 'darkgreen', dash: 'dot'}, yaxis: 'y3' },
       ];
       const layout = {
@@ -239,13 +239,13 @@ export default function KellyReturnVolatility({odds = 2.0, edge = 0.55, simulati
           title: {'text': 'Kelly Multiplier (K)' },
         },
         yaxis: { 
-          title: {'text': 'Average Return (%)'},
+          title: {'text': 'AVG Return (%)'},
           tickformat: '.1f',
           ticksuffix: '%',
           zeroline: true,
         },
         yaxis2: {
-          title: {'text': 'Volatility (%)'},
+          title: {'text': 'AVG Volatility (%)'},
           overlaying: 'y',
           side: 'right',
           tickformat: '.1f',
@@ -303,8 +303,39 @@ export default function KellyReturnVolatility({odds = 2.0, edge = 0.55, simulati
           type: 'linear',
           tickformat: '.1f'
         },
+        yaxis: { title: {'text': 'Probability Density'} },
         showlegend: true,
         barmode: 'overlay',
+        shapes: [
+          {
+            type: 'line',
+            xref: 'x',
+            yref: 'paper',
+            x0: 0,
+            x1: 0,
+            y0: 0,
+            y1: 1,
+            line: {
+              color: 'black',
+              width: 2,
+              dash: 'dash'
+            }
+          }
+        ],
+        annotations: [
+          {
+            x: 0,
+            y: 0.95,
+            xref: 'x',
+            yref: 'paper',
+            text: 'Ruin',
+            showarrow: false,
+            font: { size: 12, color: 'black' },
+            bgcolor: 'rgba(255,255,255,0.8)',
+            bordercolor: 'black',
+            borderwidth: 1
+          }
+        ]
       };
       await Plotly.newPlot(histogramRef.current, histogramData, layout, {displayModeBar: false});
       if (disposed) Plotly.purge(histogramRef.current);
