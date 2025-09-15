@@ -186,14 +186,23 @@ const config: Config = {
         //   label: 'Documentation',
         // },
 
-        // // partners
-        // {
-        //   type: 'doc',
-        //   docsPluginId: 'partners',
-        //   docId: 'partners-intro',
-        //   position: 'left',
-        //   label: 'Partners',
-        // },
+        // labs
+        {
+          type: 'doc',
+          label: 'Labs',
+          position: 'left',
+          docsPluginId: 'labs',
+          docId: 'labs-intro',
+        },
+
+        // partners
+        {
+          type: 'doc',
+          docsPluginId: 'partners',
+          docId: 'partners-intro',
+          position: 'left',
+          label: 'Partners',
+        },
         
         //
         {
@@ -267,6 +276,17 @@ const config: Config = {
       },
     ],
 
+    // labs docs plugin
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'labs',  // Unique identifier for this documentation section
+        path: 'labs',  // The path to the labs documentation directory
+        routeBasePath: 'labs',  // The URL base for the labs docs (e.g., /labs)
+        sidebarCollapsible: true,
+      },
+    ],
+
     // partners docs plugin
     [
       '@docusaurus/plugin-content-docs',
@@ -274,7 +294,7 @@ const config: Config = {
         id: 'partners',  // Unique identifier for this documentation section
         path: 'partners',  // The path to the partners documentation directory
         routeBasePath: 'partners',  // The URL base for the partners docs (e.g., /partners)
-        sidebarPath: './sidebars.ts',  // Path to the sidebar configuration for the partners docs
+        // sidebarPath: './sidebars.ts',  // Path to the sidebar configuration for the partners docs
         sidebarCollapsible: true,
       },
     ],

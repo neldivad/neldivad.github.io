@@ -1,0 +1,73 @@
+---
+title: Kelly Criterion
+slug: kelly-criterion
+---
+
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import KellyPlayground from './_components/KellyPlayground';
+import KellyReturnVolatility from './_components/KellyReturnVolatility';
+import KellyHeatmap from './_components/KellyHeatmap';
+
+This page demonstrates the Kelly Criterion interactively. Use the slider to scale the optimal fraction.
+
+<BrowserOnly>{() => <KellyPlayground />}</BrowserOnly>
+
+## Return vs. Volatility & Monte Carlo
+:::info
+### Parameters
+- Odds: Winnings multiplier (1.0 = even odds, 2.0 = double your money)
+- Edge: Probability of winning
+- Sims: Simulated trials for return/volatility analysis
+- Paths: Number of independent simulation runs (10-50 range)
+:::
+
+<details>
+  ### Charts
+  **Top Chart (Return vs. Volatility):**
+  - X: Kelly multiplier
+  - Y1: Expected log growth rate (blue curve)
+  - Y2: Standard deviation of log growth (red curve)
+  - Y3: Risk-adjusted growth (Green dotted)
+  :::success Help
+  - Green shaded refers to optimal risk-adjusted Kelly range
+  - Yellow shaded refers to growth maximizing range
+  - Red shaded refers to ruin range
+  :::
+
+  **Middle Chart (Monte Carlo Paths):**
+  - Shows 4 Kelly multiplier strategies: 0.25×, 0.5×, 1×, 1.5× Kelly
+  - Each line shows multiple simulation paths with average highlighted
+  - Uses 10% of sims for trials to conserve bandwidth
+  - Click "New Simulation" to generate fresh random paths
+
+  **Bottom Chart (Ending Value Distribution):**
+  - Histogram showing distribution of final portfolio values
+  - Overlaid histograms for each Kelly multiplier
+  - X-axis shows log₁₀ of final portfolio values (linear scale)
+  - Shows probability density of different outcomes
+
+
+</details>
+
+Recommended bet size should be below 0.8 K. At K greater than 1.5, your chances of ruin gets extremely high. 
+
+In fact, you notice that ruin can happen even before K reaches 1.5 when your edge or odds goes high enough. 
+
+That is another way of saying Kelly sometimes gets too overconfident in certain games, and recommends you to bet extremely big (more than 60% of your portfolio), which may work out well in few iterations, but one big loss is enough to wipe you off.
+
+<BrowserOnly>{() => <KellyReturnVolatility odds={2.0} edge={0.55} simulations={1000} paths={40}/>}</BrowserOnly>
+
+## Heatmap
+:::info
+### Parameters
+- Max odds: Maximum winnings multiplier to display (e.g., 2.0 = double your money)
+- P steps: Number of probability intervals (more = smoother heatmap)
+- Odds steps: Number of multiplier intervals (more = smootherheatmap)
+- K: Kelly multiplier
+
+### Axis
+- X: Assumed probability of winnings
+- Y: Assumed profit from winnings
+- Z: Kelly optimal bet size
+:::
+<BrowserOnly>{() => <KellyHeatmap pSteps={51} bSteps={21} maxOdds={20}/>}</BrowserOnly>
