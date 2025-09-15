@@ -118,8 +118,35 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
+    // Replace with your project's social card (used for OG/Twitter cards)
     image: 'img/Nel2_neutralspeak.ico',
+    // Global <meta> tags
+    metadata: [
+      {name: 'keywords', content: 'software, blog, engineering, music production, nelverse'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+    ],
+    // Additional tags in <head>
+    headTags: [
+      {
+        tagName: 'script',
+        attributes: { type: 'application/ld+json' },
+        // Basic Organization schema for richer snippets
+        innerHTML: JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Organization',
+          name: 'Nelverse',
+          url: 'https://neldivad.github.io/',
+          sameAs: [
+            'https://github.com/neldivad',
+            'https://twitter.com/nelvOfficial',
+            'https://www.youtube.com/@nelvOfficial',
+            'https://open.spotify.com/artist/0IemFhBfgnPjX9lSfaI8GN',
+          ],
+          logo: 'https://neldivad.github.io/img/logo-no-slogan-no-bg.png',
+        }),
+      },
+    ],
+    // Note: sitemap plugin is included by preset-classic. Configure via preset if needed.
     docs: {
       sidebar: {
         hideable: true,
