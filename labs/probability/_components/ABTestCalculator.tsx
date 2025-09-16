@@ -310,7 +310,7 @@ export default function ABTestCalculator(): JSX.Element {
       type: 'histogram',
       name: 'Trials to Significance',
       marker: { color: '#3498db', opacity: 0.7 },
-      nbinsx: 20,
+      nbinsx: 50,
       histnorm: 'probability density'
     }];
     
