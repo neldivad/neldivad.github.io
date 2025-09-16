@@ -1,0 +1,100 @@
+---
+title: A/B Test Trial Simulation
+slug: abtest
+---
+
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import ABTestCalculator from './_components/ABTestCalculator';
+
+# A/B Test Trial Simulation
+
+This simulator shows how **real A/B tests progress** over time, with each new participant adding noise and uncertainty. 
+
+Unlike static calculations, this demonstrates the **actual trial experience** where p-values start at 1 (no evidence) and gradually decrease as evidence accumulates.
+
+<details>
+   <summary>Understanding Trial Progression</summary>
+
+   **The Real Problem**
+   - **Static calculations** assume perfect knowledge
+   - **Real trials** have variance and noise
+   - **Each participant** adds uncertainty
+   - **P-values fluctuate** as data accumulates
+
+   **True Effects vs. Observed Effects**
+   - **True Effect**: The actual underlying difference (e.g., 2% vs 3% conversion)
+   - **Observed Effect**: What you measure (e.g., 1.8-2.2% vs 2.7-3.3% due to variance)
+
+   **Variance Impact**
+   - **Low Variance**: Quick detection of true effects
+   - **High Variance**: Harder to detect true effects, requires more trials
+   - **No Variance**: Perfect detection immediately (unrealistic)
+
+</details>
+
+<details> 
+   <summary>How the Simulation Works</summary>
+
+   **Parameters**
+   1. **Base Effect**: Control group's true effect (e.g., 20)
+   2. **Base Std**: Standard deviation as % of base effect (e.g., 20% = ±20% of 20 = 16-24)
+   3. **Target Effect**: Treatment group's true effect (e.g., 30)
+   4. **Target Std**: Standard deviation as % of target effect (e.g., 20% = ±20% of 30 = 24-36)
+
+   **Simulation Process**
+   1. **Start at p=1** (no evidence yet)
+   2. **For each trial**: Simulate one observation for each group with variance
+   3. **Accumulate data**: Keep running totals of successes/failures
+   4. **Calculate p-value**: Use chi-square test on accumulated data
+   5. **Calculate odds ratio**: From accumulated data
+   6. **Plot progression**: Show how p-value and odds ratio evolve
+</details>
+
+<details>
+   <summary>Chart Interpretation</summary>
+
+   **Axes**
+   - **X axis**: Trials - Number of runs accumulated
+   - **Left Y-axis**: -Log₁₀(p-value) - lower means more significant
+   - **Right Y-axis**: Odds Ratio - values > 1 favor treatment
+
+   **Lines**
+   - **Blue line**: P-value evolution (starts at p=1, becomes significant when crossing threshold)
+   - **Red line**: Observed odds ratio (fluctuates due to variance)
+   - **Gray dashed line**: Standard significance threshold (p=0.05)
+   - **Orange dotted line**: Doubt-adjusted threshold (stricter early, standard later)
+
+   **Key Insights**
+   - **P-value starts at 1** (no evidence)
+   - **Gradual decrease** as evidence accumulates
+   - **High variance** makes detection harder
+   - **Odds ratio fluctuates** around true value
+   - **Doubt index** discounts early significance due to luck factor
+   - **Sustained evidence** required for confirmation (5 consecutive trials)
+</details>
+
+---
+
+<BrowserOnly>{() => <ABTestCalculator />}</BrowserOnly>
+
+---
+
+
+## Real-World Examples
+
+### E-commerce A/B Test
+- **Control**: 20% conversion ± 20% variance (16-24% range)
+- **Treatment**: 30% conversion ± 20% variance (24-36% range)
+- **Result**: May take 200-500 trials to detect significance
+
+### Email Marketing Test
+- **Control**: 20% open rate ± 10% variance (18-22% range)
+- **Treatment**: 25% open rate ± 10% variance (22.5-27.5% range)
+- **Result**: May take 100-300 trials to detect significance
+
+### Landing Page Test
+- **Control**: 10% conversion ± 30% variance (7-13% range)
+- **Treatment**: 20% conversion ± 30% variance (14-26% range)
+- **Result**: May take 500-1000 trials to detect significance
+
+This approach provides a realistic view of how A/B tests actually work in practice, helping you understand the uncertainty and variance inherent in real-world experimentation.

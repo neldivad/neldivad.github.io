@@ -9,7 +9,7 @@ import KellyHeatmap from './_components/KellyHeatmap';
 
 This page demonstrates the Kelly Criterion interactively. Use the slider to scale the optimal fraction.
 
-## Return vs. Volatility & Monte Carlo
+## Return vs. Volatility
 
 :::info
 
@@ -57,16 +57,22 @@ That is another way of saying Kelly sometimes gets too overconfident in certain 
 
 <BrowserOnly>{() => <KellyReturnVolatility odds={2.0} edge={0.55} simulations={1000} paths={40}/>}</BrowserOnly>
 
-When odds get large enough, you notice a K=0.7 would outperformed a K=1 strategy 50% of the time within 100 games, from the probability density chart.
 
-However, if you simply observe the average results from a Monte Carlo simulations, you would have think that K=1 is always the best strategy. 
 
-This is one of the problems with going full Kelly -- it tends to bet too much during times when it feels too certain about an outcome.
+<details>
+  <summary>Note</summary>
 
-This is the kind of information what most people ends up missing. What works in theory is not always the most practical strategy in real life. 
+  When odds get large enough, you notice a K=0.7 would outperformed a K=1 strategy 50% of the time within 100 games, from the probability density chart.
 
-In practice, going full Kelly and setting a bet size limit of 50% is a good heuristic to follow. 
+  However, if you simply observe the average results from a Monte Carlo simulations, you would have think that K=1 is always the best strategy. 
 
+  This is one of the problems with going full Kelly -- it tends to bet too much during times when it feels too certain about an outcome.
+
+  This is the kind of information what most people ends up missing. What works in theory is not always the most practical strategy in real life. 
+
+  In practice, going full Kelly and setting a bet size limit of 50% is a good heuristic to follow. 
+
+</details>
 ---
 
 ## Heatmap

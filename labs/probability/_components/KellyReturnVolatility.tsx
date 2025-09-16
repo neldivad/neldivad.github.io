@@ -348,7 +348,7 @@ export default function KellyReturnVolatility({odds = 2.0, edge = 0.55, simulati
       <div style={{display: 'grid', gap: 8, gridTemplateColumns: 'repeat(4, 1fr)', marginBottom: 16}}>
         <label>odds: {bState.toFixed(1)}<input type="range" min={0.8} max={5} step={0.1} value={bState} onChange={e => setBState(Number(e.target.value))} /></label>
         <label>edge: {(edgeState * 100).toFixed(0)}%<input type="range" min={0.40} max={0.99} step={0.01} value={edgeState} onChange={e => setEdgeState(Number(e.target.value))} /></label>
-        <label>sims: {simsState}<input type="range" min={100} max={5000} step={100} value={simsState} onChange={e => setSimsState(Number(e.target.value))} /></label>
+        <label>sims: {simsState}<input type="range" min={100} max={2000} step={100} value={simsState} onChange={e => setSimsState(Number(e.target.value))} /></label>
         <label>paths: {pathsState}<input type="range" min={10} max={100} step={5} value={pathsState} onChange={e => setPathsState(Number(e.target.value))} /></label>
       </div>
       
