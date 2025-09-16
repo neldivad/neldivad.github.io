@@ -1,0 +1,53 @@
+---
+title: Gacha Calculator
+slug: gacha-calculator
+---
+
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import GachaCumulativeChart from './_components/GachaCumulativeChart';
+import GachaHistogram from './_components/GachaHistogram';
+
+This comprehensive suite of interactive calculators helps you understand gacha systems and general gacha mechanics analysis.
+
+:::info Understanding the Pity System
+
+The gacha system features a "soft pity" mechanism where drop rates increase significantly after certain thresholds, and a hard pity that guarantees a limited drop at threshold.
+
+Using Genshin Impact as an example:
+
+- **Elite Characters**: Base rate 0.5%, soft pity starts at 75 draws, hard pity at 90 draws
+- **Elite Weapons**: Base rate 0.5%, soft pity starts at 65 draws, hard pity at 80 draws
+- **50/50**: Meaning there is a 50% chance to get the event limited character. 
+:::
+
+<details>
+    <summary>Example settings</summary>
+
+The example parameters you will select for Genshin Impact will be: 
+- Pity Peak: 90
+- Pity Start: 75
+- Bernuolli Probability: 50
+
+Different games have different rates, example Bernuolli rate of 75/25 for HSR lightcones, or 100/0 for Wuthering Wave's weapon.
+
+</details>
+
+## Cumulative Probability Chart
+
+This chart shows how many attempts you need to reach specific probability thresholds for obtaining target copies.
+
+:::info
+
+Suppose you intend to C6 a limited character from Genshin Impact, you will read the green line "Bernuolli + Pity adjust". 
+
+At default settings, it works out to ~1300 rolling attempts to have a 95% chance of maxing out your character. 
+:::
+
+<BrowserOnly>{() => <GachaCumulativeChart />}</BrowserOnly>
+
+---
+## SSR Count Distribution
+
+This histogram shows the distribution of expected counts of the SSR **you want** from a given number of attempts.
+
+<BrowserOnly>{() => <GachaHistogram />}</BrowserOnly>

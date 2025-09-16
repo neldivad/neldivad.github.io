@@ -57,11 +57,15 @@ That is another way of saying Kelly sometimes gets too overconfident in certain 
 
 <BrowserOnly>{() => <KellyReturnVolatility odds={2.0} edge={0.55} simulations={1000} paths={40}/>}</BrowserOnly>
 
-You notice at K=0.7, you would already outperformed a K=1 strategy 50% from the probability density chart at 100 games. 
+When odds get large enough, you notice a K=0.7 would outperformed a K=1 strategy 50% of the time within 100 games, from the probability density chart.
 
-However, if you simply observe the average results from a Monte Carlo simulations, you would have think that K=1 is the best strategy. 
+However, if you simply observe the average results from a Monte Carlo simulations, you would have think that K=1 is always the best strategy. 
+
+This is one of the problems with going full Kelly -- it tends to bet too much during times when it feels too certain about an outcome.
 
 This is the kind of information what most people ends up missing. What works in theory is not always the most practical strategy in real life. 
+
+In practice, going full Kelly and setting a bet size limit of 50% is a good heuristic to follow. 
 
 ---
 
@@ -79,6 +83,6 @@ This is the kind of information what most people ends up missing. What works in 
 **Axis**
 - X: Assumed probability of winnings
 - Y: Assumed profit from winnings
-- Z: Kelly optimal bet size
+- Z: Kelly recommended bet size
 :::
 <BrowserOnly>{() => <KellyHeatmap pSteps={51} bSteps={21} maxOdds={20}/>}</BrowserOnly>
