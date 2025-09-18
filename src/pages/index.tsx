@@ -52,7 +52,7 @@ function MainContent() {
             <div style={{ padding: "1rem", border: "1px solid var(--ifm-color-emphasis-300)", borderRadius: "8px" }}>
               <h4>Probability Calculators</h4>
               <p>Interactive tools for gacha analysis, Kelly Criterion, and A/B testing.</p>
-              <Link className="button button--warning" to="labs/category/probability">Explore Tools</Link>
+              <Link className="button button--warning" to="/labs/category/probability">Explore Tools</Link>
             </div>
             <div style={{ padding: "1rem", border: "1px solid var(--ifm-color-emphasis-300)", borderRadius: "8px" }}>
               <h4>Business Analysis</h4>

@@ -1,5 +1,5 @@
 ---
-title: MRR Movement Analysis
+title: SaaS MRR Movement
 slug: mrr-movements
 ---
 
@@ -13,18 +13,11 @@ Understanding **Monthly Recurring Revenue (MRR) movements** is crucial for SaaS 
 <details>
    <summary>Why MRR Movements Matter</summary>
 
-   **The Problem with High Churn**
-   - High cancellation rates (5-7% monthly) create a ceiling on growth
-   - Even with strong new customer acquisition, churn eventually wins
-   - Marketing and sales don't scale automatically with company size
-   - At 5% monthly churn, growth tops out quickly
-
-   **Real-World Example: Buffer**
-   - Started with linear growth (2012-2014)
-   - Reduced churn to 5%/month, enabling faster growth (2014-2020)
-   - But 5% churn was still too high - growth leveled off in 2020
-   - Never recovered to previous growth rates
-
+   **Growth is intuitive. Churn is not**
+   - At churn = growth, business will stagnate.
+   - At 5% monthly churn, growth peaks within 2 years
+   - At 7% monthly churn, growth peaks within 1 year
+   
    **The Math**
    - 5% monthly churn = 60% annual churn
    - You need to acquire 60%+ new customers annually just to stay flat
@@ -43,35 +36,31 @@ Understanding **Monthly Recurring Revenue (MRR) movements** is crucial for SaaS 
    - **Churned MRR**: Revenue lost from customers leaving
    - **Contraction MRR**: Revenue lost from customers downgrading
 
-   **Key Insight**
+   **Summary**
    - Net MRR = Positive movements - Negative movements
    - Sustainable growth requires positive net MRR
-   - High churn makes this nearly impossible to maintain
+   - Churn is usually the first and most impactful thing to work on for long-term growth.
 </details>
 
 <details>
-   <summary>Key Metrics Explained</summary>
+   <summary>Key Metrics</summary>
 
    **Core Parameters**
-   - **Customers**: Total paying customers
-   - **ARPU**: Average Revenue Per User (monthly)
-   - **LTV**: Lifetime Value of a customer
-   - **Churn Rate**: Monthly percentage of customers who cancel
-   - **MAU**: Monthly Active Users (total)
-   - **PMAU**: Paid Monthly Active Users
-   - **FMAU**: Free Monthly Active Users
+   - **Users**: Total users (paid + free)
+   - **Monthly growth**: Monthly percentage of new users
+   - **Monthly churn**: Monthly percentage of users who cancel
+   - **Growth, churn volatility**: Standard deviation for growth, churn rates (multiplicative)
 
    **Derived Metrics**
-   - **MRR**: Monthly Recurring Revenue (Customers × ARPU)
+   - **MRR**: Monthly Recurring Revenue (Users × ARPU)
    - **ARR**: Annual Recurring Revenue (MRR × 12)
-   - **Conversion Rate**: PMAU / MAU
-   - **Calculated LTV**: ARPU / Churn Rate
+   - **Customer longevity (months)**: 100 / churn rate (monthly)
+   - **LTV**: ARPU (monthly) / customer longevity (monthly)
 
-   **The Churn Problem**
-   - Calculated LTV = ARPU / Churn Rate
+   **Examples**
    - At 5% monthly churn: LTV = ARPU / 0.05 = 20 × ARPU
    - At 2% monthly churn: LTV = ARPU / 0.02 = 50 × ARPU
-   - Lower churn dramatically improves LTV
+   - Lower churn improves LTV as it means your users stay subbed longer. 
 </details>
 
 ---
@@ -81,78 +70,28 @@ Understanding **Monthly Recurring Revenue (MRR) movements** is crucial for SaaS 
 ---
 
 <details>
-   <summary>How to Use This Tool</summary>
+   <summary>Help, how to use?</summary>
 
-   **Start with Realistic Parameters**
-   - Set your current customer count and ARPU
-   - Input your actual churn rate (be honest!)
-   - Adjust MAU, PMAU, and FMAU to match your funnel
+   **Basic Parameters**
+   - Set your users, prices
+   - Set your last known growth rate and churn rate
+   - Set your last known upgrade, downgrade rates
+   - The world is not perfect, set a basic volatility (default 20%)
 
-   **Experiment with Churn Rates**
-   - Try 5% monthly churn (common but problematic)
-   - Compare with 2% monthly churn (much healthier)
-   - See how dramatically this affects growth potential
-
-   **Key Observations**
-   - **High churn (5%+)**: Growth plateaus quickly
-   - **Medium churn (2-3%)**: Sustainable growth possible
-   - **Low churn (1-2%)**: Strong growth potential
-   - **Very low churn (1%)**: Exponential growth possible
-
-   **The Buffer Pattern**
-   - Notice how growth curves flatten with high churn
-   - Even with consistent new customer acquisition
-   - Churn eventually dominates the equation
-   - This is why product-market fit is crucial
-</details>
-
-<details>
-   <summary>Actionable Insights</summary>
-
-   **If You Have High Churn (3% monthly)**
-   1. **Stop focusing on acquisition** - fix retention first
-   2. **Survey churned customers** - understand why they leave
-   3. **Improve onboarding** - reduce early churn
-   4. **Add value faster** - customers need to see ROI quickly
-   5. **Consider pricing changes** - sometimes higher prices = better fit
-
-   **If You Have Low Churn (2% monthly)**
-   1. **Double down on acquisition** - you have product-market fit
-   2. **Invest in expansion** - existing customers are happy
-   3. **Scale marketing** - your unit economics work
-   4. **Consider premium tiers** - customers will pay for more value
-
-   **The Golden Rule**
-   - **Churn rate determines your growth ceiling**
-   - **Product-market fit = low churn**
-   - **No amount of marketing can overcome poor retention**
-   - **Focus on churn before scaling acquisition**
+   | Churn Level | Monthly Rate | Growth Pattern | Business Impact |
+   |-------------|--------------|----------------|-----------------|
+   | **High** | 5%+ | Growth plateaus quickly | Unsustainable without constant acquisition |
+   | **Medium** | 2-3% | Sustainable growth | Healthy business model |
+   | **Low** | 1% | Exponential growth | Excellent product-market fit |
 </details>
 
 <details>
    <summary>Real-World Benchmarks</summary>
 
-   **Excellent SaaS Metrics**
-   - Monthly churn: 2%
-   - Annual churn: 20%
-   - LTV/CAC ratio: 3:1
-   - Payback period: 12 months
+   | Performance Level | Monthly Churn | Annual Churn | LTV/CAC Ratio | Payback Period | Reality Check |
+   |-------------------|---------------|--------------|---------------|----------------|---------------|
+   | **Excellent** | 2% | 20% | 3:1+ | 12 months | Top 10% of SaaS companies |
+   | **Average** | 3-5% | 30-50% | 2-3:1 | 12-18 months | Most SaaS companies |
+   | **Poor** | 5%+ | 50%+ | 2:1 | 18+ months | Those that fail to scale |
 
-   **Average SaaS Metrics**
-   - Monthly churn: 3-5%
-   - Annual churn: 30-50%
-   - LTV/CAC ratio: 2-3:1
-   - Payback period: 12-18 months
-
-   **Poor SaaS Metrics**
-   - Monthly churn: 5%
-   - Annual churn: 50%
-   - LTV/CAC ratio: 2:1
-   - Payback period: 18 months
-
-   **The Reality Check**
-   - Most SaaS companies have poor metrics
-   - This is why most fail to scale
-   - Good metrics are rare but achievable
-   - Focus on retention over acquisition
 </details>
