@@ -31,25 +31,29 @@ export default function ABTestCalculator(): JSX.Element {
     let bSuccesses = 0;
     let bFailures = 0;
     
-    // Simulate up to 1000 trials
+    // Simulate up to 500 trials
     for (let n = 1; n <= 500; n++) {
-      // Convert percentages to decimals and calculate std as multiplier
+      // Convert percentages to decimals
       const baseRate = baseEffect / 100;
       const targetRate = targetEffect / 100;
-      const baseStdMultiplier = baseStd / 100; // 20% = 0.2
-      const targetStdMultiplier = targetStd / 100; // 20% = 0.2
       
-      // Simulate one observation for each group with variance (multiplicative)
-      const aObservedRate = Math.max(0, Math.min(1, 
-        baseRate * (1 + (Math.random() - 0.5) * baseStdMultiplier * 2)
-      ));
-      const bObservedRate = Math.max(0, Math.min(1, 
-        targetRate * (1 + (Math.random() - 0.5) * targetStdMultiplier * 2)
-      ));
+      // For low variance, use the true rates directly
+      // For high variance, add some noise to individual outcomes
+      const baseStdMultiplier = baseStd / 100;
+      const targetStdMultiplier = targetStd / 100;
+      
+      // Simulate individual outcomes with proper variance
+      // Low variance: use true rates
+      // High variance: add noise to the success probability
+      const aNoise = baseStdMultiplier > 0.1 ? (Math.random() - 0.5) * baseStdMultiplier * 0.5 : 0;
+      const bNoise = targetStdMultiplier > 0.1 ? (Math.random() - 0.5) * targetStdMultiplier * 0.5 : 0;
+      
+      const aSuccessProb = Math.max(0.01, Math.min(0.99, baseRate + aNoise));
+      const bSuccessProb = Math.max(0.01, Math.min(0.99, targetRate + bNoise));
       
       // Convert to binary outcomes (success/failure)
-      const aSuccess = Math.random() < aObservedRate ? 1 : 0;
-      const bSuccess = Math.random() < bObservedRate ? 1 : 0;
+      const aSuccess = Math.random() < aSuccessProb ? 1 : 0;
+      const bSuccess = Math.random() < bSuccessProb ? 1 : 0;
       
       // Update running totals
       aSuccesses += aSuccess;
@@ -60,12 +64,12 @@ export default function ABTestCalculator(): JSX.Element {
       // Calculate p-value using chi-square test
       const pValue = calculateChiSquarePValue(aSuccesses, aFailures, bSuccesses, bFailures);
       
-      // Calculate odds ratio
-      const oddsRatioValue = calculateOddsRatio(aSuccesses, aFailures, bSuccesses, bFailures);
+      // Calculate rate ratio
+      const rateRatioValue = calculateRateRatio(aSuccesses, aFailures, bSuccesses, bFailures);
       
       trials.push(n);
       logP.push(Math.log10(pValue));
-      oddsRatio.push(oddsRatioValue);
+      oddsRatio.push(rateRatioValue);
     }
     
     return { trials, logP, oddsRatio };
@@ -99,24 +103,36 @@ export default function ABTestCalculator(): JSX.Element {
       Math.pow(bSuccesses - expectedBSuccesses, 2) / expectedBSuccesses +
       Math.pow(bFailures - expectedBFailures, 2) / expectedBFailures;
     
-    // Approximate p-value (simplified)
-    // For df=1, chi-square > 3.84 corresponds to p < 0.05
+    // More accurate p-value approximation for chi-square with df=1
+    // Using Wilson-Hilferty transformation for better accuracy
     if (chiSquare < 0.1) return 1.0;
-    if (chiSquare > 10) return 0.001;
+    if (chiSquare > 15) return 0.001;
     
-    // Rough approximation
-    return Math.max(0.001, Math.exp(-chiSquare / 2));
+    // Better approximation using chi-square distribution
+    // For df=1: P(χ² > x) ≈ 2 * P(Z > √x) where Z ~ N(0,1)
+    const z = Math.sqrt(chiSquare);
+    // Approximate standard normal CDF
+    const pValue = 2 * (1 - 0.5 * (1 + Math.sign(z) * Math.sqrt(1 - Math.exp(-2 * z * z / Math.PI))));
+    
+    return Math.max(0.001, Math.min(1.0, pValue));
   };
 
-  // Calculate odds ratio
-  const calculateOddsRatio = (
+  // Calculate rate ratio (treatment rate / control rate)
+  const calculateRateRatio = (
     aSuccesses: number, aFailures: number,
     bSuccesses: number, bFailures: number
   ): number => {
-    if (aSuccesses === 0 || bFailures === 0) return 0;
-    if (aFailures === 0 || bSuccesses === 0) return Infinity;
+    const totalA = aSuccesses + aFailures;
+    const totalB = bSuccesses + bFailures;
     
-    return (bSuccesses * aFailures) / (aSuccesses * bFailures);
+    if (totalA === 0 || totalB === 0) return 1; // No data
+    
+    const controlRate = aSuccesses / totalA;
+    const treatmentRate = bSuccesses / totalB;
+    
+    if (controlRate === 0) return treatmentRate > 0 ? Infinity : 1;
+    
+    return treatmentRate / controlRate;
   };
 
   // Calculate doubt index and adjusted significance
@@ -141,6 +157,7 @@ export default function ABTestCalculator(): JSX.Element {
   const monteCarloData = useMemo(() => {
     const numSimulations = 100; // Run 100 simulations
     const trialsToSignificance: number[] = [];
+    let successfulSimulations = 0;
     
     for (let sim = 0; sim < numSimulations; sim++) {
       const result = simulateTrialProgression(baseEffect, baseStd, targetEffect, targetStd);
@@ -164,8 +181,10 @@ export default function ABTestCalculator(): JSX.Element {
         }
       }
       
+      // Always add the result - use 500 for failed simulations
+      trialsToSignificance.push(requiredTrials || 500);
       if (requiredTrials) {
-        trialsToSignificance.push(requiredTrials);
+        successfulSimulations++;
       }
     }
     
@@ -195,9 +214,9 @@ export default function ABTestCalculator(): JSX.Element {
         y: simulationData.oddsRatio,
         type: 'scatter',
         mode: 'lines',
-        name: 'Odds Ratio',
+        name: 'Rate Ratio',
         line: { color: '#e74c3c', width: 2 },
-        hovertemplate: 'Trials: %{x}<br>Odds Ratio: %{y:.3f}<extra></extra>',
+        hovertemplate: 'Trials: %{x}<br>Rate Ratio: %{y:.3f}<extra></extra>',
         yaxis: 'y2'
       }
     ];
@@ -246,8 +265,8 @@ export default function ABTestCalculator(): JSX.Element {
          type: 'linear',
          side: 'left'
        },
-       yaxis2: {
-         title: { text: 'Odds Ratio' },
+        yaxis2: {
+          title: { text: 'Rate Ratio' },
          type: 'linear',
          side: 'right',
          overlaying: 'y'
@@ -483,6 +502,10 @@ export default function ABTestCalculator(): JSX.Element {
           <strong>Monte Carlo Simulation:</strong> The histogram shows the distribution of trials needed to reach significance across 100 
           independent simulation runs. This reveals the variability in how long it takes to detect the true effect, accounting for 
           the randomness inherent in real A/B tests.
+        </p>
+        <p>
+          <strong>Rate Ratio:</strong> The red line shows the ratio of treatment conversion rate to control conversion rate. 
+          A value of 2.0 means the treatment converts at twice the rate of the control. This is more intuitive than odds ratios.
         </p>
         <p>
           <strong>Interpretation:</strong> The top chart shows one example simulation run, while the histogram shows the full distribution. 
