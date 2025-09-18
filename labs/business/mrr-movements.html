@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-labs docs-version-current docs-doc-page docs-doc-id-business/mrr-movements" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">MRR Movement Analysis | Nelverse</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" property="og:image" content="https://neldivad.github.io/img/Nel2_neutralspeak.ico"><meta data-rh="true" name="twitter:image" content="https://neldivad.github.io/img/Nel2_neutralspeak.ico"><meta data-rh="true" property="og:url" content="https://neldivad.github.io/labs/business/mrr-movements"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="keywords" content="software development, music production, programming tutorials, web development, React, TypeScript, business analysis, data science, probability calculators, gacha analysis, A/B testing, David Len, nelverse"><meta data-rh="true" name="author" content="David Len"><meta data-rh="true" name="robots" content="index, follow"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" name="twitter:site" content="@nelvOfficial"><meta data-rh="true" name="twitter:creator" content="@nelvOfficial"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-labs-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-labs-current"><meta data-rh="true" property="og:title" content="MRR Movement Analysis | Nelverse"><meta data-rh="true" name="description" content="Understanding Monthly Recurring Revenue (MRR) movements is crucial for SaaS businesses. This interactive tool demonstrates how different business parameters affect your revenue growth and churn patterns."><meta data-rh="true" property="og:description" content="Understanding Monthly Recurring Revenue (MRR) movements is crucial for SaaS businesses. This interactive tool demonstrates how different business parameters affect your revenue growth and churn patterns."><link data-rh="true" rel="icon" href="/img/Nel2_neutralspeak.ico"><link data-rh="true" rel="canonical" href="https://neldivad.github.io/labs/business/mrr-movements"><link data-rh="true" rel="alternate" href="https://neldivad.github.io/labs/business/mrr-movements" hreflang="en"><link data-rh="true" rel="alternate" href="https://neldivad.github.io/labs/business/mrr-movements" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Business","item":"https://neldivad.github.io/labs/category/business"},{"@type":"ListItem","position":2,"name":"MRR Movement Analysis","item":"https://neldivad.github.io/labs/business/mrr-movements"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Nelverse RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Nelverse Atom Feed">
+
+
+
+
+
+<link rel="alternate" type="application/rss+xml" href="/IDTYU/rss.xml" title="Nelverse RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/IDTYU/atom.xml" title="Nelverse Atom Feed"><link rel="stylesheet" href="/assets/css/styles.3b712d99.css">
+<script src="/assets/js/runtime~main.573e3c8b.js" defer="defer"></script>
+<script src="/assets/js/main.71cf493d.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/Nel2_neutralspeak.ico"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/Nel2_neutralspeak.ico" alt="Nelverse Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/Nel2_neutralspeak.ico" alt="Nelverse Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Nelverse</b></a><a class="navbar__item navbar__link" href="/blog">Blog</a><a class="navbar__item navbar__link" href="/IDTYU">IDTYU</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/labs/labs-intro">Labs</a><a class="navbar__item navbar__link" href="/partners/partners-intro">Partners</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">About</a><ul class="dropdown__menu"><li><a href="https://twitter.com/nelvOfficial" target="_blank" rel="noopener noreferrer" class="dropdown__link">Twitter<svg width="12" height="12" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li><a href="https://open.spotify.com/artist/0IemFhBfgnPjX9lSfaI8GN" target="_blank" rel="noopener noreferrer" class="dropdown__link">Spotify<svg width="12" height="12" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li><a href="https://www.youtube.com/@nelvOfficial?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="dropdown__link">Youtube<svg width="12" height="12" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li><a href="https://github.com/neldivad" target="_blank" rel="noopener noreferrer" class="dropdown__link">GitHub<svg width="12" height="12" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li><a class="dropdown__link" href="/about">About Me</a></li><li><a class="dropdown__link" href="/collab">Collab</a></li><li><a href="https://www.nelworks.com" target="_blank" rel="noopener noreferrer" class="dropdown__link">Work/Business<svg width="12" height="12" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search"><span aria-label="expand searchbar" role="button" class="search-icon" tabindex="0"></span><input id="search_input_react" type="search" placeholder="Loading..." aria-label="Search" class="navbar__search-input search-bar" disabled=""></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/labs/labs-intro">Labs Intro</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/labs/category/probability">Probability</a><button aria-label="Expand sidebar category &#x27;Probability&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/labs/category/business">Business</a><button aria-label="Collapse sidebar category &#x27;Business&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/labs/business/mrr-movements">MRR Movement Analysis</a></li></ul></li></ul></nav><button type="button" title="Collapse sidebar" aria-label="Collapse sidebar" class="button button--secondary button--outline collapseSidebarButton_PEFL"><svg width="20" height="20" aria-hidden="true" class="collapseSidebarButtonIcon_kv0_"><g fill="#7a7a7a"><path d="M9.992 10.023c0 .2-.062.399-.172.547l-4.996 7.492a.982.982 0 01-.828.454H1c-.55 0-1-.453-1-1 0-.2.059-.403.168-.551l4.629-6.942L.168 3.078A.939.939 0 010 2.528c0-.548.45-.997 1-.997h2.996c.352 0 .649.18.828.45L9.82 9.472c.11.148.172.347.172.55zm0 0"></path><path d="M19.98 10.023c0 .2-.058.399-.168.547l-4.996 7.492a.987.987 0 01-.828.454h-3c-.547 0-.996-.453-.996-1 0-.2.059-.403.168-.551l4.625-6.942-4.625-6.945a.939.939 0 01-.168-.55 1 1 0 01.996-.997h3c.348 0 .649.18.828.45l4.996 7.492c.11.148.168.347.168.55zm0 0"></path></g></svg></button></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/labs/category/business"><span>Business</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">MRR Movement Analysis</span></li></ul></nav><div class="theme-doc-markdown markdown"><header><h1>MRR Movement Analysis</h1></header>
+<p>Understanding <strong>Monthly Recurring Revenue (MRR) movements</strong> is crucial for SaaS businesses. This interactive tool demonstrates how different business parameters affect your revenue growth and churn patterns.</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Why MRR Movements Matter</summary><div><div class="collapsibleContent_i85q"><p><strong>The Problem with High Churn</strong></p><ul>
+<li>High cancellation rates (5-7% monthly) create a ceiling on growth</li>
+<li>Even with strong new customer acquisition, churn eventually wins</li>
+<li>Marketing and sales don&#x27;t scale automatically with company size</li>
+<li>At 5% monthly churn, growth tops out quickly</li>
+</ul><p><strong>Real-World Example: Buffer</strong></p><ul>
+<li>Started with linear growth (2012-2014)</li>
+<li>Reduced churn to 5%/month, enabling faster growth (2014-2020)</li>
+<li>But 5% churn was still too high - growth leveled off in 2020</li>
+<li>Never recovered to previous growth rates</li>
+</ul><p><strong>The Math</strong></p><ul>
+<li>5% monthly churn = 60% annual churn</li>
+<li>You need to acquire 60%+ new customers annually just to stay flat</li>
+<li>This becomes increasingly difficult as you scale</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Understanding MRR Components</summary><div><div class="collapsibleContent_i85q"><p><strong>Positive MRR Movements (Growth)</strong></p><ul>
+<li><strong>New MRR</strong>: Revenue from new customers</li>
+<li><strong>Expansion MRR</strong>: Existing customers upgrading plans</li>
+<li><strong>Reactivation MRR</strong>: Churned customers returning</li>
+</ul><p><strong>Negative MRR Movements (Loss)</strong></p><ul>
+<li><strong>Churned MRR</strong>: Revenue lost from customers leaving</li>
+<li><strong>Contraction MRR</strong>: Revenue lost from customers downgrading</li>
+</ul><p><strong>Key Insight</strong></p><ul>
+<li>Net MRR = Positive movements - Negative movements</li>
+<li>Sustainable growth requires positive net MRR</li>
+<li>High churn makes this nearly impossible to maintain</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Key Metrics Explained</summary><div><div class="collapsibleContent_i85q"><p><strong>Core Parameters</strong></p><ul>
+<li><strong>Customers</strong>: Total paying customers</li>
+<li><strong>ARPU</strong>: Average Revenue Per User (monthly)</li>
+<li><strong>LTV</strong>: Lifetime Value of a customer</li>
+<li><strong>Churn Rate</strong>: Monthly percentage of customers who cancel</li>
+<li><strong>MAU</strong>: Monthly Active Users (total)</li>
+<li><strong>PMAU</strong>: Paid Monthly Active Users</li>
+<li><strong>FMAU</strong>: Free Monthly Active Users</li>
+</ul><p><strong>Derived Metrics</strong></p><ul>
+<li><strong>MRR</strong>: Monthly Recurring Revenue (Customers × ARPU)</li>
+<li><strong>ARR</strong>: Annual Recurring Revenue (MRR × 12)</li>
+<li><strong>Conversion Rate</strong>: PMAU / MAU</li>
+<li><strong>Calculated LTV</strong>: ARPU / Churn Rate</li>
+</ul><p><strong>The Churn Problem</strong></p><ul>
+<li>Calculated LTV = ARPU / Churn Rate</li>
+<li>At 5% monthly churn: LTV = ARPU / 0.05 = 20 × ARPU</li>
+<li>At 2% monthly churn: LTV = ARPU / 0.02 = 50 × ARPU</li>
+<li>Lower churn dramatically improves LTV</li>
+</ul></div></div></details>
+<hr>
+<!-- -->
+<hr>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>How to Use This Tool</summary><div><div class="collapsibleContent_i85q"><p><strong>Start with Realistic Parameters</strong></p><ul>
+<li>Set your current customer count and ARPU</li>
+<li>Input your actual churn rate (be honest!)</li>
+<li>Adjust MAU, PMAU, and FMAU to match your funnel</li>
+</ul><p><strong>Experiment with Churn Rates</strong></p><ul>
+<li>Try 5% monthly churn (common but problematic)</li>
+<li>Compare with 2% monthly churn (much healthier)</li>
+<li>See how dramatically this affects growth potential</li>
+</ul><p><strong>Key Observations</strong></p><ul>
+<li><strong>High churn (5%+)</strong>: Growth plateaus quickly</li>
+<li><strong>Medium churn (2-3%)</strong>: Sustainable growth possible</li>
+<li><strong>Low churn (1-2%)</strong>: Strong growth potential</li>
+<li><strong>Very low churn (1%)</strong>: Exponential growth possible</li>
+</ul><p><strong>The Buffer Pattern</strong></p><ul>
+<li>Notice how growth curves flatten with high churn</li>
+<li>Even with consistent new customer acquisition</li>
+<li>Churn eventually dominates the equation</li>
+<li>This is why product-market fit is crucial</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Actionable Insights</summary><div><div class="collapsibleContent_i85q"><p><strong>If You Have High Churn (3% monthly)</strong></p><ol>
+<li><strong>Stop focusing on acquisition</strong> - fix retention first</li>
+<li><strong>Survey churned customers</strong> - understand why they leave</li>
+<li><strong>Improve onboarding</strong> - reduce early churn</li>
+<li><strong>Add value faster</strong> - customers need to see ROI quickly</li>
+<li><strong>Consider pricing changes</strong> - sometimes higher prices = better fit</li>
+</ol><p><strong>If You Have Low Churn (2% monthly)</strong></p><ol>
+<li><strong>Double down on acquisition</strong> - you have product-market fit</li>
+<li><strong>Invest in expansion</strong> - existing customers are happy</li>
+<li><strong>Scale marketing</strong> - your unit economics work</li>
+<li><strong>Consider premium tiers</strong> - customers will pay for more value</li>
+</ol><p><strong>The Golden Rule</strong></p><ul>
+<li><strong>Churn rate determines your growth ceiling</strong></li>
+<li><strong>Product-market fit = low churn</strong></li>
+<li><strong>No amount of marketing can overcome poor retention</strong></li>
+<li><strong>Focus on churn before scaling acquisition</strong></li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Real-World Benchmarks</summary><div><div class="collapsibleContent_i85q"><p><strong>Excellent SaaS Metrics</strong></p><ul>
+<li>Monthly churn: 2%</li>
+<li>Annual churn: 20%</li>
+<li>LTV/CAC ratio: 3:1</li>
+<li>Payback period: 12 months</li>
+</ul><p><strong>Average SaaS Metrics</strong></p><ul>
+<li>Monthly churn: 3-5%</li>
+<li>Annual churn: 30-50%</li>
+<li>LTV/CAC ratio: 2-3:1</li>
+<li>Payback period: 12-18 months</li>
+</ul><p><strong>Poor SaaS Metrics</strong></p><ul>
+<li>Monthly churn: 5%</li>
+<li>Annual churn: 50%</li>
+<li>LTV/CAC ratio: 2:1</li>
+<li>Payback period: 18 months</li>
+</ul><p><strong>The Reality Check</strong></p><ul>
+<li>Most SaaS companies have poor metrics</li>
+<li>This is why most fail to scale</li>
+<li>Good metrics are rare but achievable</li>
+<li>Focus on retention over acquisition</li>
+</ul></div></div></details></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/labs/category/business"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Business</div></a></nav></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Help</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/intro">Documentation</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://twitter.com/nelvOfficial" target="_blank" rel="noopener noreferrer" class="footer__link-item">Twitter<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://open.spotify.com/artist/0IemFhBfgnPjX9lSfaI8GN" target="_blank" rel="noopener noreferrer" class="footer__link-item">Spotify<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/@nelvOfficial?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="footer__link-item">Youtube<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/neldivad" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/about">About Me</a></li><li class="footer__item"><a class="footer__link-item" href="/collab">Collab</a></li><li class="footer__item"><a href="https://www.nelworks.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">Work/Business<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 - 2025 Nelverse Inc.</div></div></div></footer></div>
+</body>
+</html>

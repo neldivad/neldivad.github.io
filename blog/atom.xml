@@ -84,7 +84,7 @@
 <p>From chart below, volatility grows exponentially with kelly bet sizing.</p>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary>Volatility</summary>
 <img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/kelly-sharpe-1f63db96d2f861861133bc62786584dc.jpg" width="757" height="562" class="img_ev3q">
-<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/kelly-simulation-88aaf8dd63d3272143468bdaa61d3056.jpg" width="1007" height="563" class="img_ev3q"><p></p></div></div></details>
+<img decoding="async" loading="lazy" src="https://neldivad.github.io/assets/images/kelly-simulation-88aaf8dd63d3272143468bdaa61d3056.jpg" width="1007" height="563" class="img_ev3q"><p></p><p>The chart is actually just theoretical, and the curve depends on various parameters. I have built a visualization for this <a href="https://neldivad.github.io/labs/probability/kelly-criterion">here</a></p></div></div></details>
 <p>This means in practice, Kelly optimal bet <strong>is actually a bad bet</strong> and seldom done in real life <sup><a href="https://neldivad.github.io/blog/rituals-seems-unavoidable#user-content-fn-3-12a8e7" id="user-content-fnref-3-12a8e7" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup> because of how often it leads to bankruptcy, financial ruin, or irrecoverable drawdowns.</p>
 <p>After controlling for volatility, the risk-adjusted kelly optimal is around 0.5K. The growth rate of capital is cut to half, at the benefit of reducing volatility by over 80%.</p>
 <p>Quantitatively, this is what I meant by doubting the process.</p>
