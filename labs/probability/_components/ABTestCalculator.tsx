@@ -13,6 +13,7 @@ export default function ABTestCalculator(): JSX.Element {
   const [baseStd, setBaseStd] = useState<number>(20); // 10-200, step 1 (std as % of base effect)
   const [targetEffect, setTargetEffect] = useState<number>(30); // 1-100, step 1 (target conversion rate %)
   const [targetStd, setTargetStd] = useState<number>(20); // 10-200, step 1 (std as % of target effect)
+  const [useDoubtAdjustment, setUseDoubtAdjustment] = useState<boolean>(true); // Enable/disable doubt adjustment
 
   // Simulate trial progression with realistic variance
   const simulateTrialProgression = (
@@ -137,12 +138,15 @@ export default function ABTestCalculator(): JSX.Element {
 
   // Calculate doubt index and adjusted significance
   const calculateDoubtIndex = (trialNumber: number, pValue: number): number => {
+    // If doubt adjustment is disabled, always use standard threshold
+    if (!useDoubtAdjustment) return 0.05;
+    
     // Much more conservative doubt index
     // Early trials require extremely strict thresholds
-    if (trialNumber < 10) return 0.01; // p < 0.001 for first 10 trials
-    if (trialNumber < 25) return 0.02;  // p < 0.01 for trials 10-25
-    if (trialNumber < 50) return 0.03;  // p < 0.02 for trials 25-50
-    if (trialNumber < 100) return 0.04; // p < 0.03 for trials 50-100
+    if (trialNumber < 10) return 0.01; // p < 0.01 for first 10 trials
+    if (trialNumber < 25) return 0.02;  // p < 0.02 for trials 10-25
+    if (trialNumber < 50) return 0.03;  // p < 0.03 for trials 25-50
+    if (trialNumber < 100) return 0.04; // p < 0.04 for trials 50-100
     
     // Only after 100 trials do we use standard threshold
     return 0.05;
@@ -189,7 +193,7 @@ export default function ABTestCalculator(): JSX.Element {
     }
     
     return trialsToSignificance;
-  }, [baseEffect, baseStd, targetEffect, targetStd]);
+  }, [baseEffect, baseStd, targetEffect, targetStd, useDoubtAdjustment]);
 
 
 
@@ -243,7 +247,7 @@ export default function ABTestCalculator(): JSX.Element {
     });
     
     return traces;
-  }, [simulationData]);
+  }, [simulationData, useDoubtAdjustment]);
 
   // Render chart
   useEffect(() => {
@@ -461,6 +465,33 @@ export default function ABTestCalculator(): JSX.Element {
             <small>Standard deviation as % of target effect (multiplicative)</small>
           </div>
         </div>
+      </div>
+      
+      {/* Doubt Adjustment Toggle */}
+      <div style={{ 
+        marginBottom: '20px',
+        padding: '15px',
+        border: '1px solid var(--ifm-color-emphasis-300)',
+        borderRadius: '8px'
+      }}>
+        <h4>Doubt Adjustment</h4>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <input
+            type="checkbox"
+            id="doubtAdjustment"
+            checked={useDoubtAdjustment}
+            onChange={(e) => setUseDoubtAdjustment(e.target.checked)}
+          />
+          <label htmlFor="doubtAdjustment">
+            <strong>Use Doubt Adjustment</strong>
+          </label>
+        </div>
+        <small>
+          {useDoubtAdjustment 
+            ? "Conservative thresholds: p < 0.01 for first 10 trials, gradually relaxing to p < 0.05"
+            : "Standard threshold: p < 0.05 for all trials"
+          }
+        </small>
       </div>
       
       {/* Chart */}

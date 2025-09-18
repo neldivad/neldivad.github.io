@@ -13,6 +13,25 @@ This simulator shows how **real A/B tests progress** over time, with each new pa
 Unlike static calculations, this demonstrates the **actual trial experience** where p-values start at 1 (no evidence) and gradually decrease as evidence accumulates.
 
 <details>
+   <summary>Why do this?</summary>
+
+   **Traditional method**
+   - Recruits a target amount of people, then measuring the effect differences. 
+   - Has an "over-recruitment" problem. 
+
+   **Sequential method**
+   - Recruit sequentially, updating the results
+   - Cancels experiment as soon as enough participants has shown significant difference between control and treatment.
+   - Early lucky or unlucky observations throw the experiment off in tangent, especially if there is STD for control and treatment, and if STD is unknown.
+
+   **With this simulation, we...**
+   - Check if a certain trial is worth doing or not, by sampling the distribution of required observations to conclude a trial. 
+   - Budget the cost of recruiting, especially if each observation costs a lot. 
+   
+   EG: if median trials-to-significance is 150, it is recommended to recruit up to 200 observation to run a single experiment. You can exit the experiment early if you get lucky, but even at unlucky times, you have 200 observations prepared.
+</details>
+
+<details>
    <summary>Understanding Trial Progression</summary>
 
    **The Real Problem**
@@ -70,7 +89,7 @@ Unlike static calculations, this demonstrates the **actual trial experience** wh
    - **High variance** makes detection harder
    - **Odds ratio fluctuates** around true value
    - **Doubt index** discounts early significance due to luck factor
-   - **Sustained evidence** required for confirmation (5 consecutive trials)
+   - **Sustained evidence** required for confirmation (EG: 5 consecutive trials)
 </details>
 
 ---
@@ -80,21 +99,27 @@ Unlike static calculations, this demonstrates the **actual trial experience** wh
 ---
 
 
-## Real-World Examples
+<details>
+   <summary>Real-World Examples</summary>
 
-### E-commerce A/B Test
-- **Control**: 20% conversion ± 20% variance (16-24% range)
-- **Treatment**: 30% conversion ± 20% variance (24-36% range)
-- **Result**: May take 200-500 trials to detect significance
+   **E-commerce A/B Test**
+   - **Control**: 20% conversion ± 20% variance (16-24% range)
+   - **Treatment**: 30% conversion ± 20% variance (24-36% range)
+   - **Result**: May take 200-500 trials to detect significance
 
-### Email Marketing Test
-- **Control**: 20% open rate ± 10% variance (18-22% range)
-- **Treatment**: 25% open rate ± 10% variance (22.5-27.5% range)
-- **Result**: May take 100-300 trials to detect significance
+   **Email Marketing Test**
+   - **Control**: 20% open rate ± 10% variance (18-22% range)
+   - **Treatment**: 25% open rate ± 10% variance (22.5-27.5% range)
+   - **Result**: May take 100-300 trials to detect significance
 
-### Landing Page Test
-- **Control**: 10% conversion ± 30% variance (7-13% range)
-- **Treatment**: 20% conversion ± 30% variance (14-26% range)
-- **Result**: May take 500-1000 trials to detect significance
+   **Landing Page Test**
+   - **Control**: 10% conversion ± 30% variance (7-13% range)
+   - **Treatment**: 20% conversion ± 30% variance (14-26% range)
+   - **Result**: May take 500-1000 trials to detect significance
 
-This approach provides a realistic view of how A/B tests actually work in practice, helping you understand the uncertainty and variance inherent in real-world experimentation.
+   This approach provides a realistic view of how A/B tests actually work in practice, helping you understand the uncertainty and variance inherent in real-world experimentation.
+</details>
+
+
+
+

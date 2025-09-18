@@ -3,12 +3,18 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import styles from './index.module.css';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero', styles.heroBanner)}>
+    <header 
+      className="" 
+      style={{
+        padding: '4rem 0', 
+        textAlign: 'center', 
+        position: 'relative', 
+        overflow: 'hidden'}
+      }>
       <div className="container">
         <img
           src="/img/Nel2_neutralspeak.ico"
@@ -29,66 +35,55 @@ function HomepageHeader() {
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
         </div>
-        <div className='flex justify-center flex-w'>
-          <Link className="button button--primary button--lg m-2" to="/blog">
-            Read my work
-          </Link>
-          <Link className="button button--secondary button--lg m-2" to="https://gravatar.com/neldivad">
-            Contact me
-          </Link>
-        </div>
-
       </div>
     </header>
   );
+}
+
+
+function MainContent() {
+  return (
+    <main>
+      {/* SEO-Optimized Content Sections */}
+      <section style={{ padding: "2rem 1rem" }}>
+        <div className="container">
+          <h2 style={{ textAlign: "center", marginBottom: "2rem" }}>Featured Content</h2>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1.5rem" }}>
+            <div style={{ padding: "1rem", border: "1px solid var(--ifm-color-emphasis-300)", borderRadius: "8px" }}>
+              <h4>Probability Calculators</h4>
+              <p>Interactive tools for gacha analysis, Kelly Criterion, and A/B testing.</p>
+              <Link className="button button--warning" to="labs/category/probability">Explore Tools</Link>
+            </div>
+            <div style={{ padding: "1rem", border: "1px solid var(--ifm-color-emphasis-300)", borderRadius: "8px" }}>
+              <h4>Business Analysis</h4>
+              <p>MRR calculators and business insights for startups and entrepreneurs.</p>
+              <Link className="button button--primary" to="/labs/business/mrr-movements">View Analysis</Link>
+            </div>
+            <div style={{ padding: "1rem", border: "1px solid var(--ifm-color-emphasis-300)", borderRadius: "8px" }}>
+              <h4>Technical Writing</h4>
+              <p>Programming tutorials, software development insights, and industry analysis.</p>
+              <Link className="button button--info" to="/blog">Read Articles</Link>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+
 }
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="Home"
-      description="Documentation for music production, software, vocal synthesis">
+      title="Nelverse - only nerd and weeb stuff here"
+      description="David Len's personal website featuring software development insights, music production tutorials, and interactive tools. Explore coding projects, business analysis, and creative content.">
+
+      {/* Hero */}
       <HomepageHeader />
 
-      <main>
-        <section
-          style={{
-            padding: "2rem 1rem",
-            textAlign: "center",
-          }}
-        >
-          <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
-            <span style={{ color: "" }}>Partnered Apps</span>
-          </h1>
-          <img
-            src="img/tsukene-long.svg"
-            alt="Tsukene Logo"
-            style={{ width: "120px", height: "auto", marginBottom: "0.5rem" }}
-          />
-        </section>
-
-        <section
-          style={{
-            padding: "2rem 2rem",
-            textAlign: "center",
-          }}
-        >
-          <h2 style={{ fontSize: "2rem", marginBottom: "1rem" }}>
-            Try <span style={{ color: "#6366f1" }}>Tsukene</span>
-          </h2>
-          <p style={{ fontSize: "1.1rem", maxWidth: "600px", margin: "0 auto 2rem" }}>
-            Generosity wants to stay anonymous. Live bidding site with privacy.
-          </p>
-          <Link
-            className="button button--primary button--lg"
-            to="https://tsukene.vercel.app"
-            target="_blank"
-          >
-            Visit Tsukene
-          </Link>
-        </section>
-      </main>
+      {/* Main Content */}
+      <MainContent />
     </Layout>
   );
 }

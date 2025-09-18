@@ -1,7 +1,13 @@
 User-agent: *
 Allow: /
 
-# Point Google and other bots to your sitemap
+# Sitemap
 Sitemap: https://neldivad.github.io/sitemap.xml
 
+# Crawl-delay
+Crawl-delay: 1
 
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/

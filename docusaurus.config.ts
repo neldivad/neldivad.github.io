@@ -20,6 +20,10 @@ const main_url = `https://www.nelworks.com`;
 
 const nav_items = [
   {
+    label: 'Twitter',
+    href: xtwitter_url,
+  },
+  {
     label: 'Spotify',
     href: spotify_url,
   },
@@ -64,7 +68,7 @@ const config: Config = {
   organizationName: organizationName, 
   deploymentBranch: deploymentBranch,
   trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -122,13 +126,19 @@ const config: Config = {
     image: 'img/Nel2_neutralspeak.ico',
     // Global <meta> tags
     metadata: [
-      {name: 'keywords', content: 'software, blog, engineering, music production, nelverse'},
+      {name: 'keywords', content: 'software development, music production, programming tutorials, web development, React, TypeScript, business analysis, data science, probability calculators, gacha analysis, A/B testing, David Len, nelverse'},
+      {name: 'description', content: 'David Len\'s personal website featuring software development insights, music production tutorials, interactive tools, and business analysis. Explore coding projects, probability calculators, and creative content.'},
+      {name: 'author', content: 'David Len'},
+      {name: 'robots', content: 'index, follow'},
       {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:site', content: '@nelvOfficial'},
+      {name: 'twitter:creator', content: '@nelvOfficial'},
     ],
     // Additional tags in <head>
     headTags: [
       {
         tagName: 'script',
+        
         attributes: { type: 'application/ld+json' },
         // Basic Organization schema for richer snippets
         innerHTML: JSON.stringify({
