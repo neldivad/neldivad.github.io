@@ -343,6 +343,49 @@ const MRRCalculator: React.FC<MRRCalculatorProps> = () => {
   return (
     <div style={{ padding: '20px' }}>
       <h2>MRR Movement Simulator</h2>
+
+      {/* Key Metrics */}
+      <div style={{ 
+        display: 'grid', 
+        gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', 
+        gap: '15px', 
+        marginBottom: '30px' 
+      }}>
+        <div style={{ padding: '15px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', textAlign: 'center' }}>
+          <div style={{ fontSize: '24px', fontWeight: 'bold', color: 'var(--ifm-color-primary)' }}>
+            {formatCurrency(mrrData.length ? mrrData[mrrData.length-1].totalMRR : 0)}
+          </div>
+          <div style={{ fontSize: '14px', color: 'var(--ifm-color-emphasis-700)' }}>Current MRR</div>
+        </div>
+        
+        <div style={{ padding: '15px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', textAlign: 'center' }}>
+          <div style={{ fontSize: '24px', fontWeight: 'bold', color: 'var(--ifm-color-primary)' }}>
+            {formatCurrency((mrrData.length ? mrrData[mrrData.length-1].totalMRR : 0) * 12)}
+          </div>
+          <div style={{ fontSize: '14px', color: 'var(--ifm-color-emphasis-700)' }}>ARR</div>
+        </div>
+        
+        <div style={{ padding: '15px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', textAlign: 'center' }}>
+          <div style={{ fontSize: '24px', fontWeight: 'bold', color: 'var(--ifm-color-primary)' }}>
+            {mrrData.length ? `$${(mrrData[mrrData.length-1].arpu).toFixed(2)}` : '$0.00'}
+          </div>
+          <div style={{ fontSize: '14px', color: 'var(--ifm-color-emphasis-700)' }}>ARPU</div>
+        </div>
+        
+        <div style={{ padding: '15px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', textAlign: 'center' }}>
+          <div style={{ fontSize: '24px', fontWeight: 'bold', color: 'var(--ifm-color-primary)' }}>
+            {(() => { const arpu60 = mrrData.length ? mrrData[mrrData.length-1].arpu : 0; const c = churnPct/100; return c>0 ? formatCurrency(arpu60 / c) : '∞'; })()}
+          </div>
+          <div style={{ fontSize: '14px', color: 'var(--ifm-color-emphasis-700)' }}>Calculated LTV</div>
+        </div>
+
+        <div style={{ padding: '15px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', textAlign: 'center' }}>
+          <div style={{ fontSize: '24px', fontWeight: 'bold', color: 'var(--ifm-color-primary)' }}>
+            {customerLongevityMonths.toFixed(2)} months
+          </div>
+          <div style={{ fontSize: '14px', color: 'var(--ifm-color-emphasis-700)' }}>Customer Longevity (capped at 60)</div>
+        </div>
+      </div>
       
       {/* Input Controls: three columns per spec */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px', marginBottom: '30px' }}>
@@ -413,48 +456,7 @@ const MRRCalculator: React.FC<MRRCalculatorProps> = () => {
         </div>
       </div>
 
-      {/* Key Metrics */}
-      <div style={{ 
-        display: 'grid', 
-        gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', 
-        gap: '15px', 
-        marginBottom: '30px' 
-      }}>
-        <div style={{ padding: '15px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', textAlign: 'center' }}>
-          <div style={{ fontSize: '24px', fontWeight: 'bold', color: 'var(--ifm-color-primary)' }}>
-            {formatCurrency(mrrData.length ? mrrData[mrrData.length-1].totalMRR : 0)}
-          </div>
-          <div style={{ fontSize: '14px', color: 'var(--ifm-color-emphasis-700)' }}>Current MRR</div>
-        </div>
-        
-        <div style={{ padding: '15px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', textAlign: 'center' }}>
-          <div style={{ fontSize: '24px', fontWeight: 'bold', color: 'var(--ifm-color-primary)' }}>
-            {formatCurrency((mrrData.length ? mrrData[mrrData.length-1].totalMRR : 0) * 12)}
-          </div>
-          <div style={{ fontSize: '14px', color: 'var(--ifm-color-emphasis-700)' }}>ARR</div>
-        </div>
-        
-        <div style={{ padding: '15px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', textAlign: 'center' }}>
-          <div style={{ fontSize: '24px', fontWeight: 'bold', color: 'var(--ifm-color-primary)' }}>
-            {mrrData.length ? `$${(mrrData[mrrData.length-1].arpu).toFixed(2)}` : '$0.00'}
-          </div>
-          <div style={{ fontSize: '14px', color: 'var(--ifm-color-emphasis-700)' }}>ARPU</div>
-        </div>
-        
-        <div style={{ padding: '15px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', textAlign: 'center' }}>
-          <div style={{ fontSize: '24px', fontWeight: 'bold', color: 'var(--ifm-color-primary)' }}>
-            {(() => { const arpu60 = mrrData.length ? mrrData[mrrData.length-1].arpu : 0; const c = churnPct/100; return c>0 ? formatCurrency(arpu60 / c) : '∞'; })()}
-          </div>
-          <div style={{ fontSize: '14px', color: 'var(--ifm-color-emphasis-700)' }}>Calculated LTV</div>
-        </div>
 
-        <div style={{ padding: '15px', border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', textAlign: 'center' }}>
-          <div style={{ fontSize: '24px', fontWeight: 'bold', color: 'var(--ifm-color-primary)' }}>
-            {customerLongevityMonths.toFixed(2)} months
-          </div>
-          <div style={{ fontSize: '14px', color: 'var(--ifm-color-emphasis-700)' }}>Customer Longevity (capped at 60)</div>
-        </div>
-      </div>
 
       {/* MRR Movement Chart */}
       <div style={{ marginBottom: '30px' }}>

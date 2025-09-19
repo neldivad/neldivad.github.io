@@ -1,0 +1,46 @@
+---
+title: Poker Odds
+slug: poker-odds
+---
+
+import BrowserOnly from '@docusaurus/BrowserOnly';
+import PokerOddsCalculator from './_components/PokerOddsCalculator';
+import PokerPreFlopMap from './_components/PokerPreFlopMap';
+
+# Poker Odds Calculator
+
+Calculate poker hand probabilities and equity in real-time. This interactive calculator helps you understand the mathematical foundation of poker strategy.
+
+<BrowserOnly>{() => <PokerOddsCalculator />}</BrowserOnly>
+
+---
+
+<BrowserOnly>{() => <PokerPreFlopMap />}</BrowserOnly>
+
+**Tip**
+
+With more players, unprofitable hands occurs more often, but profitable hands net you bigger equity of the table. 
+
+---
+
+<details>
+    <summary>Hand Rankings</summary>
+
+| Rank | Hand | Example | Probability (7 cards) |
+|------|------|---------|----------------------|
+| **1** | Royal Flush | A♠ K♠ Q♠ J♠ T♠ | 0.000154% |
+| **2** | Straight Flush | 9♠ 8♠ 7♠ 6♠ 5♠ | 0.00139% |
+| **3** | Four of a Kind | A♠ A♥ A♦ A♣ K♠ | 0.0240% |
+| **4** | Full House | A♠ A♥ A♦ K♠ K♥ | 0.144% |
+| **5** | Flush | A♠ K♠ Q♠ J♠ 9♠ | 0.197% |
+| **6** | Straight | A♠ K♥ Q♦ J♠ T♠ | 0.392% |
+| **7** | Three of a Kind | A♠ A♥ A♦ K♠ Q♥ | 2.11% |
+| **8** | Two Pair | A♠ A♥ K♠ K♥ Q♦ | 4.75% |
+| **9** | One Pair | A♠ A♥ K♠ Q♦ J♥ | 42.3% |
+| **10** | High Card | A♠ K♥ Q♦ J♠ 9♣ | 50.1% |
+
+</details>
+
+---
+
+*Remember: Poker odds are just one tool in your arsenal. Combine mathematical knowledge with psychology, position, and opponent reads for optimal play. Not financial advice*
