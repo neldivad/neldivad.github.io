@@ -19,7 +19,7 @@ interface PokerOddsCalculatorProps {
 const PokerOddsCalculator: React.FC<PokerOddsCalculatorProps> = ({ className = '' }) => {
   const [hands, setHands] = useState<string[][]>([['', ''], ['', '']]);
   const [board, setBoard] = useState<string[]>(['', '', '', '', '']);
-  const [iterations, setIterations] = useState<number>(10000);
+  const [iterations, setIterations] = useState<number>(1000);
   const [results, setResults] = useState<PokerHand[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
@@ -138,7 +138,7 @@ const PokerOddsCalculator: React.FC<PokerOddsCalculatorProps> = ({ className = '
   };
 
   const clearAll = () => {
-    setHands(Array(numPlayers).fill(['', '']));
+    setHands(Array.from({ length: numPlayers }, () => ['', '']));
     setBoard(['', '', '', '', '']);
     setResults([]);
     setError('');
@@ -183,7 +183,7 @@ const PokerOddsCalculator: React.FC<PokerOddsCalculatorProps> = ({ className = '
       setResults(eqResults);
 
     } catch (err) {
-      setError('Error calculating odds: ' + (err as Error).message);
+      setError('Error calculating odds: [' + (err as Error).message + "] Retry with lower iterations.");
     } finally {
       setLoading(false);
     }
@@ -385,9 +385,9 @@ const PokerOddsCalculator: React.FC<PokerOddsCalculatorProps> = ({ className = '
               type="range"
               value={iterations}
               onChange={(e) => setIterations(Number(e.target.value))}
-              min={1000}
-              max={20000}
-              step={1000}
+              min={100}
+              max={4000}
+              step={100}
               style={{ width: '200px' }}
             />
           </div>
