@@ -69,7 +69,6 @@ function MainContent() {
       </section>
     </main>
   );
-
 }
 
 export default function Home(): ReactNode {
